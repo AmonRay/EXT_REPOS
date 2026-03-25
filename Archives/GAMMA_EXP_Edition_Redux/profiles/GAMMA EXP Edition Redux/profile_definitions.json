@@ -2720,15 +2720,15 @@
                     "target": "gamedata/levels/l01_escape/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl02_garbage/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l02_garbage/level.details",
                     "target": "gamedata/levels/l02_garbage/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl03_agroprom/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l03_agroprom/level.details",
                     "target": "gamedata/levels/l03_agroprom/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl04_darkvalley/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l04_darkvalley/level.details",
                     "target": "gamedata/levels/l04_darkvalley/level.details"
                 },
                 {
@@ -2736,71 +2736,71 @@
                     "target": "gamedata/levels/l05_bar/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl06_rostok/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l06_rostok/level.details",
                     "target": "gamedata/levels/l06_rostok/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl07_military/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l07_military/level.details",
                     "target": "gamedata/levels/l07_military/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl08_yantar/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l08_yantar/level.details",
                     "target": "gamedata/levels/l08_yantar/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl09_deadcity/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l09_deadcity/level.details",
                     "target": "gamedata/levels/l09_deadcity/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl10_radar/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l10_radar/level.details",
                     "target": "gamedata/levels/l10_radar/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl10_red_forest/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l10_red_forest/level.details",
                     "target": "gamedata/levels/l10_red_forest/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl11_pripyat/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l11_pripyat/level.details",
                     "target": "gamedata/levels/l11_pripyat/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl12_stancia/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l12_stancia/level.details",
                     "target": "gamedata/levels/l12_stancia/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl12_stancia_2/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l12_stancia_2/level.details",
                     "target": "gamedata/levels/l12_stancia_2/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl13_generators/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l13_generators/level.details",
                     "target": "gamedata/levels/l13_generators/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsjupiter/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/jupiter/level.details",
                     "target": "gamedata/levels/jupiter/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsk00_marsh/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/k00_marsh/level.details",
                     "target": "gamedata/levels/k00_marsh/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsk01_darkscape/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/k01_darkscape/level.details",
                     "target": "gamedata/levels/k01_darkscape/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsk02_trucks_cemetery/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/k02_trucks_cemetery/level.details",
                     "target": "gamedata/levels/k02_trucks_cemetery/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelspripyat/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/pripyat/level.details",
                     "target": "gamedata/levels/pripyat/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsy04_pole/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/y04_pole/level.details",
                     "target": "gamedata/levels/y04_pole/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelszaton/level.details",
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/zaton/level.details",
                     "target": "gamedata/levels/zaton/level.details"
                 },
                 {
