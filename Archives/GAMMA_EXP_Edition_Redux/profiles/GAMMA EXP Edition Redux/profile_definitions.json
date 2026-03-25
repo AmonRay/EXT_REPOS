@@ -3683,43 +3683,43 @@
       "pathToGamedata": [
         {
           "priority": 0,
-          "path": "Arrival_10/01 Core/gamedata"
+          "path": "01 Core/gamedata"
         },
         {
           "priority": 1,
-          "path": "Arrival_10/02 Options/4k Textures/gamedata"
+          "path": "02 Options/4k Textures/gamedata"
         },
         {
           "priority": 2,
-          "path": "Arrival_10/02 Options/Anomalies/Anomaly Variations/Teleport/Teleport (Default)/gamedata"
+          "path": "02 Options/Anomalies/Anomaly Variations/Teleport/Teleport (Default)/gamedata"
         },
         {
           "priority": 3,
-          "path": "Arrival_10/02 Options/Anomalies/Anomaly Variations/Electra/Aggressive v2/gamedata"
+          "path": "02 Options/Anomalies/Anomaly Variations/Electra/Aggressive v2/gamedata"
         },
         {
           "priority": 4,
-          "path": "Arrival_10/02 Options/Anomalies/Anomaly Variations/Generators/Generators v2/gamedata"
+          "path": "02 Options/Anomalies/Anomaly Variations/Generators/Generators v2/gamedata"
         },
         {
           "priority": 5,
-          "path": "Arrival_10/02 Options/Anomalies/Anomaly Idle Light/Both Acidic and Electric/gamedata"
+          "path": "02 Options/Anomalies/Anomaly Idle Light/Both Acidic and Electric/gamedata"
         },
         {
           "priority": 6,
-          "path": "Arrival_10/02 Options/Anomalies/Anomaly Zone Effects/Acidic/gamedata"
+          "path": "02 Options/Anomalies/Anomaly Zone Effects/Acidic/gamedata"
         },
         {
           "priority": 7,
-          "path": "Arrival_10/02 Options/Anomalies/Anomaly Zone Effects/Psychic/gamedata"
+          "path": "02 Options/Anomalies/Anomaly Zone Effects/Psychic/gamedata"
         },
         {
           "priority": 8,
-          "path": "Arrival_10/02 Options/Anomalies/Anomaly Zone Effects/Thermal/gamedata"
+          "path": "02 Options/Anomalies/Anomaly Zone Effects/Thermal/gamedata"
         },
         {
           "priority": 9,
-          "path": "Arrival_10/02 Options/Environmental Particles/Seeds and Leaves (Full)/Seeds and Leaves/gamedata"
+          "path": "02 Options/Environmental Particles/Seeds and Leaves (Full)/Seeds and Leaves/gamedata"
         }
       ],
       "installedSizeMB": 693
