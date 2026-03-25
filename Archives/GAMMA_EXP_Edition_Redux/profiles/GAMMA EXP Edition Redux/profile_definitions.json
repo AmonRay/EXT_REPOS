@@ -3683,43 +3683,43 @@
       "pathToGamedata": [
         {
           "priority": 0,
-          "path": "Arrival_13.9/01 Core/gamedata"
+          "path": "Arrival_10/01 Core/gamedata"
         },
         {
           "priority": 1,
-          "path": "Arrival_13.9/02 Options/4k Textures/gamedata"
+          "path": "Arrival_10/02 Options/4k Textures/gamedata"
         },
         {
           "priority": 2,
-          "path": "Arrival_13.9/02 Options/Anomalies/Anomaly Variations/Teleport/Teleport (Default)/gamedata"
+          "path": "Arrival_10/02 Options/Anomalies/Anomaly Variations/Teleport/Teleport (Default)/gamedata"
         },
         {
           "priority": 3,
-          "path": "Arrival_13.9/02 Options/Anomalies/Anomaly Variations/Electra/Aggressive v2/gamedata"
+          "path": "Arrival_10/02 Options/Anomalies/Anomaly Variations/Electra/Aggressive v2/gamedata"
         },
         {
           "priority": 4,
-          "path": "Arrival_13.9/02 Options/Anomalies/Anomaly Variations/Generators/Generators v2/gamedata"
+          "path": "Arrival_10/02 Options/Anomalies/Anomaly Variations/Generators/Generators v2/gamedata"
         },
         {
           "priority": 5,
-          "path": "Arrival_13.9/02 Options/Anomalies/Anomaly Idle Light/Both Acidic and Electric/gamedata"
+          "path": "Arrival_10/02 Options/Anomalies/Anomaly Idle Light/Both Acidic and Electric/gamedata"
         },
         {
           "priority": 6,
-          "path": "Arrival_13.9/02 Options/Anomalies/Anomaly Zone Effects/Acidic/gamedata"
+          "path": "Arrival_10/02 Options/Anomalies/Anomaly Zone Effects/Acidic/gamedata"
         },
         {
           "priority": 7,
-          "path": "Arrival_13.9/02 Options/Anomalies/Anomaly Zone Effects/Psychic/gamedata"
+          "path": "Arrival_10/02 Options/Anomalies/Anomaly Zone Effects/Psychic/gamedata"
         },
         {
           "priority": 8,
-          "path": "Arrival_13.9/02 Options/Anomalies/Anomaly Zone Effects/Thermal/gamedata"
+          "path": "Arrival_10/02 Options/Anomalies/Anomaly Zone Effects/Thermal/gamedata"
         },
         {
           "priority": 9,
-          "path": "Arrival_13.9/02 Options/Environmental Particles/Seeds and Leaves (Full)/Seeds and Leaves/gamedata"
+          "path": "Arrival_10/02 Options/Environmental Particles/Seeds and Leaves (Full)/Seeds and Leaves/gamedata"
         }
       ],
       "installedSizeMB": 693
@@ -4310,11 +4310,11 @@
       "pathToGamedata": [
         {
           "priority": 0,
-          "path": "psy_stress_1_06_03/gamedata"
+          "path": "psy_stress_1_06_04/gamedata"
         },
         {
           "priority": 1,
-          "path": "psy_stress_1_06_03/p1_stats_for_drinks_n_smokes/o1_full/gamedata"
+          "path": "psy_stress_1_06_04/p1_stats_for_drinks_n_smokes/o1_full/gamedata"
         },
         {
           "priority": 2,
@@ -4361,23 +4361,23 @@
       "pathToGamedata": [
         {
           "priority": 0,
-          "path": "Weather Expansion for Atmospherics/Custom Weather - Refined Edition/Atmospherics - Custom Weather - Refined Edition - Full/gamedata"
+          "path": "Weather Expansion for Atmospherics/Weather Expansion/Atmospherics - Custom Weather - Refined Edition - Full/gamedata"
         },
         {
           "priority": 1,
-          "path": "Weather Expansion for Atmospherics/Custom Weather - Refined Edition/Skies/gamedata"
+          "path": "Weather Expansion for Atmospherics/Weather Expansion/Skies/gamedata"
         },
         {
           "priority": 2,
-          "path": "Weather Expansion for Atmospherics/Custom Weather - Refined Edition/WeatherLTX/gamedata"
+          "path": "Weather Expansion for Atmospherics/Weather Expansion/WeatherLTX/gamedata"
         },
         {
           "priority": 3,
-          "path": "Weather Expansion for Atmospherics/Custom Weather - Refined Edition/Extras/STALKER 2 Psi Storms/gamedata"
+          "path": "Weather Expansion for Atmospherics/Weather Expansion/Extras/STALKER 2 Psi Storms/gamedata"
         },
         {
           "priority": 4,
-          "path": "Weather Expansion for Atmospherics/Custom Weather - Refined Edition/Extras/Weather - Psi Storms/gamedata"
+          "path": "Weather Expansion for Atmospherics/Weather Expansion/Extras/Weather - Psi Storms/gamedata"
         },
         {
           "priority": 5,
@@ -4416,7 +4416,7 @@
       "info": "",
       "modType": "mod",
       "addonName": "LootBoxes for GAMMA",
-      "pathToGamedata": "LootBoxes - GAMMA patch/gamedata",
+      "pathToGamedata": "[v2.4.9] LootBoxes - GAMMA patch/LootBoxes - GAMMA patch/gamedata",
       "installedSizeMB": 3
     },
     {
