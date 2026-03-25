@@ -4361,7 +4361,7 @@
       "pathToGamedata": [
         {
           "priority": 0,
-          "path": "Weather Expansion for Atmospherics/Weather Expansion/Atmospherics - Custom Weather - Refined Edition - Full/gamedata"
+          "path": "Weather Expansion for Atmospherics/Weather Expansion/Atmospherics - Full/gamedata"
         },
         {
           "priority": 1,
@@ -4377,7 +4377,7 @@
         },
         {
           "priority": 4,
-          "path": "Weather Expansion for Atmospherics/Weather Expansion/Extras/Weather - Psi Storms/gamedata"
+          "path": "Weather Expansion for Atmospherics/Weather Expansion/Extras/STALKER 2 Psi Storms ANOMALY/gamedata"
         },
         {
           "priority": 5,
@@ -4432,7 +4432,7 @@
       "info": "",
       "modType": "mod",
       "addonName": "WEAPON INERTIA REDUX",
-      "pathToGamedata": "gamedata",
+      "pathToGamedata": "00. Weapon Inertia Redux - Vanilla/gamedata",
       "installedSizeMB": 1
     },
     {
