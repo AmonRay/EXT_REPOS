@@ -810,10 +810,10 @@
             "hash": "66ACD26F1A72D33D108D2B5F32719F176F253CBA3ADC9B9BF9BF05C772B5E7E0"
         },        
         {
-            "addonName": "BaS NVG MCM keybind",
+            "addonName",: "BaS NVG MCM keybind",
             "addonType": "mod",
             "addonUrl": "https://discord.com/channels/912320241713958912/1204330633682493482/1204330633682493482",
-            "fileUrl": "https://drive.google.com/file/d/10MjbzHIOfNKAXf7YuYFBupyreyVk71Kh/view?usp=drive_link",
+            "fileUrl": "https://github.com/AmonRay/EXT_REPOS/raw/refs/heads/master/addons/%5BUI%5D%20BaS%20NVG%20MCM%20keybind.7z",
             "resourceFilename": "[UI] BaS NVG MCM keybind.7z",
             "resourceWorkspace": "BaS NVG MCM keybind",
             "workspacedSizeMB": 1,
@@ -968,7 +968,7 @@
             "addonName": "MILKOR MGL",
             "addonType": "mod",
             "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/milkor-mgl",
-            "fileUrl": "https://www.moddb.com/addons/start/259817",
+            "fileUrl": "https://github.com/AmonRay/EXT_REPOS/raw/refs/heads/master/addons/Milkor_MGL.7z",
             "resourceFilename": "Milkor_MGL.7z",
             "resourceWorkspace": "MILKOR MGL",
             "workspacedSizeMB": 79,
