@@ -2361,7 +2361,22 @@
                     "path": "ARC-3DSS-U/RAZOR HD/JM-1 BDC/gamedata"
                 },                                              
                 {
-                    "path": "ARC-3DSS-U/SHORTY/ACSS Griffin MIL/gamedata"
+                    "path": "ARC-3DSS-U/SHORTY/ACSS Raptor M10S/gamedata"
+                },
+                {
+                    "path": "ARC-3DSS-U/SHORTY/DR-TR-1-illum/gamedata"
+                },
+                {
+                    "path": "ARC-3DSS-U/SHORTY/FMC-1 illuminated/gamedata"
+                },
+                {
+                    "path": "ARC-3DSS-U/SHORTY/FMC-2 illuminated/gamedata"
+                },
+                {
+                    "path": "ARC-3DSS-U/SHORTY/FMC-3 illuminated/gamedata"
+                },
+                {
+                    "path": "ARC-3DSS-U/SHORTY/Vudu SR-4/gamedata"
                 },
                 {
                     "path": "ARC-3DSS-U/SIG/BRAVO4/gamedata"
@@ -2380,9 +2395,6 @@
                 },
                 {
                     "path": "ARC-3DSS-U/VALDAY PS-320/gamedata"
-                },
-                {
-                    "path": "ARC-3DSS-U/PRS shader fix/gamedata"
                 },
                 {
                     "path": "ARC-3DSS-U/NON-REMOVABLE SCOPES/K98/FML/gamedata"
@@ -2590,7 +2602,7 @@
                 },
                 {
                     "priority": 2,
-                    "path": "00a. Fully snowy textures/gamedata"
+                    "path": "01a. Dark Flora/gamedata"
                 },
                 {
                     "priority": 3,
@@ -2602,7 +2614,7 @@
                 },
                 {
                     "priority": 5,
-                    "path": "04. [ Relax'ing ] The Movement Sound/gamedata"
+                    "path": "02b. Frozen Grass/gamedata"
                 },
                 {
                     "priority": 6,
@@ -2702,6 +2714,184 @@
             "info": "",
             "modType": "fomod",
             "addonName": "C Consciousness Grass Overhaul",
+            "pathToGamedata": [
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l01_escape/level.details",
+                    "target": "gamedata/levels/l01_escape/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl02_garbage/level.details",
+                    "target": "gamedata/levels/l02_garbage/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl03_agroprom/level.details",
+                    "target": "gamedata/levels/l03_agroprom/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl04_darkvalley/level.details",
+                    "target": "gamedata/levels/l04_darkvalley/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl05_bar/level.details",
+                    "target": "gamedata/levels/l05_bar/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl06_rostok/level.details",
+                    "target": "gamedata/levels/l06_rostok/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl07_military/level.details",
+                    "target": "gamedata/levels/l07_military/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl08_yantar/level.details",
+                    "target": "gamedata/levels/l08_yantar/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl09_deadcity/level.details",
+                    "target": "gamedata/levels/l09_deadcity/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl10_radar/level.details",
+                    "target": "gamedata/levels/l10_radar/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl10_red_forest/level.details",
+                    "target": "gamedata/levels/l10_red_forest/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl11_pripyat/level.details",
+                    "target": "gamedata/levels/l11_pripyat/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl12_stancia/level.details",
+                    "target": "gamedata/levels/l12_stancia/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl12_stancia_2/level.details",
+                    "target": "gamedata/levels/l12_stancia_2/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl13_generators/level.details",
+                    "target": "gamedata/levels/l13_generators/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsjupiter/level.details",
+                    "target": "gamedata/levels/jupiter/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsk00_marsh/level.details",
+                    "target": "gamedata/levels/k00_marsh/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsk01_darkscape/level.details",
+                    "target": "gamedata/levels/k01_darkscape/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsk02_trucks_cemetery/level.details",
+                    "target": "gamedata/levels/k02_trucks_cemetery/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelspripyat/level.details",
+                    "target": "gamedata/levels/pripyat/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsy04_pole/level.details",
+                    "target": "gamedata/levels/y04_pole/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelszaton/level.details",
+                    "target": "gamedata/levels/zaton/level.details"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l01_escape/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l02_garbage/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l03_agroprom/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l04_darkvalley/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l05_bar/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l06_rostok/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l07_military/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l08_yantar/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l09_deadcity/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l10_radar/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5_red_forest.dds",
+                    "target": "gamedata/textures/levels/l10_red_forest/ccon/CConV1.5_red_forest_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l11_pripyat/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l12_stancia/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l12_stancia_2/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/l13_generators/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/jupiter/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/k00_marsh/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/k01_darkscape/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/k02_trucks_cemetery/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/pripyat/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/y04_pole/ccon/CConV1.5_bump.dds"
+                },
+                {
+                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "target": "gamedata/textures/levels/zaton/ccon/CConV1.5_bump.dds"
+                }
+            ],
             "excludePaths": "exclude-beef-improved.json",
             "installedSizeMB": 577
         },
