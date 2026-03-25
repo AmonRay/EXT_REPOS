@@ -1559,16 +1559,16 @@
             "hash": "74D7F04FABFCC7070A51AEE409AA954591B54BFFCD0302ECE5A645177502D6B0"
         },
         {
-            "addonName": "C Consciousness Grass & Trees v0.71",
+            "addonName": "CConFomod 0.6.1",
             "addonType": "mod",
             "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/ccon-grass-n-trees",
-            "fileUrl": "https://www.moddb.com/downloads/mirror/298660/124/3f28e98491bc5aeea431762648cbdc9a",
+            "fileUrl": "https://drive.google.com/file/d/1CyogelMhYmIcRsY0nIqadP_u8BlJ5E2-/view?usp=drive_link",
             "forceManualDl": "true",
-            "resourceFilename": "CCon_0.71_Fomod.7z",
-            "resourceWorkspace": "C Consciousness Grass & Trees v0.71",
+            "resourceFilename": "CConFomod 0.6.1.7z",
+            "resourceWorkspace": "CConFomod 0.6.1",
             "workspacedSizeMB": 6537,
             "addonSizeMB": 1968,
-            "hash": "388533055E91E3168A764748249697AEE62A9BA27ABA248C50F6B3AAA76D0B48"
+            "hash": "FEFA6E4B7169192C78957ED18F703B656462C317D1B26DC3428CAF8FD64FEA63"
         },
         {
             "addonName": "Dynamic Zoom Click Sound",
@@ -2716,179 +2716,179 @@
             "addonName": "C Consciousness Grass Overhaul",
             "pathToGamedata": [
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l01_escape/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l01_escape/level.details",
                     "target": "gamedata/levels/l01_escape/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l02_garbage/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l02_garbage/level.details",
                     "target": "gamedata/levels/l02_garbage/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l03_agroprom/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l03_agroprom/level.details",
                     "target": "gamedata/levels/l03_agroprom/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l04_darkvalley/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l04_darkvalley/level.details",
                     "target": "gamedata/levels/l04_darkvalley/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levelsl05_bar/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l05_bar/level.details",
                     "target": "gamedata/levels/l05_bar/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l06_rostok/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l06_rostok/level.details",
                     "target": "gamedata/levels/l06_rostok/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l07_military/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l07_military/level.details",
                     "target": "gamedata/levels/l07_military/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l08_yantar/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l08_yantar/level.details",
                     "target": "gamedata/levels/l08_yantar/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l09_deadcity/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l09_deadcity/level.details",
                     "target": "gamedata/levels/l09_deadcity/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l10_radar/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l10_radar/level.details",
                     "target": "gamedata/levels/l10_radar/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l10_red_forest/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l10_red_forest/level.details",
                     "target": "gamedata/levels/l10_red_forest/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l11_pripyat/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l11_pripyat/level.details",
                     "target": "gamedata/levels/l11_pripyat/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l12_stancia/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l12_stancia/level.details",
                     "target": "gamedata/levels/l12_stancia/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l12_stancia_2/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l12_stancia_2/level.details",
                     "target": "gamedata/levels/l12_stancia_2/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/l13_generators/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/l13_generators/level.details",
                     "target": "gamedata/levels/l13_generators/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/jupiter/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/jupiter/level.details",
                     "target": "gamedata/levels/jupiter/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/k00_marsh/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/k00_marsh/level.details",
                     "target": "gamedata/levels/k00_marsh/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/k01_darkscape/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/k01_darkscape/level.details",
                     "target": "gamedata/levels/k01_darkscape/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/k02_trucks_cemetery/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/k02_trucks_cemetery/level.details",
                     "target": "gamedata/levels/k02_trucks_cemetery/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/pripyat/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/pripyat/level.details",
                     "target": "gamedata/levels/pripyat/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/y04_pole/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/y04_pole/level.details",
                     "target": "gamedata/levels/y04_pole/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Grass/Overgrown/gamedata/levels/zaton/level.details",
+                    "path": "CConFomod 0.6.1/CCon/2B-Overgrown-roads/zaton/level.details",
                     "target": "gamedata/levels/zaton/level.details"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l01_escape/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l02_garbage/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l03_agroprom/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l04_darkvalley/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l05_bar/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l06_rostok/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l07_military/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l08_yantar/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l09_deadcity/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l10_radar/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5_red_forest.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_rf_bump4k.dds",
                     "target": "gamedata/textures/levels/l10_red_forest/ccon/CConV1.5_red_forest_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l11_pripyat/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l12_stancia/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l12_stancia_2/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/l13_generators/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/jupiter/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/k00_marsh/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/k01_darkscape/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/k02_trucks_cemetery/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/pripyat/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/y04_pole/ccon/CConV1.5_bump.dds"
                 },
                 {
-                    "path": "CCon1.0Fomod/Seasons/Summer/gamedata/textures/ccon/CConV1.5.dds",
+                    "path": "CConFomod 0.6.1/CCon/3-SSS/buil_normal_bump4k.dds",
                     "target": "gamedata/textures/levels/zaton/ccon/CConV1.5_bump.dds"
                 }
             ],
