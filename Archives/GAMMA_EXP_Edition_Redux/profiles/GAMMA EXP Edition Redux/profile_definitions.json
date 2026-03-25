@@ -2468,62 +2468,62 @@
             "pathToGamedata": [
                 {
                     "priority": 0,
-                    "path": "files/main",
+                    "path": "HD_Faction_Patches_2.3/files/main",
                     "target": "gamedata"
                 },
                 {
                     "priority": 1,
-                    "path": "files/sota/z_ui_actor_menu_factions_army.xml",
+                    "path": "HD_Faction_Patches_2.3/files/sota/z_ui_actor_menu_factions_army.xml",
                     "target": "gamedata/configs/ui/textures_descr/z_ui_actor_menu_factions_army.xml"
                 },
                 {
                     "priority": 2,
-                    "path": "files/factions/army",
+                    "path": "HD_Faction_Patches_2.3/files/factions/army",
                     "target": "gamedata"
                 },
                 {
                     "priority": 3,
-                    "path": "files/factions/ecolog",
+                    "path": "HD_Faction_Patches_2.3/files/factions/ecolog",
                     "target": "gamedata"
                 },
                 {
                     "priority": 4,
-                    "path": "files/sota/z_ui_actor_menu_factions_ecolog.xml",
+                    "path": "HD_Faction_Patches_2.3/files/sota/z_ui_actor_menu_factions_ecolog.xml",
                     "target": "gamedata/configs/ui/textures_descr/z_ui_actor_menu_factions_ecolog.xml"
                 },
                 {
                     "priority": 5,
-                    "path": "files/factions/loner",
+                    "path": "HD_Faction_Patches_2.3/files/factions/loner",
                     "target": "gamedata"
                 },
                 {
                     "priority": 6,
-                    "path": "files/sota/z_ui_actor_menu_factions_loner.xml",
+                    "path": "HD_Faction_Patches_2.3/files/sota/z_ui_actor_menu_factions_loner.xml",
                     "target": "gamedata/configs/ui/textures_descr/z_ui_actor_menu_factions_loner.xml"
                 },
                 {
                     "priority": 7,
-                    "path": "files/factions/monolith",
+                    "path": "HD_Faction_Patches_2.3/files/factions/monolith",
                     "target": "gamedata"
                 },
                 {
                     "priority": 8,
-                    "path": "files/sota/z_ui_actor_menu_factions_monolith.xml",
+                    "path": "HD_Faction_Patches_2.3/files/sota/z_ui_actor_menu_factions_monolith.xml",
                     "target": "gamedata/configs/ui/textures_descr/z_ui_actor_menu_factions_monolith.xml"
                 },
                 {
                     "priority": 9,
-                    "path": "files/loot/ui_leekos_patches.dds",
+                    "path": "HD_Faction_Patches_2.3/files/loot/ui_leekos_patches.dds",
                     "target": "gamedata/textures/ui/ui_leekos_patches.dds"
                 },
                 {
                     "priority": 10,
-                    "path": "files/loot/mod_system_zzzzzzzzz_leekos_patches.ltx",
+                    "path": "HD_Faction_Patches_2.3/files/loot/mod_system_zzzzzzzzz_leekos_patches.ltx",
                     "target": "gamedata/configs/mod_system_zzzzzzzzz_leekos_patches.ltx"
                 },
                 {
                     "priority": 11,
-                    "path": "files/armor tags/ui_dyn_eq_icons_white_armor.xml",
+                    "path": "HD_Faction_Patches_2.3/files/armor tags/ui_dyn_eq_icons_white_armor.xml",
                     "target": "gamedata/configs/ui/textures_descr/ui_dyn_eq_icons_white_armor.xml"
                 }
             ],
@@ -2694,7 +2694,7 @@
             "info": "",
             "modType": "mod",
             "addonName": "Dynamic Zoom Click Sound",
-            "pathToGamedata": "Dynamic Zoom Click Sound v1.3.1/gamedata",
+            "pathToGamedata": "Dynamic Zoom Click Sound v1.3.3/gamedata",
             "installedSizeMB": 1
         },
         {
