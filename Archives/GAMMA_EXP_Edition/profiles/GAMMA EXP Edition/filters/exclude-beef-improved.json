@@ -1,0 +1,13 @@
+{
+    "excludePaths": [
+        {
+            "name": "combine_1.ps"
+        },
+        {
+            "name": "combine_2_naa.ps"
+        },
+        {
+            "name": "sky2.ps"
+        }
+    ]    
+}

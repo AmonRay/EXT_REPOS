@@ -1,0 +1,37 @@
+{
+    "profileName": "EXT Profiles",
+    "profiles":[
+        {
+            "name": "EXT Profiles",
+            "version": "",
+            "link": "",
+            "url": "https://github.com/strangerism/EXT_REPOS/raw/refs/heads/master/profiles/EXT_Profiles.zip",
+            "filename": "EXT_Profiles.zip"
+        },
+        {
+            "name": "GAMMA Enhanced GUI",
+            "version": "",
+            "url": "https://github.com/strangerism/EXT_REPOS/raw/refs/heads/master/profiles/GAMMA_Enhanced_GUI.zip",
+            "filename": "GAMMA Enhanced GUI.zip"
+        },
+        {
+            "name": "GAMMA EXP Edition",
+            "version": "",
+            "url": "https://github.com/strangerism/EXT_REPOS/raw/refs/heads/master/profiles/GAMMA_EXP_Edition.zip",
+            "filename": "GAMMA_EXP_Edition.zip"
+        },
+        {
+            "name": "GAMMA EXP Edition Redux",
+            "version": "",
+            "url": "https://github.com/strangerism/EXT_REPOS/raw/refs/heads/master/profiles/GAMMA_EXP_Edition_Redux.zip",
+            "filename": "GAMMA_EXP_Edition_Redux.zip"
+        },
+        {
+            "name": "Expedition HD Models",
+            "version": "",
+            "url": "https://github.com/strangerism/EXT_REPOS/raw/refs/heads/master/profiles/Expedition_HD_Models.zip",
+            "filename": "Expedition_HD_Models.zip"
+        }        
+                               
+    ]
+}

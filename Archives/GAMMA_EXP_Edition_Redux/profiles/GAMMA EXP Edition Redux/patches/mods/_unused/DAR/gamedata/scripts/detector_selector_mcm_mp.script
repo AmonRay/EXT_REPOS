@@ -1,0 +1,21 @@
+if detector_selector_mcm then
+    -- adding new devices from `GAMMA EXP Edition Redux - Craftable Range Upgrades for Detectors`
+    detector_selector_mcm.categories.anomaly.devices = {
+        ["detector_grizzly_up"] = 10,
+        ["detector_scientific_up"] = 9,
+        ["detector_elite_up"] = 8,
+        ["detector_advanced_up"] = 7,
+        ["detector_simple_up"] = 6,
+        ["detector_grizzly"] = 5,
+        ["detector_scientific"] = 4,
+        ["detector_elite"] = 3,
+        ["detector_advanced"] = 2,
+        ["detector_simple"] = 1
+    }
+end
+
+function detector_selector_mcm.hide_detector(obj)
+    obj:switch_state(2)
+    local det_hide_time = (obj:play_hud_motion("anm_hide_fast", true, 3, 2, 0) / 1000) + 1.25
+    CreateTimeEvent("haru_hide_detector", "haru_hide_detector", det_hide_time, hide_event, obj)
+end

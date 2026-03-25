@@ -1,0 +1,60 @@
+<w>
+	<file name="ui\ui_actor_cond_bars_sota">
+		<!-- <texture id="ui_svui_condition_bar"                 x="0"   y="0"  width="79"  height="8" />
+		<texture id="ui_svui_uses_bar"                      x="0"   y="12" width="79"  height="8" />
+		
+		<texture id="ui_inGame2_inventory_status_bar"       x="0"   y="24" width="118" height="8" />
+		<texture id="ui_inGame2_inventory_item_status_bar"  x="0"   y="0"  width="79"  height="8" /> -->
+		
+		<texture id="ui_inGame2_inventory_health_bar"       x="0"   y="36" width="564" height="36" />
+		<texture id="ui_inGame2_inventory_progress_bar"     x="568" y="36" width="244" height="36" />
+		<texture id="ui_inGame2_inventory_hts_bar"          x="944" y="36" width="44"  height="36" />
+		<texture id="ui_inGame2_inventory_hts_power_bar"    x="816" y="36" width="124" height="36" />
+		
+		<texture id="ui_inGame2_inventory_health_bar_bg"    x="0"   y="76" width="564" height="36" />
+		<texture id="ui_inGame2_inventory_progress_bar_bg"  x="568" y="76" width="244" height="36" />
+		<texture id="ui_inGame2_inventory_hts_bar_bg"       x="944" y="76" width="44"  height="36" />
+		<texture id="ui_inGame2_inventory_hts_power_bar_bg" x="816" y="76" width="124" height="36" />
+	</file>
+	<file name="ui\ui_actor_menu_sota">
+
+		<texture id="ui_inGame2_inv_state_health"       x="0"   y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_radia"        x="56"  y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_acid"         x="112" y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_shock"        x="168" y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_fire"         x="224" y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_psi"          x="280" y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_wound"        x="336" y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_fire_wound"   x="392" y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_power"        x="448" y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_hunger"       x="504" y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_thirst"       x="504" y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_sleep"        x="504" y="1992" width="56" height="56" />
+		
+		<texture id="ui_inGame2_inv_state_P_health"     x="0"   y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_radia"      x="56"  y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_acid"       x="112" y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_shock"      x="168" y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_fire"       x="224" y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_psi"        x="280" y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_wound"      x="336" y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_fire_wound" x="392" y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_power"      x="448" y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_hunger"     x="504" y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_thirst"     x="504" y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_P_sleep"      x="504" y="1992" width="56" height="56" />
+		
+		<texture id="ui_inGame2_inv_state_N_health"     x="0"   y="1992" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_radia"      x="56"  y="1992" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_acid"       x="112" y="1992" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_shock"      x="168" y="1992" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_fire"       x="224" y="1992" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_psi"        x="280" y="1992" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_wound"      x="336" y="1992" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_fire_wound" x="392" y="1992" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_power"      x="448" y="1992" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_hunger"     x="504" y="1880" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_thirst"     x="504" y="1936" width="56" height="56" />
+		<texture id="ui_inGame2_inv_state_N_sleep"      x="504" y="1992" width="56" height="56" />
+	</file>	
+</w>

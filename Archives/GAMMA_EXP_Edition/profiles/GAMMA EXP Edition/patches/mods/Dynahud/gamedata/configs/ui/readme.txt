@@ -1,0 +1,1 @@
+patch for EGUI and Dynahud skin Minimalistic No ammo count

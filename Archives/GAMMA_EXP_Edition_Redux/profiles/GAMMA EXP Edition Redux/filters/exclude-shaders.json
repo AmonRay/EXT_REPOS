@@ -1,0 +1,13 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/dynamics"
+        },
+        {
+            "name": "gamedata/particles"
+        },
+        {
+            "name": "gamedata/scripts/ssfx_dof_mcm.script"
+        }
+    ]    
+}

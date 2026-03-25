@@ -1,0 +1,191 @@
+{
+    "profileName": "GAMMA Enhanced GUI",
+    "profileType": "standalone",
+    "profileCreator": "Strangerism",
+    "version": 12,
+    "url": "",
+    "extVersion": 0.62,    
+    "addonsVersion": 1,
+    "customModsVersion": 1,
+    "settingsVersion": 1,
+    "info": [
+        {
+            "line": "GAMMA Enhanced GUI is a repackage of Enhanced GUI v 0.6.2 addon, the very nice user interface redesign for Anomaly "
+        },
+        {
+            "line": "This profile will install a totally compatible version of this addon for GAMMA, including patches and long term compatibility"
+        },
+        {
+            "line": "Additionally, it separate the original addon in three standalone modules: Menu, Inventory and Hud. Therefore giving you the option to use what you like from the Enhanced GUI addon "
+        }        
+    ],
+    "installationDiskspaceRequirementMB": "830",
+    "finalDiskspaceRequirementMB": "255",
+    "installCompletionMessage": [
+        {
+            "line": " 1. MEET THE REQUIREMENTS "
+        },
+        {
+            "line": "       The mods installed by this profile only works with the latest GAMMA 0.9.1 "
+        },
+        {
+            "line": "       This EXT profile will install a new profile in MO2 called `GAMMA Enhanced GUI`. This is solely used by the EXT uninstaller. You can ignore it but do not delete it "
+        },         
+        {
+            "line": "  "
+        },                            
+        {
+            "line": " 2. CHOOSE THE MODS "
+        },
+        {
+            "line": "       Each mod can be enabled separately "
+        },
+        {
+            "line": "           - `GAMMA Enhanced GUI - Menu`                       Includes the rotating main menu and the UI revamp from Enhanced GUI "
+        },           
+        {
+            "line": "           - `GAMMA Enhanced GUI - Inventory`                  Includes the new inventory layout and graphic from Enhanced GUI "
+        },
+        {
+            "line": "           - `GAMMA Enhanced GUI - Hud`                        Includes the custom Hud (based on the GAMMA Minimalistic Hud) from Enhanced GUI "
+        },                            
+        {
+            "line": "  "
+        },                                  
+        {
+            "line": " 3. CREDITS "
+        },
+        {
+            "line": "       Check the Enhanced GUI ModDb page's Credits section for credits "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": "           https://www.moddb.com/mods/stalker-anomaly/addons/enhanced-gui "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": "  "
+        }       
+    ],
+    "addons": [
+        {
+            "addonName": "ENHANCED GUI INC",
+            "info": "brand new user interface project, aims to capture modern vibes from Metro and Stalker series.",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/enhanced-gui",
+            "fileUrl": "https://drive.google.com/file/d/1vDE_HcuGKMjmcOX7LyZKdHLkMCyS8tmc/view?usp=sharing",
+            "resourceFilename": "Enhanced_Graphical_User_Interface_v.0.6.2.7z",
+            "resourceWorkspace": "ENHANCED GUI INC",
+            "workspacedSizeMB": 443,
+            "addonSizeMB": 144,
+            "hash": "9C9E6F8F26CA28557B558D21C0CBBB0C31BBF0AD96FD9AF1BDD9475D652EA8E1"
+        }    
+    ],
+
+    "customMods": [       
+        {
+            "modName": "GAMMA Enhanced GUI - Menu",
+            "info": "ENHANCED GUI INC",
+            "modType": "fomod",
+            "addonName": "ENHANCED GUI INC",
+            "pathToGamedata":  [
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logo_AMCM.dds" },
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logo_GSCWorld.dds" },
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logoGSC.dds" },
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logoINC.dds" },
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logoMODDB.dds" },
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logoSTALKER.dds" },
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui"},
+                { "path":  "02- Main Menu/INC - 11 Enhanced GUI - Call of Pripyat Elements/gamedata" },
+                { "path":  "02- Main Menu/INC - 11 Enhanced GUI - Dynamic Backgrounds DLTX/gamedata" },                
+                { "path":  "02- Main Menu/INC - 12 Enhanced GUI - Main Menu/gamedata" },
+                { "path":  "02- Main Menu/INC - 13 Enhanced GUI - Credits/gamedata" },
+                { "path":  "06- Patches/INC - 71 PATCH - Main Menu - MCM/gamedata" },
+                { "path":  "06- Patches/INC - 72 PATCH - Main Menu - Credits + MCM/gamedata" },
+                { "path":  "Menu/gamedata", "type": "patch" }
+            ],
+            "excludePaths": "exclude-menu.json"
+        },
+        {
+            "modName": "GAMMA Enhanced GUI - Inventory",
+            "info": "ENHANCED GUI INC",
+            "modType": "fomod",
+            "addonName": "ENHANCED GUI INC",
+            "pathToGamedata":  [
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/enhancedGUI", "target": "gamedata/textures/ui/enhancedGUI"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_menu.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_menu_factions.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_menu_new_tabs.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_monsters_pda.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_monsters_pda_1.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_monsters_pda_2.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_monsters_pda_3.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_highlight.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_grid.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/enhancedGUI", "target": "gamedata/textures/ui/enhancedGUI"},
+                { "path":  "03- Inventory/INC - 22 Enhanced GUI - Condition Bars/gamedata" },
+                { "path":  "03- Inventory/INC - 22 Enhanced GUI - Details Screen/gamedata" },                
+                { "path":  "03- Inventory/INC - 23 Enhanced GUI - Inventory/gamedata" },
+                { "path":  "03- Inventory/INC - 24 Enhanced GUI - Inventory Rank Faction Overlays/gamedata/configs/ui", "target": "gamedata/configs/ui" },
+                { "path":  "05- Faction HUD/INC - 61 Enhanced GUI - EGUI/gamedata/textures/ui/ui_actor_hint_wnd.dds" },
+                { "path":  "Inventory/gamedata", "type": "patch" }
+            ],
+            "excludePaths": "exclude-inventory.json"                        
+        },        
+        {
+            "modName": "GAMMA Enhanced GUI - HUD",
+            "info": "ENHANCED GUI INC",
+            "modType": "fomod",
+            "addonName": "ENHANCED GUI INC",
+            "pathToGamedata":  [
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/enhancedGUI", "target": "gamedata/textures/ui/enhancedGUI"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_bars.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_hud.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_hud.thm"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_hud_grenade_mark.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_hud_grenade_mark.thm"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_hud_hit_mark.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_ingame2_common.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_ingame2_common.thm"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise.seq"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_00.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_00.thm"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_01.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_01.thm"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_02.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_02.thm"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_03.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_03.thm"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_04.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_04.thm"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_01.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_01.thm"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_03.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_03.thm"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_04.dds"},
+                { "path":  "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_04.thm"},
+                { "path":  "04- HUD/INC - 52 Enhanced GUI - PDA/gamedata/configs", "target": "gamedata/configs" }, 
+                { "path":  "04- HUD/INC - 52 Enhanced GUI - PDA/gamedata/textures", "target": "gamedata/textures" }, 
+                { "path":  "04- HUD/INC - 52 Enhanced GUI - Compass/gamedata/configs/ui", "target": "gamedata/configs/ui" }, 
+                { "path":  "04- HUD/INC - 52 Enhanced GUI - Reworked Ammo Wheel/gamedata/configs/ui/resc/ui_wheel_companion.xml" , "target": "gamedata/configs/ui/ui_wheel_companion.xml" }, 
+                { "path":  "04- HUD/INC - 52 Enhanced GUI - Reworked Ammo Wheel/gamedata/configs/ui/resc/ui_wheel_companion_16.xml" , "target": "gamedata/configs/ui/ui_wheel_companion_16.xml" },                 
+                { "path":  "04- HUD/INC - 52 Enhanced GUI - Reworked Ammo Wheel/gamedata/textures", "target": "gamedata/textures" }, 
+                { "path":  "04- HUD/INC - 52 Enhanced GUI - Dialog Dynamic UI/gamedata"},                 
+                { "path":  "04- HUD/INC - 53 Enhanced GUI - HUD/gamedata/configs/ui", "target": "gamedata/configs/ui" }, 
+                { "path":  "06- Patches/INC - 90 PATCH - HUD - Body Health System/gamedata"}, 
+                { "path":  "05- Faction HUD/INC - 61 Enhanced GUI - EGUI/gamedata/textures/ui/ui_actor_hint_wnd.dds" },
+                { "path":  "Hud/gamedata", "type": "patch" }
+                                       
+            ],
+            "excludePaths": "exclude-hud.json"            
+        }
+    ],
+    "customLoadOrderRules": [     
+    ],
+    "gamePatches": [
+    ]
+}

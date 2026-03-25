@@ -1,0 +1,357 @@
+{
+    "profileName": "GAMMA EXP Edition Redux",
+    "kits": [
+        {
+            "profileName": "GAMMA EXP Edition Redux [ Atmospherics ]",
+            "customLoadOrderRules":  [
+                {
+                    "modName": "GAMMA EXP Edition - VFX [ EXP ]",
+                    "action": "remove"
+                },                
+                {
+                    "modName": "GAMMA EXP Edition - Shaders [ EXP ]",
+                    "action": "remove"
+                },                
+                {
+                    "modName": "GAMMA EXP Edition - Weather [ EXP ]",
+                    "action": "remove"
+                },
+                {
+                    "modName": "GAMMA EXP Edition - Heatvision",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - Atmos Weather Expansion",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition - Heatvision"
+                },                 
+                {
+                    "modName": "290- Atmospherics Shaders Weathers and Reshade Latest - Hippobot",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition Redux - Atmos Weather Expansion"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R [ Toggle, adds extra weathers ]",
+                    "action": "add-disabled",
+                    "before": "290- Atmospherics Shaders Weathers and Reshade Latest - Hippobot"
+                },            
+                {
+                    "modName": "190- Screen Space Shaders 23 - Ascii1457",
+                    "action": "enable"
+                },
+                {
+                    "modName": "188- Enhanced Shaders - KennShade",
+                    "action": "enable"
+                },
+                {
+                    "modName": "289- Grass Tweaks (reinstall for different options) - Aydin",
+                    "action": "enable"
+                },      
+                {
+                    "modName": "G.A.M.M.A. Weathers",
+                    "action": "enable"
+                },
+                {
+                    "modName": "Roadside's Lens Flares",
+                    "action": "enable"
+                },
+                {
+                    "modName": "283- Autumn No Leaves LOD Fix - owencraig08",
+                    "action": "enable"
+                },
+                {
+                    "modName": "282- GAMMA Loading Screens - CS Eden",
+                    "action": "enable"
+                },
+                {
+                    "modName": "25- High Res Loading Screens - Bazingarrey",
+                    "action": "enable"
+                },
+                {
+                    "modName": "24- Skies Redux - d_nan",
+                    "action": "enable"
+                },
+                {
+                    "modName": "Particles Cinematic VFX 3.5 1.1.2 BOTZ YAWM",
+                    "action": "enable"
+                }                                                     
+            ],
+            "gamePatches": [
+                {
+                    "priority": "0",
+                    "patchType": "reshade",
+                    "addonName": "ATMOSPHERICS",
+                    "resourceWorkspace": "ATMOSPHERICS",
+                    "pathToPatch": "02 - [OPTIONAL] RESHADE - Phrozac Presets/bin",
+                    "patchTarget": "bin"
+                },        
+                {
+                    "priority": "1",
+                    "patchType": "reshade",
+                    "addonName": "ATMOSPHERICS",
+                    "resourceWorkspace": "ATMOSPHERICS",
+                    "pathToPatch": "01 - [REQUIRED] Atmospherics/appdata",
+                    "patchTarget": "appdata"
+                },                
+                {
+                    "priority": "2",
+                    "patchType": "profile",
+                    "pathToPatch": "Anomaly/ATMOS/appdata",
+                    "patchTarget": "appdata"
+                }        
+            ]             
+        },
+        {
+            "profileName": "GAMMA EXP Edition Redux [ Custom ]",
+            "customLoadOrderRules":  [                
+                {
+                    "modName": "GAMMA EXP Edition - Shaders [ EXP ]",
+                    "action": "remove"
+                },                
+                {
+                    "modName": "GAMMA EXP Edition - Weather [ EXP ]",
+                    "action": "remove"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Autumn ]",
+                    "action": "enable"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - C Consciousness Trees Overhaul [ Autumn ]",
+                    "action": "enable"
+                },                         
+                {
+                    "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Summer ]",
+                    "action": "disable"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - C Consciousness Trees Overhaul [ Summer ]",
+                    "action": "disable"
+                },                        
+                {
+                    "modName": "GAMMA EXP Edition - AYDINS GRASS TWEAKS [ Summer ]",
+                    "action": "disable"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - Anomaly Custom Vegetation",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition - AYDINS GRASS TWEAKS [ Summer ]"
+                },
+                {
+                    "modName": "GAMMA EXP Edition - VFX [ EXP ]",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition Redux - Anomaly Custom Vegetation"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - Anomaly Custom VFX [ requires Arrival ]",
+                    "action": "add-disabled",
+                    "before": "GAMMA EXP Edition - VFX [ EXP ]"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - Anomaly Custom Shaders",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition - Heatvision"
+                },                                               
+                {
+                    "modName": "GAMMA EXP Edition Redux - Anomaly Custom Weather",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition Redux - Anomaly Custom Shaders"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - Atmos Weather Expansion",
+                    "action": "add-disabled",
+                    "before": "GAMMA EXP Edition Redux - Anomaly Custom Weather"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R [ Toggle, adds extra weathers ]",
+                    "action": "add-disabled",
+                    "before": "GAMMA EXP Edition Redux - Atmos Weather Expansion"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - Anomaly Custom Ambience",
+                    "action": "add-disabled",
+                    "before": "EXP Redux - Visuals_separator"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - DRUNK'S EXTREME INSTRUMENT GALORE",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition Redux - Anomaly Custom Ambience"
+                },         
+                {
+                    "modName": "190- Screen Space Shaders 23 - Ascii1457",
+                    "action": "enable"
+                },
+                {
+                    "modName": "188- Enhanced Shaders - KennShade",
+                    "action": "enable"
+                },
+                {
+                    "modName": "283- Autumn No Leaves LOD Fix - owencraig08",
+                    "action": "enable"
+                }                                                       
+            ],
+            "gamePatches": [
+                {
+                    "priority": "0",
+                    "patchType": "reshade",
+                    "addonName": "Anomaly Custom Reshade",
+                    "resourceWorkspace": "Anomaly Custom Reshade",
+                    "pathToPatch": "Anomaly Custom Reshade/bin",
+                    "patchTarget": "bin"
+                },                
+                {
+                    "priority": "1",
+                    "patchType": "profile",
+                    "pathToPatch": "Anomaly/Custom/appdata",
+                    "patchTarget": "appdata"
+                }                                             
+            ]             
+        },
+        {
+            "profileName": "GAMMA EXP Edition Redux [ I.N.V.E.R.N.O ]",
+            "customLoadOrderRules":  [
+                {
+                    "modName": "GAMMA EXP Edition - VFX [ EXP ]",
+                    "action": "remove"
+                },                
+                {
+                    "modName": "GAMMA EXP Edition - Shaders [ EXP ]",
+                    "action": "remove"
+                },                
+                {
+                    "modName": "GAMMA EXP Edition - Weather [ EXP ]",
+                    "action": "remove"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O - C Con Frozen grass",
+                    "action": "add-disabled",
+                    "before": "GAMMA EXP Edition Redux - Profile Dynavision Presets"
+                },                                
+                {
+                    "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O [ Reinstall to configure ]",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O - C Con Frozen grass"
+                },
+                {
+                    "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O [ Reinstall to configure ]"
+                },                                    
+                {
+                    "modName": "GAMMA EXP Edition - Heatvision",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"
+                },             
+                {
+                    "modName": "290- Atmospherics Shaders Weathers and Reshade Latest - Hippobot",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition - Heatvision"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R [ Toggle, adds extra weathers ]",
+                    "action": "add-disabled",
+                    "before": "290- Atmospherics Shaders Weathers and Reshade Latest - Hippobot"
+                },  
+                {
+                    "modName": "GAMMA EXP Edition Redux - Cold System",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition Redux - Mags Pouches belt addons"
+                },                  
+                {
+                    "modName": "EXP Redux - Gameplay_separator",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition Redux - Cold System"
+                },                        
+                {
+                    "modName": "190- Screen Space Shaders 23 - Ascii1457",
+                    "action": "enable"
+                },
+                {
+                    "modName": "188- Enhanced Shaders - KennShade",
+                    "action": "enable"
+                },  
+                {
+                    "modName": "G.A.M.M.A. Weathers",
+                    "action": "enable"
+                },
+                {
+                    "modName": "Roadside's Lens Flares",
+                    "action": "enable"
+                },
+                {
+                    "modName": "282- GAMMA Loading Screens - CS Eden",
+                    "action": "enable"
+                },
+                {
+                    "modName": "25- High Res Loading Screens - Bazingarrey",
+                    "action": "enable"
+                },
+                {
+                    "modName": "24- Skies Redux - d_nan",
+                    "action": "disable"
+                },
+                {
+                    "modName": "Particles Cinematic VFX 3.5 1.1.2 BOTZ YAWM",
+                    "action": "enable"
+                },
+                {
+                    "modName": "357- Grey Tree Barks Begone - Joe325",
+                    "action": "disable"
+                },
+                {
+                    "modName": "388- Aydins Grass Tweaks SSS Terrain LOD Compatibility - aytabag",
+                    "action": "disable"
+                },
+                {
+                    "modName": "GAMMA EXP Edition - AYDINS GRASS TWEAKS [ Summer ]",
+                    "action": "disable"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Core ]",
+                    "action": "disable"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Autumn ]",
+                    "action": "disable"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - C Consciousness Trees Overhaul [ Autumn ]",
+                    "action": "disable"
+                },                         
+                {
+                    "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Summer ]",
+                    "action": "disable"
+                },
+                {
+                    "modName": "GAMMA EXP Edition Redux - C Consciousness Trees Overhaul [ Summer ]",
+                    "action": "disable"
+                }                                                       
+            ],
+            "gamePatches": [
+                {
+                    "priority": "0",
+                    "patchType": "reshade",
+                    "addonName": "ATMOSPHERICS",
+                    "resourceWorkspace": "ATMOSPHERICS",
+                    "pathToPatch": "02 - [OPTIONAL] RESHADE - Phrozac Presets/bin",
+                    "patchTarget": "bin"
+                },        
+                {
+                    "priority": "1",
+                    "patchType": "reshade",
+                    "addonName": "ATMOSPHERICS",
+                    "resourceWorkspace": "ATMOSPHERICS",
+                    "pathToPatch": "01 - [REQUIRED] Atmospherics/appdata",
+                    "patchTarget": "appdata"
+                },               
+                {
+                    "priority": "2",
+                    "patchType": "profile",
+                    "pathToPatch": "Anomaly/I.N.V.E.R.N.O/appdata",
+                    "patchTarget": "appdata"
+                }            
+            ]             
+        }                                        
+    ]
+}

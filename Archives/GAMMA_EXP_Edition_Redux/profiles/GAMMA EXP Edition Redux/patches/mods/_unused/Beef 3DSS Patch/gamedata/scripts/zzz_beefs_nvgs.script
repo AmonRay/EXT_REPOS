@@ -1,0 +1,10 @@
+
+og_pack_nvg_data = z_beefs_nvgs.pack_nvg_data
+function z_beefs_nvgs.pack_nvg_data()
+	printf("z_beefs_nvgs.pack_nvg_data()")
+	if z_beefs_nvgs.nvg_generation == 0 then
+		return "(0.0,0.0,0.0,0.0)"
+	end
+
+    return og_pack_nvg_data()
+end

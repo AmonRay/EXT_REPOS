@@ -1,0 +1,13 @@
+{
+    "excludePaths": [
+        {
+            "name": "wpn_addon_lfo_lens.dds"
+        },
+        {
+            "name": "wpn_addon_scope_ac10632_crosshair_dirt.dds"
+        },
+        {
+            "name": "wpn_addon_scope_eotech_crosshair_dirt.dds"
+        }                 
+    ]    
+}

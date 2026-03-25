@@ -1,0 +1,52 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/configs/text/eng/ssfx_ui_rain.xml"
+        },
+        {
+            "name": "gamedata/configs/text/rus/ssfx_ui_rain.xml"
+        },        
+        {
+            "name": "gamedata/configs/text/eng/ssfx_ui_strings_mcm.xml"
+        },
+        {
+            "name": "gamedata/scripts/ssfx_rain_settings.script"
+        },
+        {
+            "name": "gamedata/shaders/r3/combine_2_naa.ps"
+        },
+        {
+            "name": "gamedata/shaders/r3/deffer_base_hud_aref_bump.ps"
+        },
+        {
+            "name": "gamedata/shaders/r3/deffer_base_hud_bump.ps"
+        },
+        {
+            "name": "gamedata/shaders/r3/deffer_base_hud_flat.ps"
+        },
+        {
+            "name": "gamedata/shaders/r3/hmodel.h"
+        },
+        {
+            "name": "gamedata/shaders/r3/screenspace_common.h"
+        },
+        {
+            "name": "gamedata/shaders/r3/screenspace_water.h"
+        },
+        {
+            "name": "gamedata/shaders/r3/settings_screenspace_SSS.h"
+        },
+        {
+            "name": "gamedata/shaders/r3/ssfx_ao.ps"
+        },
+        {
+            "name": "gamedata/shaders/r3/ssfx_ao_blur.ps"
+        },
+        {
+            "name": "gamedata/shaders/r3/ssfx_water.vs"
+        },
+        {
+            "name": "gamedata/shaders/r3/ssfx_water_ssr.ps"
+        }
+    ]    
+}

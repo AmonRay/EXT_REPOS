@@ -1,0 +1,7 @@
+{
+    "excludePaths": [
+        {
+            "name": "zzz_player_injuries.script"
+        }
+    ]    
+}

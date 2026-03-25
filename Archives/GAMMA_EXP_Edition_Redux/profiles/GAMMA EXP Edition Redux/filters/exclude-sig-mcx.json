@@ -1,0 +1,16 @@
+{
+    "excludePaths": [
+        {
+            "name": "wpn_addon_crosshair_red_dot.dds"
+        },
+        {
+            "name": "wpn_crosshair_eotech_553_dynamic.dds"
+        },
+        {
+            "name": "wpn_crosshair_eotech_553_dynamic_far.dds"
+        },
+        {
+            "name": "wpn_scope_all_lens2.dds"
+        }                    
+    ]    
+}

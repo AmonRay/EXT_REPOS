@@ -1,0 +1,1566 @@
+{
+    "profileName": "GAMMA EXP Edition",
+    "profileType": "standalone",
+    "profileCreator": "Strangerism",
+    "url": "https://discord.com/channels/912320241713958912/1037753021322506240/1037753021322506240",
+    "version": 89,
+    "extVersion": 0.70,
+    "addonsVersion": 1,
+    "customModsVersion": 1,
+    "settingsVersion": 1,
+    "info": [
+        {
+            "line": "Install a merge of Anomaly Expedition 2.3 and G.A.M.M.A."
+        },
+        {
+            "line": "Include Expedition 2.3 update with better and weather. Improvements include DoF, Fog effects, Wind effects, Particles "
+        },
+        {
+            "line": "Include custom integration of SS Rain Puddles and Beefs NVG custom patch, both exclusives of this profile. The Expedition modpack officially does not support Beefs NVG and SS rain puddles"
+        },
+        {
+            "line": "All Expeditions merge compoments are deployed as different mods and selectable"
+        },
+        {
+            "line": "You can pick and choose how you want to change G.A.M.M.A. with the Expedition experience, by enabling/disabling each mod"
+        }
+    ],
+    "installationDiskspaceRequirementMB": 43523,
+    "finalDiskspaceRequirementMB": 19850,
+    "installCompletionMessage": [
+        {
+            "line": " 1. MEET THE REQUIREMENTS "
+        },
+        {
+            "line": "       This profile is enhanced for DX 11 "
+        },
+        {
+            "line": "       It's recommended to play at 2K resolution and if you can, use DSR. This will greatly increase image quality with these shaders "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": " This EXT profile has installed in Mod Organizer 2 profiles that can be selected to play GAMMA EXP Edition in a certain way "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": " 2. LAUNCHING THE GAME FOR THE FIRST TIME "
+        },
+        {
+            "line": "       FOLLOW these steps when running any of these profile for the first time after install "
+        },
+        {
+            "line": "           1. When you select any profile, run Apply Settings desktop shortcut to install in Anomaly the Reshade for that profile "
+        },
+        {
+            "line": "           2. Launch the game with Anomaly (DX11 or DX11 AVX) executables in MO and change your preferences in game settings menu "
+        },
+        {
+            "line": "           3. After when you exit the game, run Save Settings desktop shortcut to keep the settings at step 2 "
+        },
+        {
+            "line": "           4. Whenever you come back to play this profile, run again Apply Settings to reapply in Anomaly the Reshade and all settings saved at step 3 "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": " 3. RESHADE AND GAME SETTINGS "
+        },
+        {
+            "line": "       This profile comes with its own reshade "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": " 4. PROFILE CUSTOMIZATION "
+        },
+        {
+            "line": "       Remember. All Expeditions compoments are deployed as separate mods. Search them in MO with GAMMA EXP Edition keyword "
+        },
+        {
+            "line": "       You can pick and choose how you want to change G.A.M.M.A. with the Expedition experience, by enabling/disabling each mod "
+        },
+        {
+            "line": "       However, you cannot disable these mods when using the base profile (not [ ATMOSPHERICS ])"
+        },
+        {
+            "line": "           - GAMMA EXP Edition - Shaders: adds the Expedition shaders "
+        },
+        {
+            "line": "           - GAMMA EXP Edition - Weather [ EXP ]:  adds the Expedition weathers "
+        },
+        {
+            "line": "           - GAMMA EXP Edition - VFX [ EXP ]:  adds the Expedition custom Cinematic VFX "
+        },
+        {
+            "line": "           - GAMMA EXP Edition - GAMMA Patch: Patch to the Expedition files for GAMMA compatibility "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": "       The Expedition's experience customization "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": "       Some of these mods come already enabled in the base profile but are still optional. The advice is to start like this and change at your will if things are not to your liking "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition - UI`                 Change the UI and interface sounds to be like the one in Expedition. The HUD however will be the same as in G.A.M.M.A. "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition - HUD`                Adds the Expedition HUD FOV"
+        },
+        {
+            "line": "                                                               Several HUD options are included to customize further the HUD "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition - Sounds`             Adds all Expedition sounds in one mod "
+        },
+        {
+            "line": "                                                               Since all optional EXP mods comes with their EXP sounds, use this if you want the Exp sounds across the board even when those mods are disabled "
+        },
+        {
+            "line": "                                                               This also adds the Weapons sounds even though no weapon from Expedition can be merged as yet. Enable this if you want to hear the weapons sound from EXP "
+        },
+        {
+            "line": "                                                               Beware, G.A.M.M.A. combat ai improvements using sound comments might be nullified by enabling this mod. Not confirmed though "
+        },
+        {
+            "line": "                                                               G.A.M.M.A. now includes DARK SIGNAL audio packs which are BETTER that the Expedition sounds, disable Sounds if you want the better experience "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition - Music`              Adds the Expedition soundtrack "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition - Adds GAMMA's music` Just as it says, if you enable this you'll get both soundtracks playing in the game "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition - Beef's NVG Patch    Allow to use GAMMA Beef's NVGs mod, you must enable both mod and patch "
+        },
+        {
+            "line": "                                                               If you enable/disable this you must delete the shader cache or run apply_settings to see the changes applied in game "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition - HD Models [ EXP ]`                Contains the assets for the HD Models for the NPC from the Gunslinger NPC modpack. This on his own does nothing, requires the Config mod to fully enable "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]s`        Enable the HD Models in the game. Requires new game to have the HD models spawn in the world "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": " 5. PROFILE KITS "
+        },
+        {
+            "line": "       This EXT profile has installed in Mod Organizer the base profile called `GAMMA EXP Edition` plus 1 more profile kit "
+        },
+        {
+            "line": "       A kit is a prefab variation of the base profile modlist for easy swap between different configuration of optional mods as explained in PROFILE CUSTOMIZATION "
+        },
+        {
+            "line": "       All kits use the their own settings, use Apply Settings whenever you switch to them and Save Settings if you change your preferences in the game settings menu "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition`                                      The base profile include everything from the Expedition merge "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition - HD Models`                          Like the base profile but with Gunslinger HD Models "
+        },
+        {
+            "line": "           - `GAMMA EXP Edition - HD Models [ ATMOSPHERICS ]`         Like the HD Models profile but with Atmospherics weather and Shaders insteaad of the Expedition ones "
+        },
+        {
+            "line": " 6. CREDITS "
+        },
+        {
+            "line": "       Check the Expedition ModDb page's Credits section for details about all thirty party mods included "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": "           https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151 "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": "       Screenspace Shaders "
+        },
+        {
+            "line": "           https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders "
+        },
+        {
+            "line": "  "
+        }
+    ],
+    "addons": [
+        {
+            "addonName": "Expedition HD Models Configs",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1akQSFSADl5J1EXpd3qDNws87ZzVTjFsF/view?usp=sharing",
+            "resourceFilename": "Expedition HD Models Configs.7z",
+            "resourceWorkspace": "Expedition HD Models Configs",
+            "workspacedSizeMB": 1,
+            "addonSizeMB": 1,
+            "hash": "59930DE581F6378B98DF5B77328CE6F842C3F870AAC10E2F367402080BE27864"
+        },
+        {
+            "addonName": "Expedition HD Models",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1ZqqxvqHekMDmL5Ugn5ePcv--5y6PxWK_/view?usp=sharing",
+            "resourceFilename": "Expedition HD Models.7z",
+            "resourceWorkspace": "Expedition HD Models",
+            "workspacedSizeMB": 14160,
+            "addonSizeMB": 4691,
+            "hash": "B3AB3BD927F1016FD18CF32D19E9EC32E8CD48925C42A0E04E97D2E78EE7399E"
+        },
+        {
+            "addonName": "Expedition Music",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1ZriW7Kd99EnRaudKmRV7dCJ2rxpIW3By/view?usp=sharing",
+            "resourceFilename": "Expedition Music.7z",
+            "resourceWorkspace": "Expedition Music",
+            "workspacedSizeMB": 600,
+            "addonSizeMB": 597,
+            "hash": "EF149ADFC62E77283312949B1B161F62EAFE2434128B97E71C1688E59F3443B3"
+        },
+        {
+            "addonName": "Expedition Shaders",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1vTEM13iZiH9qf0NunqbMOoniscUpTpDE/view?usp=sharing",
+            "resourceFilename": "Expedition Shaders.7z",
+            "resourceWorkspace": "Expedition Shaders",
+            "workspacedSizeMB": 8,
+            "addonSizeMB": 1,
+            "hash": "D08287DB523BD240B238FC6FACBEF4CFA4F45F1FFE8620D501EF9B97CA3D0ED0"
+        },
+        {
+            "addonName": "Expedition Sounds",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1aIno61hEx2z83yqYRp9eFrK5nKysl4v5/view?usp=sharing",
+            "resourceFilename": "Expedition Sounds.7z",
+            "resourceWorkspace": "Expedition Sounds",
+            "workspacedSizeMB": 1074,
+            "addonSizeMB": 928,
+            "hash": "3F083EB5D0B671C4A045202963359463AB321D4B7A41BBE71F583224F796E5D3"
+        },
+        {
+            "addonName": "Expedition Textures",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1q3Jd_6rWKDPYpLGVFdYqBE-4S6Fx4tWd/view?usp=sharing",
+            "resourceFilename": "Expedition Textures.7z",
+            "resourceWorkspace": "Expedition Textures",
+            "workspacedSizeMB": 961,
+            "addonSizeMB": 613,
+            "hash": "1AA533021237853C9D87A3C43797D58C4F2F0ABBAEC8D1D168BDC52E35797ABA"
+        },
+        {
+            "addonName": "Expedition UI Loading screens",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/19M0pZ8J4EhEX0Wf0X8kz3qRcc1_fYJ4e/view?usp=sharing",
+            "resourceFilename": "Expedition UI Loading screens.7z",
+            "resourceWorkspace": "Expedition UI Loading screens",
+            "workspacedSizeMB": 89,
+            "addonSizeMB": 10,
+            "hash": "1B84E7F5150CF4C08A4E0107C67D851B6B2DC0C8D8B149F9AFB4AAC5B91AC1E2"
+        },
+        {
+            "addonName": "Expedition VFX",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1i5tSunurbD9M-1nK6ppDiO-D3cSixE28/view?usp=sharing",
+            "resourceFilename": "Expedition VFX.7z",
+            "resourceWorkspace": "Expedition VFX",
+            "workspacedSizeMB": 1096,
+            "addonSizeMB": 150,
+            "hash": "5444E70C3D7E4847CC0B61A44763F236898D854552D4FBEDE0061242ECC7F64E"
+        },
+        {
+            "addonName": "Expedition Weather",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1TTjwU4dVikWL8RbpvoVY05tJG_bWFrvA/view?usp=sharing",
+            "resourceFilename": "Expedition Weather.7z",
+            "resourceWorkspace": "Expedition Weather",
+            "workspacedSizeMB": 351,
+            "addonSizeMB": 102,
+            "hash": "8C0AEA0EF84868C75EE8EE7DB96F525AA99AA40366AE3D7A7069A322A6C2E2E8"
+        },
+        {
+            "addonName": "Expedition Reshade",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1c14uZd3qnOBj8gGlSgRnvurorazMNoto/view?usp=sharing",
+            "resourceFilename": "Expedition Reshade.rar",
+            "resourceWorkspace": "Expedition Reshade",
+            "workspacedSizeMB": 66,
+            "addonSizeMB": 63,
+            "hash": "23141EF7C77AFA6877A65EB2CF0182E3DB6FDA3395952A3071DCB84FB009B9B4"
+        },
+        {
+            "addonName": "Screenspace Shaders",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders",
+            "fileUrl": "https://www.moddb.com/addons/start/228793",
+            "resourceFilename": "ScreenSpaceShaders_Update23_5.zip",
+            "resourceWorkspace": "Screenspace Shaders",
+            "workspacedSizeMB": 230,
+            "addonSizeMB": 152.68,
+            "source": "MO_DOWNLOADS",
+            "hash": "F442E925248620451B525AC037B0A58B9BD97303ABCECC695D600B71884025B4"
+        },
+        {
+            "addonName": "Enhanced Shaders",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/enhanced-shaders-and-color-grading-for-151",
+            "fileUrl": "https://www.moddb.com/addons/start/208873",
+            "resourceFilename": "Enhanced_Shaders_Color_Grading_1.10.zip",
+            "resourceWorkspace": "Enhanced Shaders",
+            "workspacedSizeMB": 58,
+            "addonSizeMB": 27,
+            "source": "MO_DOWNLOADS",
+            "hash": "429C92B8ED641BB8A82273A7223B48C5A397C66F4DD204AEA6E909E70A355E69"
+        },
+        {
+            "addonName": "Barts_Good_Ammo_Counters",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/barts-good-ammo-counters-20-for-151",
+            "fileUrl": "https://www.moddb.com/addons/start/216494",
+            "resourceFilename": "Barts_Good_Ammo_Counters_V2.1_1.5.1.zip",
+            "resourceWorkspace": "Barts_Good_Ammo_Counters",
+            "workspacedSizeMB": 2,
+            "addonSizeMB": 1,
+            "hash": "0278A49B14ED90D2EBA16B77718E51C3E244CE41003AE77427D634ACB0921D93"
+        },
+        {
+            "addonName": "FireModeCheck",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/firemodecheck",
+            "fileUrl": "https://www.moddb.com/addons/start/218313",
+            "resourceFilename": "FireModeCheck.2024.10.18.zip",
+            "resourceWorkspace": "FireModeCheck",
+            "workspacedSizeMB": 8,
+            "addonSizeMB": 1,
+            "hash": "28955B4433F0693D91B35FB0B04C87A5D4F05CB41C45C28BF5BD87C9E46B3218"
+        },
+        {
+            "addonName": "Ready_Or_Not_Check",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/ready-or-not-fire-mode-check-hud-skin-for-firemodecheck-by-ishmaeel",
+            "fileUrl": "https://www.moddb.com/addons/start/237579",
+            "resourceFilename": "Ready_Or_Not_Check_HUD_1.0.zip",
+            "resourceWorkspace": "Ready_Or_Not_Check",
+            "workspacedSizeMB": 16,
+            "addonSizeMB": 1,
+            "hash": "52FAA23569428681F71AEC55F876C1B62B6BD5D39202D5F519A4F6F2DAA396F5"
+        },
+        {
+            "addonName": "Dynahud Hud Manager",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/dynahud-hud-manager",
+            "fileUrl": "https://www.moddb.com/addons/start/250382",
+            "resourceFilename": "Dynahud.42.zip",
+            "resourceWorkspace": "Dynahud",
+            "workspacedSizeMB": 63,
+            "addonSizeMB": 27,
+            "hash": "DDC0C35D22B85D56492B42BF85AE1F973760A2A9943FEE3C01B4C039F73C33DE"
+        },
+        {
+            "addonName": "ENHANCED GUI INC",
+            "info": "brand new user interface project, aims to capture modern vibes from Metro and Stalker series.",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/enhanced-gui",
+            "fileUrl": "https://drive.google.com/file/d/1vDE_HcuGKMjmcOX7LyZKdHLkMCyS8tmc/view?usp=sharing",
+            "resourceFilename": "Enhanced_Graphical_User_Interface_v.0.6.2.7z",
+            "resourceWorkspace": "ENHANCED GUI INC",
+            "workspacedSizeMB": 443,
+            "addonSizeMB": 144,
+            "hash": "9C9E6F8F26CA28557B558D21C0CBBB0C31BBF0AD96FD9AF1BDD9475D652EA8E1"
+        },
+        {
+            "addonName": "Dynavision",
+            "info": "Modify onscreen image",
+            "addonType": "reshade",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/dynavision-photomode",
+            "fileUrl": "https://www.moddb.com/addons/start/268607",
+            "resourceFilename": "Dynavision.6.zip",
+            "resourceWorkspace": "Dynavision",
+            "workspacedSizeMB": 108,
+            "addonSizeMB": 92,
+            "hash": "282F36978C46E4447DFE613FBDFDE3508DB9BEAF562506918D665CB9F628332B"
+        },
+        {
+            "addonName": "ATMOSPHERICS",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/hippos-shaders-and-atmospherics",
+            "fileUrl": "https://www.moddb.com/addons/start/244217",
+            "resourceFilename": "Atmospherics_GAMMA_2.68.93_hotfix3.7z",
+            "resourceWorkspace": "ATMOSPHERICS",
+            "workspacedSizeMB": 7687,
+            "addonSizeMB": 1418.05,
+            "source": "MO_DOWNLOADS",
+            "hash": "05C872C2ACD6E2E84989EEFA8F1B7CF5E6F1ECF8103657538A910AC16CAB9B23"
+        },
+        {
+            "addonName": "SIMPLE FLASHLIGHT REPLACER",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/simpleflashlightreplacer",
+            "fileUrl": "https://www.moddb.com/addons/start/266707",
+            "resourceFilename": "SimpleFlashlightReplacer.1.7z",
+            "resourceWorkspace": "SIMPLE FLASHLIGHT REPLACER",
+            "workspacedSizeMB": 3,
+            "addonSizeMB": 1,
+            "hash": "2E361EF26503D094BE9488FC64EA51B0FFB948854914BD64A992A91132ADD637"
+        },
+        {
+            "addonName": "Heatvision",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/heatvision-v02-extension-for-beefs-nvg-dx11engine-mod",
+            "fileUrl": "https://www.moddb.com/addons/start/229416",
+            "resourceFilename": "HeatVision_v1.3.zip",
+            "resourceWorkspace": "Heatvision",
+            "workspacedSizeMB": 2,
+            "addonSizeMB": 1,
+            "hash": "25365ACB150609391A70AEC23EAD26CA9803CA67C0EBC446482D48AC39F2A759"
+        },        
+        {
+            "addonName": "BEEF'S NVG, IMPROVED",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/beefs-nvg-improved",
+            "fileUrl": "https://www.moddb.com/addons/start/264381",
+            "resourceFilename": "beefs-nvg-improved.3.zip",
+            "resourceWorkspace": "BEEF'S NVG, IMPROVED",
+            "workspacedSizeMB": 1,
+            "addonSizeMB": 1,
+            "hash": "C7301E5F508B91057E097D6C9F444A9669CDCCB9AF9ECB073BBBEDE8F89BB01D"
+        },
+        {
+            "addonName": "AYDINS GRASS TWEAKS",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/aydins-grass-tweaks-40",
+            "fileUrl": "https://www.moddb.com/addons/start/244132",
+            "resourceFilename": "Aydins_Grass_Tweaks_4.0.7z",
+            "resourceWorkspace": "AYDINS GRASS TWEAKS",
+            "workspacedSizeMB": 4016,
+            "addonSizeMB": 839,
+            "source": "MO_DOWNLOADS",            
+            "hash": "32233F6CFAB9BD96F5AA4200DF5813FFE7D2DAEAB840844E9E624411E8649471"
+        },
+        {
+            "addonName": "AYDINS GRASS TWEAKS SSS TERRAIN LOD",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/aydins-grass-tweaks-sss-terrain-lod-compatiblity",
+            "fileUrl": "https://www.moddb.com/addons/start/267004",
+            "resourceFilename": "Aydins_Grass_Tweaks_SSS_Terrain_LOD_compatiblity.rar",
+            "resourceWorkspace": "AYDINS GRASS TWEAKS SSS TERRAIN LOD",
+            "workspacedSizeMB": 432,
+            "addonSizeMB": 134,
+            "source": "MO_DOWNLOADS",  
+            "hash": "DA8294FEA5810EFB8C8B9120011C5B0F0B9E3E110214BEFFD69B8D2799E7DE3E"
+        },
+        {
+            "addonName": "BHSRO",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/bhs-realistic-overhaul",
+            "fileUrl": "https://www.moddb.com/addons/start/255213",
+            "resourceFilename": "BHS_Realistic_Overhaul_0.87_BETA.2.7z",
+            "resourceWorkspace": "BHSRO",
+            "workspacedSizeMB": 57,
+            "addonSizeMB": 21,
+            "hash": "A2C5823C1299191C87242219C91A2BC8E8E244CF46698BEA84556DFF0C308F2A"
+        },
+        {
+            "addonName": "BHS Reworked",
+            "addonType": "mod",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/body-health-system-reworked-01",
+            "fileUrl": "https://www.moddb.com/addons/start/269884?referer=https%3A%2F%2Fwww.google.com%2F",
+            "resourceFilename": "BHS_reworked_0.4.zip",
+            "resourceWorkspace": "BHS Reworked",
+            "workspacedSizeMB": 5,
+            "addonSizeMB": 1,
+            "hash": "79F75A94C936A671B11E34839AFEE50749952AAE8041F1E8E3702DCFDF8C2883"
+        },
+        {
+            "addonName": "NPC Models Replacer",
+            "addonType": "mod",
+            "addonUrl": "https://drive.google.com/file/d/1deicK8zSv_Z9xMrt-vaI3SM8RNqMjI7U/view?usp=sharing",
+            "fileUrl": "https://drive.google.com/file/d/1deicK8zSv_Z9xMrt-vaI3SM8RNqMjI7U/view?usp=sharing",
+            "resourceFilename": "NPC Models Replacer.zip",
+            "resourceWorkspace": "NPC Models Replacer",
+            "workspacedSizeMB": 1,
+            "addonSizeMB": 1,
+            "hash": "4D960514C72CB7604DE00837E5AC1A9D1314DC11A542588BAD20E70D2CDE7F1B"
+        }
+    ],
+    "customMods": [
+        {
+            "modName": "GAMMA EXP Edition - HDetoxyfier [ Replaces NPC HD models to Vanilla ]",
+            "info": "replaces NPC HD models to Vanilla",
+            "modType": "patch",
+            "addonName": "",
+            "pathToGamedata": "HDetoxyfier/gamedata",
+            "installedSizeMB": 1
+        },
+        {
+            "modName": "GAMMA EXP Edition - NPC Models Replacer",
+            "info": "NPC Models Replacer",
+            "modType": "mod",
+            "addonName": "NPC Models Replacer",
+            "pathToGamedata": "gamedata",
+            "installedSizeMB": 1
+        },
+        {
+            "modName": "GAMMA EXP Edition - BHS Reworked",
+            "info": "BHS Reworked",
+            "modType": "fomod",
+            "addonName": "BHS Reworked",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "BHS Reworked FDDA Redone/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "installedSizeMB": 5
+        },
+        {
+            "modName": "GAMMA EXP Edition - Body Health System Realistic Overhaul (BHSRO)",
+            "info": "",
+            "modType": "fomod",
+            "addonName": "BHSRO",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "Installer/Main Files/gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "Installer/Optionals/New Actor Damage Balancer(GAMMA)/gamedata"
+                },
+                {
+                    "priority": 2,
+                    "path": "Installer/Optionals/Radiation Effects Overhaul(GAMMA)/gamedata"
+                },
+                {
+                    "priority": 3,
+                    "path": "Installer/Optionals/BHSRO No old ammo + Enhanced GUI compat/gamedata"
+                },
+                {
+                    "priority": 4,
+                    "path": "BHSRO/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "excludePaths": "exclude-bhsro.json",
+            "installedSizeMB": 47
+        },
+        {
+            "modName": "GAMMA EXP Edition - AYDINS GRASS TWEAKS [ Summer ]",
+            "info": "",
+            "modType": "fomod",
+            "addonName": "AYDINS GRASS TWEAKS",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "Aydin's Grass Tweaks - SUMMER 3.0/gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "Aydin's Grass Tweaks - SUMMER TREES 3.0/gamedata"
+                },
+                {
+                    "priority": 2,
+                    "path": "Summer/gamedata",
+                    "addonName": "AYDINS GRASS TWEAKS SSS TERRAIN LOD"
+                }
+            ],
+            "installedSizeMB": 798
+        },
+        {
+            "modName": "GAMMA EXP Edition - Textures [ EXP ]",
+            "info": "",
+            "modType": "mod",
+            "addonName": "Expedition Textures",
+            "pathToGamedata": "gamedata",
+            "installedSizeMB": 961
+        },
+        {
+            "modName": "GAMMA EXP Edition - Heatvision",
+            "info": "",
+            "modType": "fomod",
+            "addonName": "Heatvision",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "Heatvision/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "installedSizeMB": 2,
+            "excludePaths": "exclude-heatvision.json"
+        },        
+        {
+            "modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED",
+            "info": "",
+            "modType": "fomod",
+            "addonName": "BEEF'S NVG, IMPROVED",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "Beef's NVGs/gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "Beef's NVGs - Patch (ES AND SSR)/gamedata"
+                },
+                {
+                    "priority": 2,
+                    "path": "Beef HGV/gamedata",
+                    "type": "patch"
+                },
+                {
+                    "priority": 3,
+                    "path": "Beef Improved FDAA Redone/gamedata",
+                    "type": "patch"
+                }                
+            ],
+            "excludePaths": "exclude-beef-improved.json",
+            "installedSizeMB": 1
+        },
+        {
+            "modName": "GAMMA EXP Edition - Shaders [ EXP ]",
+            "info": "Shaders pack mod: the original shaders from Expedition 2.3 updated to use Enhanced Shaders 1.10 and latest SSS version integration by me",
+            "modType": "fomod",
+            "addonName": "Expedition Shaders",
+            "pathToGamedata": [
+                {
+                    "path": "01 Enhanced Shaders - PBR/gamedata",
+                    "addonName": "Enhanced Shaders"
+                },
+                {
+                    "path": "02 Enhanced Color Grading/gamedata",
+                    "addonName": "Enhanced Shaders"
+                },
+                {
+                    "path": "Optional - Corrected Cubemaps/gamedata",
+                    "addonName": "Enhanced Shaders"
+                },
+                {
+                    "path": "Optional - Fixed Bloom/gamedata",
+                    "addonName": "Enhanced Shaders"
+                },
+                {
+                    "path": "Optional - shader_param controls/gamedata",
+                    "addonName": "Enhanced Shaders"
+                },
+                {
+                    "path": "gamedata",
+                    "addonName": "Expedition Shaders"
+                },
+                {
+                    "path": "GAMMA Patch/gamedata/shaders",
+                    "type": "patch"
+                },
+                {
+                    "path": "EXP_ES_PATCH/gamedata/shaders",
+                    "type": "patch"
+                },
+                {
+                    "path": "00 - MAIN FILE/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "00 - MAIN FILE (MV)/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },                
+                {
+                    "path": "00 - PATCH - [ Enhanced Shaders 1.10 ]/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "01 - AO/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "02 - SSS/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "03 - SSR/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "04 - SSR Water/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "05 - Rain/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "05 - Rain - Footsteps/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "05 - Rain - Footsteps/db/mods/ssfx_rain_footsteps.db0",
+                    "target": "db/mods/ssfx_rain_footsteps.db0",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "05 - Rain - HUD Raindrops/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "05 - Rain - Puddles/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "06 - Weapons DOF/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "07 - Indirect Light/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "08 - New Shadow & Light Features/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "09 - Interactive Grass/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "10 - Wind/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "11 - Terrain Upgrade/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "50 - PostProcess - LUT/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "51 - PostProcess - BLOOM/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "52 - PostProcess - Motion Blur/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "53 - PostProcess - TAA/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },             
+                {
+                    "path": "90 - SKY DEBANDING/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "91 - FLORA FIXES & IMPROVEMENTS/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "92 - FOG/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "93 - BLOOD DECALS/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "94 - IMPROVED GLOSS & WET SURFACES - [ ES Required ]/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "95 - PARALLAX/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "96 - GLASS/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "990 - ( EXTRA ) Soft Pulse/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "991 - ( EXTRA ) Laser+ [ BAS ]/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },
+                {
+                    "path": "992 - ( EXTRA ) Detectors+ [ DAR ]/gamedata",
+                    "addonName": "Screenspace Shaders"
+                },                
+                {
+                    "path": "EXP_SSS_PATCH/gamedata",
+                    "type": "patch"
+                },
+                {
+                    "path": "EXP_BeefNVGs improved/gamedata",
+                    "type": "patch"
+                },
+                {
+                    "path": "EXP Patch/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "excludePaths": "exclude-shaders.json",
+            "installedSizeMB": 234
+        },
+        {
+            "modName": "GAMMA EXP Edition - VFX [ EXP ]",
+            "info": "Adds Expedition visual effects",
+            "modType": "fomod",
+            "addonName": "Expedition VFX",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "VFX Patch/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "installedSizeMB": 1117
+        },
+        {
+            "modName": "GAMMA EXP Edition - Weather [ EXP ]",
+            "info": "",
+            "modType": "fomod",
+            "addonName": "Expedition Weather",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "EXP_Weather/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "installedSizeMB": 352
+        },
+        {
+            "modName": "GAMMA EXP Edition - Sounds",
+            "info": "",
+            "modType": "mod",
+            "addonName": "Expedition Sounds",
+            "pathToGamedata": "gamedata",
+            "installedSizeMB": 1074
+        },
+        {
+            "modName": "GAMMA EXP Edition - Music",
+            "info": "Adds all Expedition music in one mod",
+            "modType": "fomod",
+            "addonName": "Expedition Music",
+            "pathToGamedata": [
+                {
+                    "path": "gamedata"
+                },
+                {
+                    "path": "GAMMA Music Patch/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "installedSizeMB": 600
+        },
+        {
+            "modName": "GAMMA EXP Edition - UI Loading screens",
+            "info": "Enables Expedition 2.3 loading screens",
+            "modType": "mod",
+            "addonName": "Expedition UI Loading screens",
+            "pathToGamedata": "gamedata",
+            "installedSizeMB": 89
+        },
+        {
+            "modName": "GAMMA EXP Edition - HD Models [ EXP ]",
+            "info": "",
+            "modType": "mod",
+            "addonName": "Expedition HD Models",
+            "pathToGamedata": "gamedata",
+            "installedSizeMB": 14160
+        },
+        {
+            "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]",
+            "info": "",
+            "modType": "fomod",
+            "addonName": "Expedition HD Models Configs",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "NPC Patch/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "excludePaths": "exclude-npc_configs.json",
+            "installedSizeMB": 5
+        },
+        {
+            "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models on actor 3rd person view ]",
+            "info": "",
+            "modType": "patch",
+            "addonName": "",
+            "pathToGamedata": "Actor Patch/gamedata",
+            "installedSizeMB": 1
+        },        
+        {
+            "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Mod Requirements ]",
+            "info": "Change the HUD with the Dynamic HUD",
+            "modType": "fomod",
+            "addonName": "Barts_Good_Ammo_Counters",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "Bart's_Good_Ammo_Counters_V2.1_1.5.1/gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "gamedata",
+                    "addonName": "FireModeCheck"
+                },
+                {
+                    "priority": 2,
+                    "path": "MAIN FILE - Install first/gamedata",
+                    "addonName": "Ready_Or_Not_Check"
+                },
+                {
+                    "priority": 3,
+                    "path": "VERSION WITHOUT TEXT - Optional/gamedata",
+                    "addonName": "Ready_Or_Not_Check"
+                }
+            ],
+            "installedSizeMB": 8
+        },
+        {
+            "modName": "GAMMA EXP Edition - SIMPLE FLASHLIGHT REPLACER",
+            "info": "",
+            "modType": "fomod",
+            "addonName": "SIMPLE FLASHLIGHT REPLACER",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "00 Main/gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "Flashlight/custom/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "installedSizeMB": 11
+        },
+        {
+            "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]",
+            "info": "Change the HUD with the Dynamic HUD",
+            "modType": "fomod",
+            "addonName": "Dynahud Hud Manager",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "Dynahud/Main/gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "Dynahud/Skins/Common/gamedata"
+                },
+                {
+                    "priority": 2,
+                    "path": "Dynahud/Skins/Common BHS/gamedata"
+                },
+                {
+                    "priority": 3,
+                    "path": "Dynahud/Skins/Minimalistic Ammo Count/gamedata"
+                },
+                {
+                    "priority": 4,
+                    "path": "Dynahud/Patches/Hybrid BHS GAMMA/gamedata"
+                },
+                {
+                    "priority": 5,
+                    "path": "Dynahud/Options/EGUI Compass Waypoints Bottom/gamedata"
+                },
+                {
+                    "priority": 6,
+                    "path": "Dynahud/Patches/Companion UI/minimalistic/gamedata"
+                },
+                {
+                    "priority": 7,
+                    "path": "Dynahud/Patches/EGUI/dynahud/minimalistic ammo count/gamedata"
+                },
+                {
+                    "priority": 8,
+                    "path": "Dynahud/Patches/Icon Timers/gamedata"
+                }
+            ],
+            "installedSizeMB": 19
+        },
+        {
+            "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]",
+            "info": "Patches Dynahud to use BHSRO instead of BHS",
+            "modType": "fomod",
+            "addonName": "Dynahud Hud Manager",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "Dynahud/Skins/Common BHSRO/gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "Dynahud/Patches/BHSRO GAMMA/gamedata"
+                },
+                {
+                    "priority": 2,
+                    "path": "Dynahud/Patches/EGUI/dynahud/minimalistic ammo count/gamedata"
+                }
+            ],
+            "installedSizeMB": 1
+        },
+        {
+            "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]",
+            "info": "Patches Dynahud to use BHS Reworked instead of BHS",
+            "modType": "fomod",
+            "addonName": "Dynahud Hud Manager",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "Dynahud/Skins/BHS Reworked/gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "Dynahud/Patches/BHS Reworked/gamedata"
+                },
+                {
+                    "priority": 2,
+                    "path": "BHS Reworked/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "installedSizeMB": 4
+        },
+        {
+            "modName": "GAMMA EXP Edition - GAMMA Patch",
+            "info": "patches for GAMMA compatibility",
+            "modType": "patch",
+            "addonName": "",
+            "pathToGamedata": "GAMMA Patch/gamedata",
+            "installedSizeMB": 1
+        },
+        {
+            "modName": "GAMMA Enhanced GUI Menu",
+            "info": "ENHANCED GUI INC",
+            "modType": "fomod",
+            "addonName": "ENHANCED GUI INC",
+            "pathToGamedata": [
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logo_AMCM.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logo_GSCWorld.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logoGSC.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logoINC.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logoMODDB.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/logoSTALKER.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui"
+                },
+                {
+                    "path": "02- Main Menu/INC - 11 Enhanced GUI - Call of Pripyat Elements/gamedata"
+                },
+                {
+                    "path": "02- Main Menu/INC - 11 Enhanced GUI - Dynamic Backgrounds DLTX/gamedata"
+                },
+                {
+                    "path": "02- Main Menu/INC - 12 Enhanced GUI - Main Menu/gamedata"
+                },
+                {
+                    "path": "02- Main Menu/INC - 13 Enhanced GUI - Credits/gamedata"
+                },
+                {
+                    "path": "06- Patches/INC - 71 PATCH - Main Menu - MCM/gamedata"
+                },
+                {
+                    "path": "06- Patches/INC - 72 PATCH - Main Menu - Credits + MCM/gamedata"
+                },
+                {
+                    "path": "EGUI/Menu/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "excludePaths": "exclude-egui-menu.json",
+            "installedSizeMB": 162
+        },
+        {
+            "modName": "GAMMA Enhanced GUI Inventory",
+            "info": "ENHANCED GUI INC",
+            "modType": "fomod",
+            "addonName": "ENHANCED GUI INC",
+            "pathToGamedata": [
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/enhancedGUI",
+                    "target": "gamedata/textures/ui/enhancedGUI"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_menu.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_menu_factions.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_menu_new_tabs.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_monsters_pda.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_monsters_pda_1.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_monsters_pda_2.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_actor_monsters_pda_3.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_highlight.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_grid.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/enhancedGUI",
+                    "target": "gamedata/textures/ui/enhancedGUI"
+                },
+                {
+                    "path": "03- Inventory/INC - 22 Enhanced GUI - Condition Bars/gamedata"
+                },
+                {
+                    "path": "03- Inventory/INC - 22 Enhanced GUI - Details Screen/gamedata"
+                },
+                {
+                    "path": "03- Inventory/INC - 23 Enhanced GUI - Inventory/gamedata"
+                },
+                {
+                    "path": "03- Inventory/INC - 24 Enhanced GUI - Inventory Rank Faction Overlays/gamedata/configs/ui",
+                    "target": "gamedata/configs/ui"
+                },
+                {
+                    "path": "05- Faction HUD/INC - 61 Enhanced GUI - EGUI/gamedata/textures/ui/ui_actor_hint_wnd.dds"
+                },
+                {
+                    "path": "EGUI/Inventory/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "excludePaths": "exclude-egui-inventory.json",
+            "installedSizeMB": 103
+        },
+        {
+            "modName": "GAMMA Enhanced GUI HUD",
+            "info": "ENHANCED GUI INC",
+            "modType": "fomod",
+            "addonName": "ENHANCED GUI INC",
+            "pathToGamedata": [
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/enhancedGUI",
+                    "target": "gamedata/textures/ui/enhancedGUI"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_bars.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_hud.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_hud.thm"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_hud_grenade_mark.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_hud_grenade_mark.thm"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_hud_hit_mark.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_ingame2_common.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_ingame2_common.thm"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise.seq"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_00.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_00.thm"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_01.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_01.thm"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_02.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_02.thm"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_03.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_03.thm"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_04.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_noise_04.thm"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_01.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_01.thm"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_03.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_03.thm"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_04.dds"
+                },
+                {
+                    "path": "01- Essentials/INC - 01 Enhanced GUI - [CORE]/gamedata/textures/ui/ui_pda_anims_04.thm"
+                },
+                {
+                    "path": "04- HUD/INC - 52 Enhanced GUI - PDA/gamedata/configs",
+                    "target": "gamedata/configs"
+                },
+                {
+                    "path": "04- HUD/INC - 52 Enhanced GUI - PDA/gamedata/textures",
+                    "target": "gamedata/textures"
+                },
+                {
+                    "path": "04- HUD/INC - 52 Enhanced GUI - Compass/gamedata/configs/ui",
+                    "target": "gamedata/configs/ui"
+                },
+                {
+                    "path": "04- HUD/INC - 52 Enhanced GUI - Reworked Ammo Wheel/gamedata/configs/ui/resc/ui_wheel_companion.xml",
+                    "target": "gamedata/configs/ui/ui_wheel_companion.xml"
+                },
+                {
+                    "path": "04- HUD/INC - 52 Enhanced GUI - Reworked Ammo Wheel/gamedata/configs/ui/resc/ui_wheel_companion_16.xml",
+                    "target": "gamedata/configs/ui/ui_wheel_companion_16.xml"
+                },
+                {
+                    "path": "04- HUD/INC - 52 Enhanced GUI - Reworked Ammo Wheel/gamedata/textures",
+                    "target": "gamedata/textures"
+                },
+                {
+                    "path": "04- HUD/INC - 52 Enhanced GUI - Dialog Dynamic UI/gamedata"
+                },
+                {
+                    "path": "04- HUD/INC - 53 Enhanced GUI - HUD/gamedata/configs/ui",
+                    "target": "gamedata/configs/ui"
+                },
+                {
+                    "path": "06- Patches/INC - 90 PATCH - HUD - Body Health System/gamedata"
+                },
+                {
+                    "path": "05- Faction HUD/INC - 61 Enhanced GUI - EGUI/gamedata/textures/ui/ui_actor_hint_wnd.dds"
+                },
+                {
+                    "path": "EGUI/Hud/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "excludePaths": "exclude-egui-hud.json",
+            "installedSizeMB": 65
+        },
+        {
+            "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]",
+            "info": "",
+            "modType": "fomod",
+            "addonName": "Dynavision",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "Dynavision/Main/gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "01 - [REQUIRED] Atmospherics/gamedata/shaders/r3/settings_screenspace_LUT.h",
+                    "target": "gamedata/shaders/r3/settings_screenspace_LUT.h",
+                    "addonName": "ATMOSPHERICS"
+                },
+                {
+                    "priority": 2,
+                    "path": "01 - [REQUIRED] Atmospherics/gamedata/textures/shaders/lut_atlas.dds",
+                    "target": "gamedata/textures/shaders/lut_atlas.dds",
+                    "addonName": "ATMOSPHERICS"
+                }
+            ],
+            "installedSizeMB": 36
+        },
+        {
+            "modName": "GAMMA EXP Edition - Profile Dynavision Presets",
+            "info": "",
+            "modType": "patch",
+            "addonName": "",
+            "pathToGamedata": "Dynavision/gamedata",
+            "installedSizeMB": 1
+        }
+    ],
+    "customLoadOrderRules": [
+        {
+            "modName": "GAMMA EXP Edition - GAMMA Patch",
+            "action": "add"
+        },
+        {
+            "modName": "GAMMA EXP Edition - NPC Models Replacer",
+            "action": "add",
+            "before": "GAMMA EXP Edition - GAMMA Patch"
+        },
+        {
+            "modName": "GAMMA EXP Edition - HDetoxyfier [ Replaces NPC HD models to Vanilla ]",
+            "action": "add-disabled",
+            "before": "GAMMA EXP Edition - NPC Models Replacer"
+        },
+        {
+            "modName": "GAMMA EXP Edition - SIMPLE FLASHLIGHT REPLACER",
+            "action": "add",
+            "before": "GAMMA EXP Edition - HDetoxyfier [ Replaces NPC HD models to Vanilla ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]",
+            "action": "add-disabled",
+            "before": "GAMMA EXP Edition - SIMPLE FLASHLIGHT REPLACER"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]",
+            "action": "add-disabled",
+            "before": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]",
+            "action": "add",
+            "before": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Mod Requirements ]",
+            "action": "add",
+            "before": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - BHS Reworked",
+            "action": "add-disabled",
+            "before": "GAMMA EXP Edition - Dynahud Hud Manager [ Mod Requirements ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Body Health System Realistic Overhaul (BHSRO)",
+            "action": "add-disabled",
+            "before": "GAMMA EXP Edition - BHS Reworked"
+        },
+        {
+            "modName": "GAMMA EXP Edition - HUD",
+            "action": "add-disabled",
+            "before": "GAMMA EXP Edition - Body Health System Realistic Overhaul (BHSRO)"
+        },
+        {
+            "modName": "GAMMA Enhanced GUI HUD",
+            "action": "add",
+            "before": "GAMMA EXP Edition - HUD"
+        },
+        {
+            "modName": "GAMMA Enhanced GUI Inventory",
+            "action": "add",
+            "before": "GAMMA Enhanced GUI HUD"
+        },
+        {
+            "modName": "GAMMA Enhanced GUI Menu",
+            "action": "add",
+            "before": "GAMMA Enhanced GUI Inventory"
+        },
+        {
+            "modName": "GAMMA EXP Edition - UI Loading screens",
+            "action": "add",
+            "before": "GAMMA Enhanced GUI Menu"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Profile Dynavision Presets",
+            "action": "add",
+            "before": "GAMMA EXP Edition - UI Loading screens"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]",
+            "action": "add",
+            "before": "GAMMA EXP Edition - Profile Dynavision Presets"
+        },
+        {
+            "modName": "GAMMA EXP Edition - VFX [ EXP ]",
+            "action": "add",
+            "before": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED",
+            "action": "add",
+            "before": "GAMMA EXP Edition - VFX [ EXP ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Heatvision",
+            "action": "add",
+            "before": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Shaders [ EXP ]",
+            "action": "add-disabled",
+            "before": "GAMMA EXP Edition - Heatvision"
+        },        
+        {
+            "modName": "GAMMA EXP Edition - Weather [ EXP ]",
+            "action": "add",
+            "before": "GAMMA EXP Edition - Shaders [ EXP ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - AYDINS GRASS TWEAKS [ Summer ]",
+            "action": "add",
+            "before": "GAMMA EXP Edition - Weather [ EXP ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Textures [ EXP ]",
+            "action": "add",
+            "before": "GAMMA EXP Edition - AYDINS GRASS TWEAKS [ Summer ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Music",
+            "action": "add",
+            "before": "GAMMA EXP Edition - Textures [ EXP ]"
+        },
+        {
+            "modName": "GAMMA EXP Edition - Sounds",
+            "action": "add-disabled",
+            "before": "GAMMA EXP Edition - Music"
+        },
+        {
+            "action": "add-profile-separator",
+            "before": "GAMMA EXP Edition - Sounds"
+        },
+        {
+            "modName": "290- Atmospherics Shaders Weathers and Reshade Latest - Hippobot",
+            "action": "disable"
+        },
+        {
+            "modName": "190- Screen Space Shaders 23 - Ascii1457",
+            "action": "enable"
+        },
+        {
+            "modName": "188- Enhanced Shaders - KennShade",
+            "action": "enable"
+        },
+        {
+            "modName": "289- Grass Tweaks (reinstall for different options) - Aydin",
+            "action": "disable"
+        },
+        {
+            "modName": "G.A.M.M.A. Weathers",
+            "action": "disable"
+        },
+        {
+            "modName": "Roadside's Lens Flares",
+            "action": "disable"
+        },
+        {
+            "modName": "283- Autumn No Leaves LOD Fix - owencraig08",
+            "action": "disable"
+        },
+        {
+            "modName": "282- GAMMA Loading Screens - CS Eden",
+            "action": "disable"
+        },
+        {
+            "modName": "25- High Res Loading Screens - Bazingarrey",
+            "action": "disable"
+        },
+        {
+            "modName": "24- Skies Redux - d_nan",
+            "action": "disable"
+        },
+        {
+            "modName": "Particles Cinematic VFX 3.5 1.1.2 BOTZ YAWM",
+            "action": "disable"
+        }
+    ],
+    "gamePatches": [
+        {
+            "priority": "0",
+            "patchType": "reshade",
+            "addonName": "Expedition Reshade",
+            "resourceWorkspace": "Expedition Reshade",
+            "pathToPatch": "bin/reshade-shaders",
+            "patchTarget": "bin/reshade-shaders"
+        },
+        {
+            "priority": "1",
+            "patchType": "profile",
+            "pathToPatch": "Anomaly/EXP/bin",
+            "patchTarget": "bin"
+        },
+        {
+            "priority": "2",
+            "patchType": "profile",
+            "pathToPatch": "Anomaly/EXP/appdata",
+            "patchTarget": "appdata"
+        }
+    ]
+}

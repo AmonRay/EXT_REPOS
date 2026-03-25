@@ -1,0 +1,12 @@
+
+function base_egui_music()
+end
+if zzzzzz_mm_music then
+    base_egui_music = zzzzzz_mm_music.main_menu_on_init
+end
+
+function base_return_menu_music()
+end
+if return_menu_music then
+    base_return_menu_music = return_menu_music.main_menu_on_init
+end

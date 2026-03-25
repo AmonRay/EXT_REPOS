@@ -1,0 +1,10 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/dynamics"
+        },
+        {
+            "name": "gamedata/particles"
+        }
+    ]    
+}

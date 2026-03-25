@@ -1,0 +1,7 @@
+{
+    "excludePaths": [
+        {
+            "name": "zzzzzz_player_injuries_mp_new_attachments.script"
+        }
+    ]    
+}

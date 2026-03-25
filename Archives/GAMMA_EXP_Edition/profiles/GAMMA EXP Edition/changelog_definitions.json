@@ -1,0 +1,1020 @@
+
+{
+    "profileName": "GAMMA EXP Edition",
+    "changeLog": [
+        {
+            "version": 88,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"}
+            ]
+        },         
+        {
+            "version": 88,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"}
+            ]
+        },           
+        {
+            "version": 87,
+            "download":[
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Menu"}
+            ]
+        },           
+        {
+            "version": 86,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"}
+            ],
+            "delete":[
+
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"},
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"}
+            ]
+        },        
+        {
+            "version": 85,
+            "download":[
+                {"addonName": "Heatvision"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, IMPROVED"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Heatvision"},
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"},
+                { "modName": "GAMMA EXP Edition - BHS Reworked"}
+            ]
+        },         
+        {
+            "version": 84,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Screenspace Shaders"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},      
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},                 
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models on actor 3rd person view ]"}
+            ]
+        },        
+        {
+            "version": 83,
+            "download":[
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "Dynahud Hud Manager"}   
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"}
+            ]
+        },         
+        {
+            "version": 82,
+            "download":[
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "ATMOSPHERICS"}          
+            ],
+            "delete":[
+            ],
+            "update":[
+      
+            ]
+        },         
+        {
+            "version": 81,
+            "download":[
+            ],
+            "delete":[
+            ],
+            "update":[       
+            ]
+        },          
+        {
+            "version": 80,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},      
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"}          
+            ]
+        },         
+        {
+            "version": 79,
+            "download":[
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA Enhanced GUI Menu"}
+            ]
+        },        
+        {
+            "version": 78,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"}
+            ]
+        },
+        {
+            "version": 77,
+            "download":[    
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "ATMOSPHERICS"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"}
+            ]
+        },        
+        {
+            "version": 76,
+            "download":[
+                {"addonName": "Dynahud"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA EXP Edition - Body Health System Realistic Overhaul (BHSRO)"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"}
+            ]
+        },         
+        {
+            "version": 75,
+            "download":[            
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Menu"}
+            ]
+        },         
+        {
+            "version": 74,
+            "download":[
+                {"addonName": "FireModeCheck"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Mod Requirements ]"}          
+            ]
+        },         
+        {
+            "version": 73,
+            "download":[   
+                {"addonName": "NPC Models Replacer"}           
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - NPC Models Replacer"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - HDetoxyfier [ Replaces NPC HD models to Vanilla ]"}
+            ]
+        },        
+        {
+            "version": 72,
+            "download":[              
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"}
+            ]
+        },
+        {
+            "version": 71,
+            "download":[
+                {"addonName": "ENHANCED GUI INC"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}                
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"}
+            ]
+        },          
+        {
+            "version": 70,
+            "download":[
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}                
+            ],
+            "delete":[
+            ],
+            "update":[
+            ]
+        },          
+        {
+            "version": 69,
+            "download":[
+                {"addonName": "ATMOSPHERICS"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"}
+            ]
+        },            
+        {
+            "version": 68,
+            "download":[
+                {"addonName": "ATMOSPHERICS"}
+                
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"}
+            ]
+        },        
+        {
+            "version": 67,
+            "download":[
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"}
+            ]
+        },         
+        {
+            "version": 66,
+            "download":[
+                {"addonName": "ATMOSPHERICS"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"}
+            ]
+        },         
+        {
+            "version": 65,
+            "download":[
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "Dynahud"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"}
+            ]
+        },        
+        {
+            "version": 64,
+            "download":[
+                {"addonName": "ATMOSPHERICS"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"}
+            ]
+        },            
+        {
+            "version": 63,
+            "download":[
+                {"addonName": "ATMOSPHERICS"}
+            ],
+            "delete":[
+            ],
+            "update":[
+            ]
+        },         
+        {
+            "version": 62,
+            "download":[
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "ATMOSPHERICS"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Beef's NVG Patch [ requires main mod enabled ]"},
+                { "modName": "GAMMA EXP Edition - Adds GAMMA\u0027s music pack as well"},
+                { "modName": "GAMMA EXP Edition - VFX"},
+                { "modName": "GAMMA EXP Edition - Environment"},
+                { "modName": "GAMMA EXP Edition - Weather"},
+                { "modName": "GAMMA EXP Edition - UI"},
+                { "modName": "GAMMA EXP Edition - HUD"},
+                { "modName": "GAMMA EXP Edition - NPC"},
+                { "modName": "GAMMA EXP Edition - NPC Config"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, IMPROVED"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Music"},
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Textures [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"}
+            ]
+        },        
+        {
+            "version": 61,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "Dynavision"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"}
+            ]
+        },         
+        {
+            "version": 60,
+            "download":[
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"}
+            ]
+        },         
+        {
+            "version": 59,
+            "download":[
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"}
+            ]
+        },         
+        {
+            "version": 58,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "BHS Reworked"}
+            ],
+            "delete":[
+            ],
+            "update":[     
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},     
+                { "modName": "GAMMA EXP Edition - BHS Reworked"},     
+                { "modName": "GAMMA EXP Edition - Body Health System Realistic Overhaul (BHSRO)"}
+            ]
+        },         
+        {
+            "version": 56,
+            "download":[
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"}
+            ]
+        },           
+        {
+            "version": 55,
+            "download":[
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+            ]
+        },         
+        {
+            "version": 54,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[    
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well]"}
+            ],
+            "update":[     
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},     
+                { "modName": "GAMMA EXP Edition - UI Loading screens"}
+            ]
+        },       
+        {
+            "version": 53,
+            "download":[
+                {"addonName": "ENHANCED GUI INC"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA Enhanced GUI HUD"}                
+            ]
+        },    
+        {
+            "version": 52,
+            "download":[
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+            ]
+        },        
+        {
+            "version": 51,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"}
+            ],
+            "delete":[    
+            ],
+            "update":[     
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"}     
+            ]
+        },          
+        {
+            "version": 50,
+            "download":[
+                {"addonName": "Dynavision"}
+            ],
+            "delete":[    
+            ],
+            "update":[     
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"}          
+            ]
+        },        
+        {
+            "version": 49,
+            "download":[
+                {"addonName": "Dynavision"}
+            ],
+            "delete":[    
+            ],
+            "update":[     
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"}          
+            ]
+        },         
+        {
+            "version": 48,
+            "download":[                 
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "Dynavision"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "BHSRO"}
+            ],
+            "delete":[    
+            ],
+            "update":[     
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition - Body Health System Realistic Overhaul (BHSRO)"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"}          
+            ]
+        },         
+        {
+            "version": 47,
+            "download":[                 
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "Dynavision"}
+            ],
+            "delete":[    
+            ],
+            "update":[     
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"}          
+            ]
+        },        
+        {
+            "version": 46,
+            "download":[        
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "Dynavision"}                
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"}                   
+            ]
+        },        
+        {
+            "version": 45,
+            "download":[        
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "Dynavision"},
+                {"addonName": "AYDINS GRASS TWEAKS"},
+                {"addonName": "AYDINS GRASS TWEAKS SSS TERRAIN LOD"}                    
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA EXP Edition - AYDINS GRASS TWEAKS [ Summer ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"}                        
+            ]
+        },          
+        {
+            "version": 44,
+            "download":[        
+                {"addonName": "Dynavision"},
+                {"addonName": "SIMPLE FLASHLIGHT REPLACER"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "BEEF'S NVG, IMPROVED"}                           
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, IMPROVED"},
+                { "modName": "GAMMA EXP Edition - SIMPLE FLASHLIGHT REPLACER"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2.3 ]"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"}   
+            ]
+        },
+        {
+            "version": 43,
+            "download":[        
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "Dynavision"},
+                {"addonName": "ATMOSPHERICS"}                              
+            ],
+            "delete":[    
+                { "modName": "GAMMA EXP Edition - Ground Textures"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"}             
+            ]
+        },         
+        {
+            "version": 42,
+            "download":[
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Shaders [ ATMOS ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ] [ ATMOS ]"}
+            ],
+            "update":[
+            ]
+        },        
+        {
+            "version": 41,
+            "download":[
+                {"addonName": "Screenspace Shaders Legacy"},
+                {"addonName": "ATMOSPHERICS"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Shaders"},
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders 1.10"},
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders EXP Patch"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX EXP Patch"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP LEGACY ]"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA EXP Edition - Shaders [ ATMOS ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ] [ ATMOS ]"}
+            ]
+        },
+        {
+            "version": 40,
+            "download":[
+                {"addonName": "ENHANCED GUI INC"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Screenspace Shaders"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA EXP Edition - SSFX EXP Patch"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"}            
+            ]
+        },                 
+        {
+            "version": 39,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"}
+            ],
+            "delete":[
+                { "modName":  "GAMMA EXP Edition - SSFX EXP Patch "}
+            ],
+            "update":[
+                { "modName":  "GAMMA EXP Edition - SSFX EXP Patch"},  
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"}
+            ]
+        },          
+        {
+            "version": 38,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Beef's NVG [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - LAM Patch"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA EXP Edition - Shaders"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - SSFX EXP Patch"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders EXP Patch"},
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders 1.10"}
+            ]
+        },         
+        {
+            "version": 37,
+            "download":[
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "Enhanced Shaders"},
+                {"addonName": "Enhanced Shaders EXP Patch"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - SSFX Settings"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders 1.10"},
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders EXP Patch"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX EXP Patch"},
+                { "modName": "GAMMA EXP Edition - Beef's NVG [ OPTIONAL ]"}
+            ]
+        },      
+        {
+            "version": 36,
+            "download":[
+                {"addonName": "ENHANCED GUI INC"},
+                {"addonName": "Dynavision"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX Settings"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"}
+            ]
+        },
+        {
+            "version": 35,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"}
+            ]
+        },                 
+        {
+            "version": 34,
+            "download":[
+            ],
+            "delete":[
+            ],
+            "update":[
+                
+            ]
+        },         
+        {
+            "version": 33,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Screenspace Shaders"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},                
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX Settings"},
+                { "modName": "GAMMA EXP Edition - SSFX Fog [ Replaces EXP FOG ]"}
+            ]
+        },         
+        {
+            "version": 32,
+            "download":[
+                {"addonName": "Screenspace Shaders"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX Settings"},
+                { "modName": "GAMMA EXP Edition - SSFX Fog [ Replaces EXP FOG ]"}
+            ]
+        },            
+        {
+            "version": 31,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Screenspace Shaders"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - SSFX"}
+            ]
+        },          
+        {
+            "version": 30,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Dynamic HUD [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynamic HUD [ Core ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Mod Requirements ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"}
+            ]
+        },         
+        {
+            "version": 29,
+            "download":[
+                {"addonName": "Dynamic Hud"}
+            ],
+            "delete":[        
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynamic HUD [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Shaders"},
+                { "modName": "GAMMA EXP Edition - HUD"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"}
+            ]
+        },         
+        {
+            "version": 28,
+            "download":[
+                {"addonName": "Screenspace Shaders"}
+            ],
+            "delete":[        
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX Settings"}
+            ]
+        },        
+        {
+            "version": 27,
+            "download":[
+            ],
+            "delete":[        
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - SSFX"}
+            ]
+        },          
+        {
+            "version": 26,
+            "download":[
+                {"addonName": "Barts_Good_Ammo_Counters"},
+                {"addonName": "FireModeCheck"},
+                {"addonName": "Ready_Or_Not_Check"},
+                {"addonName": "Dynamic Hud"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - HUD Bottom Compass [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - HUD Top Compass [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - HUD Hide Ammo [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - HUD"}                
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX Settings"},
+                { "modName": "GAMMA EXP Edition - HUD"},
+                { "modName": "GAMMA EXP Edition - Dynamic HUD [ Core ]"},          
+                { "modName": "GAMMA EXP Edition - Dynamic HUD [ Reinstall to configure ]"}
+            ]
+        },        
+        {
+            "version": 25,
+            "download":[
+                {"addonName": "Expedition 2.3 - Mandatory Pach"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - HD Models [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - HUD"},
+                { "modName": "GAMMA EXP Edition - DYNAMIC HUD"}
+            ]
+        },          
+        {
+            "version": 24,
+            "download":[
+                {"addonName": "Screenspace Shaders"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - LAM Patch"},
+                { "modName": "GAMMA EXP Edition - Shaders"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX Fog [ Replaces EXP FOG ]"},
+                { "modName": "GAMMA EXP Edition - HUD"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - HUD Bottom Compass [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - HUD Top Compass [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - HUD Hide Ammo [ OPTIONAL ]"}
+            ]
+        },         
+        {
+            "version": 23,
+            "download":[
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Beef's NVG [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - SSFX"},                
+                { "modName": "GAMMA EXP Edition - HUD"},
+                { "modName": "GAMMA EXP Edition - Adds GAMMA's music pack as well"}
+            ]
+        },          
+        {
+            "version": 22,
+            "download":[
+                {"addonName": "Expedition 2.3 - Mandatory Pach"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - GAMMA HUD"},
+                { "modName": "GAMMA EXP Edition - Expedition HUD [ OPTIONAL ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - HUD"},
+                { "modName": "GAMMA EXP Edition - HUD Bottom Compass [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - HUD Top Compass [ OPTIONAL ]"}
+            ]
+        },         
+        {
+            "version": 21,
+            "download":[
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Textures Environment"},
+                { "modName": "GAMMA EXP Edition - Textures Ground"},
+                { "modName": "GAMMA EXP Edition - Beef's NVG"},
+                { "modName": "GAMMA EXP Edition - Mutants"},
+                { "modName": "GAMMA EXP Edition - Textures SEVA & EXO Body"},
+                { "modName": "GAMMA EXP Edition - Dynamic HUD"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ] Patch"},
+                { "modName": "GAMMA EXP Edition - Player"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Textures [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Ground Textures"},               
+                { "modName": "GAMMA EXP Edition - Shaders"},
+                { "modName": "GAMMA EXP Edition - Beef's NVG [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - UI"},
+                { "modName": "GAMMA EXP Edition - HD Models [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - Restore Important NPC old models [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - GAMMA HUD"},
+                { "modName": "GAMMA EXP Edition - Expedition HUD [ OPTIONAL ]"}
+            ]
+        },         
+        {
+            "version": 20,
+            "download":[
+                {"addonName": "Expedition 2.3 - Mandatory Pach"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},                
+                { "modName": "GAMMA EXP Edition - Beef's NVG"},                
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - UI"}
+            ]
+        },        
+        {
+            "version": 19,
+            "download":[],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders"},
+                { "modName": "GAMMA EXP Edition - Beef's NVG"},                
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Mutants"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"}
+            ]
+        },
+        {
+            "version": 16,
+            "download":[],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - GAMMA LAM Patch [ Optional ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"},
+                { "modName": "GAMMA EXP Edition - Beef's NVG"}
+            ]
+        },        
+        {
+            "version": 15,
+            "download":[],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"}
+            ]
+        }
+    ]     
+}

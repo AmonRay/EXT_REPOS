@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_wpn_desert_eagle">
+		<text>Desert Eagle</text>
+	</string>
+	<string id="st_wpn_desert_eagle_custom">
+		<text>Desert Eagle (custom)</text>
+	</string>
+	<string id="st_wpn_desert_eagle_nimble">
+		<text>Desert Eagle "Steppe Eagle"</text>
+	</string>        
+</string_table>

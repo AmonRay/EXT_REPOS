@@ -1,0 +1,1 @@
+copmatibility patch to make the gun laser be visible with Expedition shaders alongside Custom and Atmospherics 

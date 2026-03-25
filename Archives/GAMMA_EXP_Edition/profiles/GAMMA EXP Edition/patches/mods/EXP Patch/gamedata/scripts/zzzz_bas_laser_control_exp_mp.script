@@ -1,0 +1,9 @@
+function zzz_bas_laser_control.set_laser(arg)
+    local param_value = 1
+    if arg == 1 then
+        param_value = 1.001
+    end
+
+    exec_console_cmd(string.format("shader_param_5 %s, 0, 0, 0", param_value))
+--	printf("SNK argument:[%s]",arg)
+end

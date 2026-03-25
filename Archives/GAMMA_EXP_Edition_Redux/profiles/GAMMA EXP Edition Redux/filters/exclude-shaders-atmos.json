@@ -1,0 +1,13 @@
+{
+    "excludePaths": [
+        {
+            "name": "01 - [REQUIRED] Atmospherics/gamedata/shaders"
+        },
+        {
+            "name": "01 - [REQUIRED] Atmospherics/gamedata/textures/scripts"
+        },
+        {
+            "name": "01 - [REQUIRED] Atmospherics/gamedata/textures/shaders"
+        }
+    ]    
+}

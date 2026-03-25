@@ -1,0 +1,7 @@
+{
+    "excludePaths": [
+        {
+            "name": "demonized_time_events.script"
+        }
+    ]    
+}

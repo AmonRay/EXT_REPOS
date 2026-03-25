@@ -1,0 +1,25 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/dynamics"
+        },
+        {
+            "name": "gamedata/particles"
+        },
+        {
+            "name": "gamedata/meshes/dynamics/devices/dev_glowstick"
+        },
+        {
+            "name": "gamedata/meshes/dynamics/devices/dev_binoculars"
+        },
+        {
+            "name": "gamedata/meshes/dynamics/devices/dev_bolt"
+        },
+        {
+            "name": "gamedata/configs/items/items/items_devices_gamma.ltx.mohidden"
+        },
+        {
+            "name": "gamedata/configs/items/items/items_devices_pda_reanimation.ltx.mohidden"
+        }   
+    ]    
+}

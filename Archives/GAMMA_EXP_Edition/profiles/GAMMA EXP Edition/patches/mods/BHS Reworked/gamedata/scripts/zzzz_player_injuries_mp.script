@@ -1,0 +1,34 @@
+-- meds config from GAMMA
+
+zzz_player_injuries.medkits={
+    morphine={head=8,torso=5,rightleg=4,leftleg=4,rightarm=4,leftarm=4},
+    rebirth={head=11,torso=11,rightleg=5,leftleg=5,rightarm=5,leftarm=5},
+    adrenalin={head=10,torso=10,rightleg=5,leftleg=5,rightarm=5,leftarm=5},
+    cocaine={head=3,torso=3},
+    analgetic={head=4,torso=4,rightleg=2,leftleg=2,rightarm=2,leftarm=2},
+    salicidic_acid={head=2,torso=2,rightleg=2,leftleg=2,rightarm=2,leftarm=2},
+    stimpack={head=5,torso=5,rightleg=3,leftleg=3,rightarm=3,leftarm=3},
+    stimpack_army={head=5,torso=7,rightleg=3,leftleg=3,rightarm=3,leftarm=3},
+    stimpack_scientic={head=6,torso=9,rightleg=4,leftleg=4,rightarm=4,leftarm=4},
+    medkit={head=5,torso=5,rightleg=2,leftleg=2,rightarm=2,leftarm=2},
+    medkit_army={head=7,torso=7,rightleg=3,leftleg=3,rightarm=3,leftarm=3},
+    medkit_scientic={head=9,torso=9,rightleg=4,leftleg=4,rightarm=4,leftarm=4},
+    jgut={rightleg=5,leftleg=5,rightarm=5,leftarm=5},
+    survival_kit={torso=11,rightleg=3,leftleg=3,rightarm=3,leftarm=3},
+    bandage={torso=3,rightleg=3,leftleg=3,rightarm=3,leftarm=3},
+}
+
+zzz_player_injuries.healhelp={
+    drug_anabiotic	= {head=11,torso=11,rightleg=11,leftleg=11,rightarm=11,leftarm=11},
+    rebirth	= {head=8,torso=8,rightleg=5,leftleg=5,rightarm=5,leftarm=5},
+    survival_kit	= {head=5,torso=5,rightleg=3,leftleg=3,rightarm=3,leftarm=3},
+    tetanus	= {head=3,torso=3,rightleg=3,leftleg=3,rightarm=3,leftarm=3},
+    akvatab	= {rightleg=4,leftleg=4,rightarm=4,leftarm=4},
+    yadylin	= {head=4,torso=4,rightleg=2,leftleg=2,rightarm=2,leftarm=2},
+    antibio_chlor	= {rightarm=1,leftarm=1},
+    antibio_sulfad	= {rightleg=1,leftleg=1},
+    drug_antidot	= {head=3,torso=3},
+    drug_coagulant	= {torso=4},
+    stimpack_army	=  {head=2,torso=2,rightleg=1,leftleg=1,rightarm=1,leftarm=1},
+    stimpack_scientic={head=4,torso=4,rightleg=1,leftleg=1,rightarm=1,leftarm=1},
+}

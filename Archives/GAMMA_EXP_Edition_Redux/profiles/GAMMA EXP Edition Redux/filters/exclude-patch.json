@@ -1,0 +1,10 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/configs"
+        },
+        {
+            "name": "gamedata/scripts"
+        }
+    ]    
+}

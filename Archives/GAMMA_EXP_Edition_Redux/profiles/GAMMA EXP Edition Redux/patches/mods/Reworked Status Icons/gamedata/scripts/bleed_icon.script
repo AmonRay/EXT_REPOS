@@ -1,0 +1,28 @@
+--[[
+
+	Bleed icon script made by RavenAscendant
+	2022/9/1
+	
+--]]
+
+
+function actor_on_first_update()	
+	actor_status.add_indicator("Bleeding"       	   	, { index= 15 	,typ= "state"	,functor= {"bleed_icon","get_bleeding",true}	                    ,icon= "ui\\alticons\\bleed.dds"           ,background= "ui\\alticons\\bg5.dds"	,anim_icon= true	,anim_bk= false  })
+end
+
+function on_game_start()
+	RegisterScriptCallback("actor_on_first_update",actor_on_first_update)
+end
+
+function get_bleeding(visual)
+	local bleeding = db.actor.bleeding
+	if (not visual) then
+		return bleeding
+	end
+	
+	-- for indicator
+	if bleeding and bleeding > 0 then
+		return clamp(math.ceil(bleeding * 4), 0,4)
+	end
+	return 0
+end

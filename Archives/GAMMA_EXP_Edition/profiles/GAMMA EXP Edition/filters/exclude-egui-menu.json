@@ -1,0 +1,21 @@
+{
+    "excludePaths": [
+        { "name": "ui_actor_dialog_screen"},
+        { "name": "ui_actor_hint"},
+        { "name": "ui_actor_menu"},
+        { "name": "ui_actor_monsters"},
+        { "name": "ui_bars"},
+        { "name": "ui_grid"},
+        { "name": "ui_highlight"},      
+        { "name": "ui_hud"},
+        { "name": "ui_ingame"},
+        { "name": "ui_pda"},
+        { "name": "ui_noise"},
+        { "name": "ui_options.script"},
+        { "name": "gamedata/scripts/resc"},
+        { "name": "motion_icon.xml"},
+        {
+            "name": "gamedata/textures/ui/ui_actor_sleep_screen.dds"
+        }
+    ]    
+}

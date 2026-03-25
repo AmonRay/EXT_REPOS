@@ -1,0 +1,31 @@
+#include "common.h"
+
+struct 	v2p
+{
+ 	float2 	tc0: 		TEXCOORD0;	// base
+// 	float2 	tc1: 		TEXCOORD1;	// lmap
+  	float3	c0:			COLOR0;		// sun
+};
+float4 shader_param_5;
+//////////////////////////////////////////////////////////////////////////////////////////
+// Pixel
+float4 main( v2p I ) : SV_Target
+{
+//	float4	t_base 	= tex2D	(s_base,I.tc0);
+	float4	t_base 	= s_base.Sample( smp_base, I.tc0 );
+
+	int laser_switch = 0;
+	if (shader_param_5.x == 1.001f) 
+	{
+		laser_switch = 1;
+	}else
+	{
+		laser_switch = 0;
+	} 
+
+	float3	light	= I.c0;
+	float3	final 	= light*t_base*2*laser_switch;
+
+	// out
+	return  float4	(final.r,final.g,final.b,t_base.a);
+}

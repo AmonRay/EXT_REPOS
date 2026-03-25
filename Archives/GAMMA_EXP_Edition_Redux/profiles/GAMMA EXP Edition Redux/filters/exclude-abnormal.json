@@ -1,0 +1,19 @@
+{
+    "excludePaths": [
+        {
+            "name": "w_alpha_r4_dark"
+        },
+        {
+            "name": "w_ccgim_original"
+        },
+        {
+            "name": "w_cggim2_foggy"
+        },
+        {
+            "name": "w_cloudy_3"
+        },
+        {
+            "name": "w_partly_ghostt"
+        }
+    ]    
+}

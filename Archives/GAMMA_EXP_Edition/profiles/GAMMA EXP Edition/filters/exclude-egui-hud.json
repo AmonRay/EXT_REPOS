@@ -1,0 +1,25 @@
+{
+    "excludePaths": [
+        {
+            "name": "ui_options.script"
+        },
+        {
+            "name": "gamedata/scripts/resc"
+        },
+        {
+            "name": "motion_icon.xml"
+        },
+        {
+            "name": "gamedata/configs/ui/resc"
+        },     
+        {
+            "name": "gamedata/configs/ui/resc_textures_descr"
+        },
+        {
+            "name": "gamedata/configs/ui/ui_hud.xml"
+        },
+        {
+            "name": "gamedata/textures/ui/ui_actor_sleep_screen.dds"
+        }                       
+    ]    
+}

@@ -1,0 +1,7 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/scripts/magazines_loot.script"
+        }
+    ]    
+}

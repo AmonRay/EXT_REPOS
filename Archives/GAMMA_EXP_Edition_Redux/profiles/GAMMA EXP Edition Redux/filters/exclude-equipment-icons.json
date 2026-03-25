@@ -1,0 +1,16 @@
+{
+    "excludePaths": [
+        {
+            "name": "mod_system_z_AL_Artifacts.ltx"
+        },
+        {
+            "name": "mod_system_z_AL_FoodDrinks.ltx"
+        },
+        {
+            "name": "ui_tisk_repair.dds"
+        },
+        {
+            "name": "mod_system_z_AL_TiskRepairExtra.ltx"
+        }
+    ]    
+}

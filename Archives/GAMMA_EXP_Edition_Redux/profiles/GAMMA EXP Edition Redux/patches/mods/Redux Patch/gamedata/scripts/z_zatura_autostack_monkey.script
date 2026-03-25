@@ -1,0 +1,24 @@
+zatura_autostack.actor_on_item_take = function(itm)
+	--printf("#actor took "..tostring(itm:section()))
+	inv_changed = true
+end
+
+zatura_autostack.actor_on_item_take_from_box = function(box, itm)
+	--printf("#actor took"..tostring(itm:section()).." from box "..tostring(box:section()))
+	inv_changed = true
+end
+
+zatura_autostack.actor_on_item_put_in_box = function(box, itm)
+	--printf("#actor put"..tostring(itm:section()).." in box "..tostring(box:section()))
+	inv_changed = true
+end
+
+zatura_autostack.actor_on_item_use = function(itm)
+	--printf("#actor used "..tostring(itm:section()))
+	inv_changed = true
+end
+
+zatura_autostack.actor_on_item_use = function(itm)
+	--printf("#actor dropped "..tostring(itm:section()))
+	inv_changed = true
+end

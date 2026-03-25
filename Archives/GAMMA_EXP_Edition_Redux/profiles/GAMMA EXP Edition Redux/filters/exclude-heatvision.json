@@ -1,0 +1,10 @@
+{
+    "excludePaths": [
+        {
+            "name": "models_laserbeam.ps"
+        },
+        {
+            "name": "gbuffer_stage.h"
+        }        
+    ]    
+}

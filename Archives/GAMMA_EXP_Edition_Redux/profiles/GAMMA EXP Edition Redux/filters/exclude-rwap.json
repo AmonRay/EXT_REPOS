@@ -1,0 +1,52 @@
+{
+    "excludePaths": [
+        {
+            "name": "wpn_am17"
+        },
+        {
+            "name": "wpn_amb17"
+        },  
+        {
+            "name": "wpn_am17_rwap"
+        },
+        {
+            "name": "wpn_amb17_rwap"
+        },              
+        {
+            "name": "w_am17_rwap.ltx"
+        },
+        {
+            "name": "w_amb17_rwap.ltx"
+        },                        
+        {
+            "name": "mod_npc_loadouts_rwapam17.ltx"
+        },
+        {
+            "name": "mod_npc_loadouts_rwapamb17.ltx"
+        },
+        {
+            "name": "mod_parts_rwapam17.ltx"
+        },                
+        {
+            "name": "mod_parts_rwapamb17.ltx"
+        },
+        {
+            "name": "w_rwapam17_mag.ltx"
+        },                
+        {
+            "name": "w_rwapamb17_mag.ltx"
+        },        
+        {
+            "name": "loadouts_injector.script"
+        },        
+        {
+            "name": "wpn_addon_crosshair_red_dot.dds"
+        },        
+        {
+            "name": "wpn_crosshair_eotech_dynamic.dds"
+        },        
+        {
+            "name": "wpn_crosshair_eotech_dynamic_far.dds"
+        } 
+    ]    
+}

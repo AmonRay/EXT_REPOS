@@ -1,0 +1,398 @@
+{
+    "profileName": "Expedition HD Models",
+    "profileType": "standalone",
+    "profileCreator": "Strangerism",
+    "url": "",
+    "version": 2,
+    "extVersion": 0.59,    
+    "addonsVersion": 1,
+    "customModsVersion": 1,
+    "settingsVersion": 1,
+    "info": [
+        {
+            "line": "Expedition HD Models is a port of the Anomaly Expedition 2.3 HD model to GAMMA D.U.X models "
+        },
+        {
+            "line": "The Expedition HD models will integrate with the D.U.X. models such that: "
+        },
+        {
+            "line": "- Most vanilla named NPC (vanilla stalker from bases, traders and important NPC) in every map are replaced with the HD models equivalent "
+        },                
+        {
+            "line": "- All simulation spawns and non vanilla NPC (quests givers and any task faction squad spawn) should be a mix of D.U.X. models and HD models "
+        },
+        {
+            "line": "This merge allows you to migrate your current gamma save and play with the new HD models and minimize any crashes due to quests and GAMMA compatibility as a whole "
+        },
+        {
+            "line": "The HD models spawing mechanics can be very random, spawing at a base at a new game you won't necessarily see stalkers with new models but keep playing and they will show up "
+        },
+        {
+            "line": "This porting is the same as in the profile GAMMA EXP Complete Edition and no crashes have been reported in a while "
+        },
+        {
+            "line": "If you have a crash please report it to the profile thread "
+        },
+        {
+            "line": "PAY ATTENTION: this profile only installs three mods in MO, you have to enable them in your modlist "
+        },
+        {
+            "line": "The NPC Models from Expedition is a Gunslinger NPC and HD Models port built by Gerard11 "
+        }                   
+    ],
+    "installationDiskspaceRequirementMB": "57473",
+    "finalDiskspaceRequirementMB": "14337",
+    "installCompletionMessage": [
+        {
+            "line": " 1. MEET THE REQUIREMENTS "
+        },
+        {
+            "line": "       The mods installed by this profile only works with the latest GAMMA 0.9 "
+        },
+        {
+            "line": "  "
+        },                            
+        {
+            "line": " 2. LAUNCHING THE GAME FOR THE FIRST TIME "
+        },
+        {
+            "line": "       enable the two mods installed by this profile "
+        },
+        {
+            "line": "           - `Expedition HD Models - NPC`                                  contains all most model assets from Expedition modpack including the HD models "
+        },
+        {
+            "line": "                                                                           if you don't mind overwriting any GAMMA model asset, put it at the end otherwise place it at the very top of your modlist; e.g before `23- THAP Rework - IENCE` "
+        },            
+        {
+            "line": "           - `Expedition HD Models - Config`                               Toggle to enable/disable HD Models. You cannot disable HD models in a save that has NPC with HD models spawned "
+        },
+        {
+            "line": "           - `Expedition HD Models - HDetoxyfier`                          Replaces on the fly (in game) HD models with vanilla models, it requires NPC Visual Replacer to be enabled "
+        },                            
+        {
+            "line": "  "
+        },                                  
+        {
+            "line": " 6. CREDITS "
+        },
+        {
+            "line": "       Check the Expedition ModDb page's Credits section for credits "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": "           https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151 "
+        },
+        {
+            "line": "  "
+        },
+        {
+            "line": "       HD models port "
+        },
+        {
+            "line": "           The NPC Models from Expedition is a Gunslinger NPC and HD Models port built by Gerard11 "
+        },
+        {
+            "line": "  "
+        }
+    ],
+    "addons": [
+        {
+            "addonName": "Expedition 2.3 (Part 1)",
+            "info": "",
+            "addonType": "mod",
+            "addonSizeMB": 90,
+            "forceManualDl": "true",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1_u7Y80E8cXY8VjXy_P-UuZJ2YOfpNv_O/view",
+            "resourceFilename": "Stalker_Anomaly_Expedition_2.3 - Part 1.7z",
+            "resourceWorkspace": "Expedition 2.3 (Part 1)",
+            "workspacedSizeMB": 301,
+            "keepWorkspace": "true",
+            "hash": "1E3006213BDB282A8A7BE76EF195FD1C3AB83C2E1B9CAD39F2D8449654EF0CE9"
+        },
+        {
+            "addonName": "Expedition 2.3 (Part 2)",
+            "info": "",
+            "addonType": "mod",
+            "addonSizeMB": 5955,
+            "forceManualDl": "true",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1rGRM_yk-cvUt0G_Dr0L851e3TaTdjP-Q/view",
+            "resourceFilename": "Stalker_Anomaly_Expedition_2.3 - Part 2.7z",
+            "resourceWorkspace": "Expedition 2.3 (Part 2)",
+            "workspacedSizeMB": 10793,
+            "keepWorkspace": "true",
+            "hash": "9B65397063027162B86A8918EFC5D88B532BF0E438F9CA46F3470A2F59FFBF55"
+        },
+        {
+            "addonName": "Expedition 2.3 (Part 3)",
+            "info": "",
+            "addonType": "mod",
+            "addonSizeMB": 8852,
+            "forceManualDl": "true",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1TgE72dsuYIXT_W5Z5XN2yQ2iw510r5PO/view",
+            "resourceFilename": "Stalker_Anomaly_Expedition_2.3 - Part 3.7z",
+            "resourceWorkspace": "Expedition 2.3 (Part 3)",
+            "workspacedSizeMB": 10230,
+            "keepWorkspace": "true",
+            "hash": "49880156D1731331CF4C9EDBD46DE64A54C904C7303AF1BC986B516081ED6A2D"
+        },
+        {
+            "addonName": "Expedition 2.3 - Mandatory Pach",
+            "info": "",
+            "addonType": "mod",
+            "forceManualDl": "true",
+            "addonUrl": "https://www.moddb.com/mods/stalker-anomaly/addons/expedition-graphical-overhaul-addon-for-anomaly-151",
+            "fileUrl": "https://drive.google.com/file/d/1Lj9132KN3SGcMw8hCmOuYS19sWojgDFI/view",
+            "resourceFilename": "Expedition 2.3 - Mandatory Pach.7z",
+            "resourceWorkspace": "Expedition 2.3 - Mandatory Pach",
+            "workspacedSizeMB": 163,
+            "addonSizeMB": 47,
+            "hash": "BBAB01550538CB01A01C2D86B42E55576A7DAF1CE5865B63A5F55BB68C2B1B28"
+        },
+        {
+            "addonName": "NPC Models Replacer",
+            "addonType": "mod",
+            "addonUrl": "https://drive.google.com/file/d/1deicK8zSv_Z9xMrt-vaI3SM8RNqMjI7U/view?usp=sharing",
+            "fileUrl": "https://drive.google.com/file/d/1deicK8zSv_Z9xMrt-vaI3SM8RNqMjI7U/view?usp=sharing",
+            "resourceFilename": "NPC Models Replacer.zip",
+            "resourceWorkspace": "NPC Models Replacer",
+            "workspacedSizeMB": 1,
+            "addonSizeMB": 1,
+            "hash": "4D960514C72CB7604DE00837E5AC1A9D1314DC11A542588BAD20E70D2CDE7F1B"
+        }                  
+    ],
+    "customMods": [
+        {
+            "modName": "Expedition HD Models - NPC Models Replacer",
+            "info": "NPC Models Replacer",
+            "modType": "mod",
+            "addonName": "NPC Models Replacer",
+            "pathToGamedata": "gamedata",
+            "installedSizeMB": 1
+        },
+        {
+            "modName": "Expedition HD Models - HDetoxyfier [ Replaces NPC HD models to Vanilla ]", 
+            "info": "replaces NPC HD models to Vanilla",
+            "modType": "patch",
+            "addonName": "",
+            "pathToGamedata": "HDetoxyfier/gamedata",
+            "installedSizeMB": 1
+        },                      
+        {
+            "modName": "Expedition HD Models - NPC",
+            "info": "",
+            "modType": "xrdbmod",
+            "addonName": "Expedition 2.3 (Part 3)",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_act.db*:gamedata"
+                },
+                {
+                    "priority": 1,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/thms.db*:gamedata/textures/act"
+                },
+                {
+                    "priority": 2,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/thms.db*:gamedata/textures/freedom"
+                },
+                {
+                    "priority": 3,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_bandits.db:gamedata"
+                },
+                {
+                    "priority": 4,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_bf4_merc.db:gamedata"
+                },
+                {
+                    "priority": 5,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_chevron.db:gamedata"
+                },
+                {
+                    "priority": 6,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_dead_corp.db:gamedata"
+                },
+                {
+                    "priority": 7,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_duty.db:gamedata"
+                },
+                {
+                    "priority": 8,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_freedom.db:gamedata"
+                },
+                {
+                    "priority": 9,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_hip.db:gamedata"
+                },
+                {
+                    "priority": 10,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_loner.db:gamedata"
+                },
+                {
+                    "priority": 11,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_merc.db:gamedata"
+                },
+                {
+                    "priority": 12,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_monolith.db:gamedata"
+                },
+                {
+                    "priority": 13,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_zombie_head.db:gamedata"
+                },
+                {
+                    "priority": 14,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_soldier.db:gamedata"
+                },
+                {
+                    "priority": 15,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/thms.db*:gamedata/textures/zombie_head"
+                },
+                {
+                    "priority": 16,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/thms.db*:gamedata/textures/bandits"
+                },
+                {
+                    "priority": 17,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/thms.db*:gamedata/textures/bf4_merc"
+                },
+                {
+                    "priority": 18,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/thms.db*:gamedata/textures/chevron"
+                },
+                {
+                    "priority": 19,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/thms.db*:gamedata/textures/dead_corp"
+                },
+                {
+                    "priority": 20,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/thms.db*:gamedata/textures/duty"
+                },
+                {
+                    "priority": 21,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_exo_body.db:gamedata"
+                },
+                {
+                    "priority": 22,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_seva_body.db:gamedata"
+                },
+                {
+                    "priority": 23,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/textures_gasmask.db:gamedata"
+                },
+                {
+                    "priority": 24,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/thms.db*:gamedata/textures/exo_body"
+                },
+                {
+                    "priority": 25,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 3/gamedata/db/mods/thms.db*:gamedata/textures/gasmask"
+                },
+                {
+                    "priority": 26,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 2/gamedata/db/mods/textures.db*:gamedata",
+                    "addonName": "Expedition 2.3 (Part 2)"
+                },
+                {
+                    "priority": 27,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 2/gamedata/db/mods/meshes.db*:gamedata/meshes/actors",
+                    "addonName": "Expedition 2.3 (Part 2)"
+                },
+                {
+                    "priority": 28,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 2/gamedata/db/mods/meshes.db*:gamedata/meshes/anomaly_weapons/hands",
+                    "addonName": "Expedition 2.3 (Part 2)"
+                },
+                {
+                    "priority": 29,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 2/gamedata/db/mods/textures_act.db*:gamedata",
+                    "addonName": "Expedition 2.3 (Part 2)"
+                },
+                {
+                    "priority": 30,
+                    "path": "Expedition 2.3 - Mandatory Pach/gamedata/textures/act",
+                    "addonName": "Expedition 2.3 - Mandatory Pach"
+                },
+                {
+                    "priority": 31,
+                    "path": "Expedition 2.3 - Mandatory Pach/gamedata/meshes/actors",
+                    "addonName": "Expedition 2.3 - Mandatory Pach"
+                }
+            ],
+            "excludePaths": "exclude-npc.json",
+            "installedSizeMB": 14160
+        },
+        {
+            "modName": "Expedition HD Models - Config [ Toggle, enables HD models in the game ]",
+            "info": "",
+            "modType": "xrdbmod",
+            "addonName": "Expedition 2.3 (Part 2)",
+            "pathToGamedata": [
+                {
+                    "priority": 0,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 2/gamedata/db/mods/configs.db:gamedata/configs/gameplay"
+                },
+                {
+                    "priority": 1,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 2/gamedata/db/mods/configs.db:gamedata/configs/misc/squad_descr"
+                },
+                {
+                    "priority": 2,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 2/gamedata/db/mods/configs.db:gamedata/configs/plugins/wepl_hit_effect_outfits.ltx"
+                },
+                {
+                    "priority": 3,
+                    "path": "Stalker_Anomaly_Expedition_2.3 - Part 2/gamedata/db/mods/configs.db:gamedata/configs/scripts"
+                },
+                {
+                    "priority": 4,
+                    "path": "Expedition 2.3 - Mandatory Pach/gamedata/configs/gameplay",
+                    "addonName": "Expedition 2.3 - Mandatory Pach"
+                },
+                {
+                    "priority": 5,
+                    "path": "Expedition 2.3 - Mandatory Pach/gamedata/configs/items/outfits",
+                    "addonName": "Expedition 2.3 - Mandatory Pach"
+                },
+                {
+                    "priority": 6,
+                    "path": "NPC Patch/gamedata",
+                    "type": "patch"
+                }
+            ],
+            "excludePaths": "exclude-npc_configs.json",
+            "installedSizeMB": 1
+        }
+    ],
+    "customLoadOrderRules": [
+        {
+            "modName": "Expedition HD Models - NPC Models Replacer",
+            "action": "add-disabled"
+        },
+        {
+            "modName": "Expedition HD Models - HDetoxyfier [ Replaces NPC HD models to Vanilla ]",
+            "action": "add-disabled",
+            "before": "Expedition HD Models - NPC Models Replacer"
+        },
+        {
+            "modName": "Expedition HD Models - Config [ Toggle, enables HD models in the game ]",
+            "action": "add",
+            "before": "Expedition HD Models - HDetoxyfier [ Replaces NPC HD models to Vanilla ]"
+        },
+        {
+            "action": "add-profile-separator",
+            "before": "Expedition HD Models - Config [ Toggle, enables HD models in the game ]"
+        },
+        {
+            "modName": "Expedition HD Models - NPC",
+            "action": "add",
+            "before": "23- THAP Rework - IENCE"
+        }
+    ],
+    "gamePatches": []
+}

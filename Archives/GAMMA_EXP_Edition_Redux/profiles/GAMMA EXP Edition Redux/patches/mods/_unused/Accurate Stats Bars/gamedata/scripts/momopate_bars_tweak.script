@@ -1,0 +1,465 @@
+--[[
+	HHHHHHHHHHHHHH
+	RRRRRR	HHHBBB
+	CCCCCC	RRRRRR
+	EEEEEE	EEEEEE
+	FFFFFF	IIIIII
+	PPPPPP	HHTTSS
+]]
+
+local mas = momopate_accurate_stats
+local mas_mod = mas.modifiers
+local mas_gop = mas.get_outfit_protection
+local mas_gor = mas.get_other_regens
+local mas_gap = mas.get_arti_protection
+local mas_gbp = mas.get_booster_protection
+local mas_defense_names = mas.defense_names
+
+local protection_bars = {
+	-- ["power"]      = "Power",
+	["radia"]      		= "Radiation",
+	["acid"]       		= "ChemicalBurn",
+	["shock"]      		= "Shock",
+	["fire"]       		= "Burn",
+	["psi"]        		= "Telepatic",
+	["wound"]      		= "Wound",
+	["fire_wound"] 		= "FireWound",
+	["head_fire_wound"] = "FireWound",
+	["explosion"]  		= "Explosion",
+	["strike"]     		= "Strike",
+}
+
+local simple_bars = {
+	["health"] = true,
+	["hunger"] = true,
+	["thirst"] = true,
+	["sleep"] = true,
+}
+
+local new_bars = {
+	["head_fire_wound"] = true,
+	["explosion"] = true,
+	["strike"] = true,
+}
+
+local caps = {
+	["acid"]				= mas_mod["ChemicalBurn"][3],
+	["shock"]				= mas_mod["Shock"][3],
+	["fire"]				= mas_mod["Burn"][3],
+	["psi"]					= mas_mod["Telepatic"][3],
+	["wound"]				= mas_mod["Wound"][3],
+	["fire_wound"]			= mas_mod["FireWound"][3],
+	["head_fire_wound"]		= mas_mod["FireWound"][3],
+	["explosion"]			= mas_mod["Explosion"][3],
+	["strike"]				= mas_mod["Strike"][3],
+}
+
+local og_init = ui_inventory.UIInventory.__init
+function ui_inventory.UIInventory:__init()
+	og_init(self)
+	
+	-- Add missing entries to boosterID-to-stat names table
+	self.boost_id[ BoosterID["WoundImmunity"] ]			= "wound"
+	self.boost_id[ BoosterID["FireWoundImmunity"] ]		= "fire_wound"
+	self.boost_id[ BoosterID["ExplImmunity"] ]			= "explosion"
+	self.boost_id[ BoosterID["StrikeImmunity"] ]		= "strike"
+
+	-- 
+	for name, _ in pairs(new_bars) do
+		self.stat[name]          = {}
+		self.stat[name].base     = self.xml_stats:InitStatic("equipment:actor_state_info:" .. name .. "_sensor", self.stats_dialog)
+		self.stat[name].bar_bg   = self.xml_stats:InitStatic("equipment:actor_state_info:" .. name .. "_sensor:state_progress", self.stat[name].base)
+		self.stat[name].bar      = self.xml_stats:InitProgressBar("equipment:actor_state_info:" .. name .. "_sensor:state_progress", self.stat[name].base)
+		self.stat[name].ico_base = self.xml_stats:InitStatic("equipment:actor_state_info:icon", self.stat[name].base)
+		
+		self.stat[name].ico_def  = self.xml_stats:InitStatic("equipment:actor_state_info:icon:normal", self.stat[name].ico_base)
+		self.stat[name].ico_def:InitTexture("ui_inGame2_inv_state_" .. name)
+		self.stat[name].ico_def:Show(true)
+		
+		self.stat[name].ico_p    = self.xml_stats:InitStatic("equipment:actor_state_info:icon:active", self.stat[name].ico_base)
+		self.stat[name].ico_p:InitTexture("ui_inGame2_inv_state_P_" .. name)
+		self.stat[name].ico_p:Show(false)
+		
+		self.stat[name].ico_n    = self.xml_stats:InitStatic("equipment:actor_state_info:icon:active", self.stat[name].ico_base)
+		self.stat[name].ico_n:InitTexture("ui_inGame2_inv_state_N_" .. name)
+		self.stat[name].ico_n:Show(false)
+	end
+
+	-- 
+	self.color_layer = {}	-- this is the red/green segment for showing the bonus/penalty of the hovered item
+	self.white_layer = {}	-- this is the white segment, on top of the color layer
+	for name, _ in pairs(protection_bars) do
+		self.color_layer[name]			= {}
+		self.color_layer[name].value	= 0	-- stores comparison stats
+		self.color_layer[name].bar		= self.xml_stats:InitProgressBar("equipment:actor_state_info:" .. name .. "_sensor:state_progress", self.stat[name].base)
+		
+		self.white_layer[name]			= {}
+		self.white_layer[name].value	= 0	-- stores current stats
+		self.white_layer[name].bar		= self.xml_stats:InitProgressBar("equipment:actor_state_info:" .. name .. "_sensor:state_progress", self.stat[name].base)
+		self.white_layer[name].bar:SetColor(GetARGB(255, 100, 100, 100))
+
+		self.stat[name].bar:SetColor(GetARGB(255, 144, 136, 88))
+	end
+
+	for name, v in pairs(simple_bars) do
+		self.color_layer[name]			= {}
+		self.color_layer[name].value	= 0	-- stores comparison stats
+		self.color_layer[name].bar		= self.xml_stats:InitProgressBar("equipment:actor_state_info:" .. name .. "_sensor:state_progress", self.stat[name].base)
+		
+		self.white_layer[name]			= {}
+		self.white_layer[name].value	= 0	-- stores current stats
+		self.white_layer[name].bar		= self.xml_stats:InitProgressBar("equipment:actor_state_info:" .. name .. "_sensor:state_progress", self.stat[name].base)
+		self.white_layer[name].bar:SetColor(GetARGB(255, 100, 100, 100))
+	end
+
+	-- redefine bar extremes
+	self.stat_list["radia"]				= { min= 0, max= 3.87, hint= "ui_inv_radiation_protection"	}
+	self.stat_list["acid"]				= { min= 0, max= 1,	hint= "ui_inv_chemical_burn_protection"	}
+	self.stat_list["shock"]				= { min= 0, max= 1,	hint= "ui_inv_shock_protection"			}
+	self.stat_list["fire"]				= { min= 0, max= 1,	hint= "ui_inv_burn_protection" 			}
+	self.stat_list["psi"]				= { min= 0, max= 1,	hint= "ui_inv_telepatic_protection"		}
+	self.stat_list["wound"]				= { min= 0, max= 1,	hint= "ui_inv_wound_protection"			}
+	self.stat_list["fire_wound"]		= { min= 0, max= 1,	hint= "ui_inv_fire_wound_protection"	}
+	self.stat_list["head_fire_wound"]	= { min= 0, max= 1,	hint= "ui_inv_fire_wound_protection"	}
+	self.stat_list["explosion"]			= { min= 0, max= 1,	hint= "ui_inv_fire_wound_protection"	}
+	self.stat_list["strike"]			= { min= 0, max= 1,	hint= "ui_inv_fire_wound_protection"	}
+end
+
+local hovered_object = nil
+function update_with_focus(obj)
+	-- if db.actor:is_on_belt(obj) then return end
+	hovered_object = obj
+	if ui_inventory.GUI then
+		ui_inventory.GUI:UpdateStats()
+	end
+end
+
+function update_no_focus()
+	hovered_object = nil
+	if ui_inventory.GUI then
+		ui_inventory.GUI:UpdateStats()
+	end
+end
+
+local og_UpdateStats = ui_inventory.UIInventory.UpdateStats
+function ui_inventory.UIInventory:UpdateStats()
+	og_UpdateStats(self)
+	local obj = hovered_object
+	local actor = db.actor
+
+	for name,val in pairs(protection_bars) do
+		self.stat_outfit[name] = 0
+		self.stat_helm[name] = 0
+		self.stat_arty[name] = 0
+		self.stat_boost[name] = 0
+	end
+
+	local outfit = actor:item_in_slot(7)
+	if outfit then
+		local sec = outfit:section()
+		
+		self.stat_outfit["fire"]  			= (mas_gop(outfit, sec, "Burn", 			0) / 100) or 0
+		self.stat_outfit["shock"] 			= (mas_gop(outfit, sec, "Shock",			0) / 100) or 0
+		self.stat_outfit["acid"]  			= (mas_gop(outfit, sec, "ChemicalBurn", 	0) / 100) or 0
+		self.stat_outfit["radia"] 			= (mas_gop(outfit, sec, "Radiation", 		0) / 100) or 0
+		self.stat_outfit["psi"]   			= (mas_gop(outfit, sec, "Telepatic", 		0) / 100) or 0
+		self.stat_outfit["wound"] 			= (mas_gop(outfit, sec, "Wound", 			0) / 100) or 0
+		self.stat_outfit["fire_wound"] 		= (mas_gop(outfit, sec, "FireWound", 		0) / 100) or 0
+		self.stat_outfit["head_fire_wound"] = 0
+		self.stat_outfit["explosion"] 		= (mas_gop(outfit, sec, "Explosion", 		0) / 100) or 0
+		self.stat_outfit["strike"] 			= (mas_gop(outfit, sec, "Strike", 			0) / 100) or 0
+	end
+	
+	local helm = actor:item_in_slot(12)
+	if helm then
+		local sec = helm:section()
+		
+		self.stat_helm["fire"]  			= (mas_gop(helm, sec, "Burn", 			0) / 100) or 0
+		self.stat_helm["shock"] 			= (mas_gop(helm, sec, "Shock",			0) / 100) or 0
+		self.stat_helm["acid"]  			= (mas_gop(helm, sec, "ChemicalBurn", 	0) / 100) or 0
+		self.stat_helm["radia"] 			= (mas_gop(helm, sec, "Radiation", 		0) / 100) or 0
+		self.stat_helm["psi"]   			= (mas_gop(helm, sec, "Telepatic", 		0) / 100) or 0
+		self.stat_helm["wound"] 			= (mas_gop(helm, sec, "Wound", 			0) / 100) or 0
+		self.stat_helm["fire_wound"] 		= 0
+		self.stat_helm["head_fire_wound"] 	= (mas_gop(helm, sec, "FireWound", 		0) / 100) or 0
+		self.stat_helm["explosion"] 		= (mas_gop(helm, sec, "Explosion", 		0) / 100) or 0
+		self.stat_helm["strike"] 			= (mas_gop(helm, sec, "Strike", 		0) / 100) or 0
+	end
+	
+	actor:iterate_belt( function(owner, obj)
+		local sec = obj:section()
+		
+		self.stat_arty["power"]      		= self.stat_arty["power"]      		+ ((mas_gor(obj, sec, "Power", 0) / 100) or 0)
+		self.stat_arty["radia"]      		= self.stat_arty["radia"]      		* (1 + ((mas_gap(obj, sec, "Radiation", 0) / 100) or 0))
+		self.stat_arty["acid"]       		= self.stat_arty["acid"]       		+ ((mas_gap(obj, sec, "ChemicalBurn", 0) / 100) or 0)
+		self.stat_arty["shock"]      		= self.stat_arty["shock"]      		+ ((mas_gap(obj, sec, "Shock", 0) / 100) or 0)
+		self.stat_arty["fire"]       		= self.stat_arty["fire"]       		+ ((mas_gap(obj, sec, "Burn", 0) / 100) or 0)
+		self.stat_arty["psi"]        		= self.stat_arty["psi"]        		+ ((mas_gap(obj, sec, "Telepatic", 0) / 100) or 0)
+		self.stat_arty["wound"]      		= self.stat_arty["wound"]      		+ ((mas_gap(obj, sec, "Wound", 0) / 100) or 0)
+		self.stat_arty["fire_wound"] 		= self.stat_arty["fire_wound"] 		+ ((mas_gap(obj, sec, "FireWound", 0) / 100) or 0)
+		self.stat_arty["head_fire_wound"] 	= self.stat_arty["head_fire_wound"] + ((mas_gap(obj, sec, "FireWound", 0) / 100) or 0)
+		self.stat_arty["explosion"]  		= self.stat_arty["explosion"]  		+ ((mas_gap(obj, sec, "Explosion", 0) / 100) or 0)
+		self.stat_arty["strike"] 	 		= self.stat_arty["strike"]     		+ ((mas_gap(obj, sec, "Strike", 0) / 100) or 0)
+	end)
+	
+	actor:cast_Actor():conditions():BoosterForEach( function(booster_type, booster_time, booster_value)
+		local boost_id = self.boost_id[booster_type]
+		if boost_id then
+			if 		(booster_type == mas_defense_names["FireWound"][4]) then
+				booster_value = (booster_value * 100)															/ 100
+			elseif 	(booster_type == mas_defense_names["Burn"][4]) then
+				booster_value = (booster_value * 100)															/ 100
+			elseif 	(booster_type == mas_defense_names["Shock"][4]) then
+				booster_value = (booster_value * 100)															/ 100
+			elseif 	(booster_type == mas_defense_names["ChemicalBurn"][4]) then
+				booster_value = (booster_value * 100)															/ 100
+			elseif 	(booster_type == mas_defense_names["Radiation"][4]) then
+				booster_value = (booster_value * 100000 * 0.387)												/ 100
+			elseif 	(booster_type == mas_defense_names["Telepatic"][4]) then
+				booster_value = (booster_value * mas_mod["Telepatic"][1] * mas_mod["Telepatic"][2] * 100)		/ 100
+			elseif 	(booster_type == mas_defense_names["Wound"][4]) then
+				booster_value = (booster_value * 100)															/ 100
+			elseif 	(booster_type == mas_defense_names["Strike"][4]) then
+				booster_value = (booster_value * 100)															/ 100
+			elseif 	(booster_type == mas_defense_names["Explosion"][4]) then
+				booster_value = (booster_value * 100)															/ 100
+			elseif	(booster_type == 1) then
+				booster_value = (booster_value * 30000)															/ 100
+			end
+			
+			self.stat_boost[boost_id] = self.stat_boost[boost_id] and booster_value
+		end
+	end)
+	self.stat_boost["head_fire_wound"] = self.stat_boost["fire_wound"]
+	
+	self.white_layer["radia"].value				= ((self.stat_outfit["radia"] + self.stat_helm["radia"] + self.stat_arty["radia"] + self.stat_boost["radia"]) / self.stat_list["radia"].max)	
+	self.white_layer["acid"].value				= ((self.stat_outfit["acid"] + self.stat_helm["acid"] + self.stat_arty["acid"] + self.stat_boost["acid"]) / self.stat_list["acid"].max)
+	self.white_layer["shock"].value				= ((self.stat_outfit["shock"] + self.stat_helm["shock"] + self.stat_arty["shock"] + self.stat_boost["shock"]) / self.stat_list["shock"].max)
+	self.white_layer["fire"].value				= ((self.stat_outfit["fire"] + self.stat_helm["fire"] + self.stat_arty["fire"] + self.stat_boost["fire"]) / self.stat_list["fire"].max)
+	self.white_layer["psi"].value				= ((self.stat_outfit["psi"] + self.stat_helm["psi"] + self.stat_arty["psi"] + self.stat_boost["psi"]) / self.stat_list["psi"].max)
+	self.white_layer["wound"].value				= ((self.stat_outfit["wound"] + self.stat_helm["wound"] + self.stat_arty["wound"] + self.stat_boost["wound"]) / self.stat_list["wound"].max)
+	self.white_layer["fire_wound"].value		= ((self.stat_outfit["fire_wound"] + self.stat_helm["fire_wound"] + self.stat_arty["fire_wound"] + self.stat_boost["fire_wound"]) / self.stat_list["fire_wound"].max)
+	self.white_layer["head_fire_wound"].value	= ((self.stat_outfit["head_fire_wound"] + self.stat_helm["head_fire_wound"] + self.stat_arty["fire_wound"] + self.stat_boost["fire_wound"]) / self.stat_list["fire_wound"].max)
+	self.white_layer["strike"].value			= ((self.stat_outfit["strike"] + self.stat_helm["strike"] + self.stat_arty["strike"] + self.stat_boost["strike"]) / self.stat_list["strike"].max)
+	self.white_layer["explosion"].value			= ((self.stat_outfit["explosion"] + self.stat_helm["explosion"] + self.stat_arty["explosion"] + self.stat_boost["explosion"]) / self.stat_list["explosion"].max)
+	printf("!Updating fire white_layer", self.white_layer["fire"].value)
+	for name, val in pairs(protection_bars) do
+		self.color_layer[name].value = self.white_layer[name].value
+	end
+
+	for name, _ in pairs(simple_bars) do
+		self.white_layer[name].value = simple_bar_values(nil, name)
+		self.color_layer[name].value = self.white_layer[name].value
+	end
+
+	
+	if obj then
+		local sec = obj:section()
+		local is_equipped = (item_backpack.is_in_slot(obj) or db.actor:is_on_belt(obj)) and true or false
+
+		if IsOutfit(obj) then
+			local in_slot_modifier = item_backpack.is_in_slot(obj) and 0 or 1
+
+			for name, _ in pairs(protection_bars) do
+				if name == "head_fire_wound" then
+					self.color_layer[name].value = self.color_layer[name].value
+				else
+					self.color_layer[name].value = self.color_layer[name].value + (-self.stat_outfit[name] + ((mas_gop(obj, sec, protection_bars[name], 0) / 100) or 0)*in_slot_modifier) / self.stat_list[name].max
+				end
+			end
+		elseif IsHeadgear(obj) then
+			local in_slot_modifier = item_backpack.is_in_slot(obj) and 0 or 1
+
+			for name, _ in pairs(protection_bars) do
+				if name == "fire_wound" then
+					self.color_layer[name].value = self.color_layer[name].value
+				else
+					self.color_layer[name].value = self.color_layer[name].value + (-self.stat_helm[name] + ((mas_gop(obj, sec, protection_bars[name], 0) / 100) or 0)*in_slot_modifier) / self.stat_list[name].max
+				end
+			end
+		elseif IsArtefact(obj) then
+			local in_belt_modifier = db.actor:is_on_belt(obj) and -1 or 1
+
+			for name, _ in pairs(protection_bars) do
+				self.color_layer[name].value = self.color_layer[name].value + (((mas_gap(obj, sec, protection_bars[name], 0) / 100) or 0)*in_belt_modifier) / self.stat_list[name].max
+			end
+		else
+			for name, _ in pairs(protection_bars) do
+				self.color_layer[name].value = self.color_layer[name].value + ((mas_gbp(obj, sec, protection_bars[name], 0) / 100) or 0) / self.stat_list[name].max
+			end
+			
+			for name, _ in pairs(simple_bars) do
+				self.color_layer[name].value = self.color_layer[name].value + (simple_bar_values(obj, name) or 0)
+			end
+		end
+	end
+
+	self:UpdateBarsProgress()
+end
+
+function simple_bar_values(obj, name)
+	if obj then
+		local sec = obj:section()
+		if name == "health" then
+			local hp_num = 0
+			local thp_num = 0
+			local boost_time = ini_sys:r_float_ex(sec, "boost_time")
+
+			local eat_health = ini_sys:r_float_ex(sec, "eat_health")
+			if eat_health then
+				hp_num = eat_health
+			end
+
+			if boost_time and boost_time ~= 0 then
+				local boost_health_restore = ini_sys:r_float_ex(sec, "boost_health_restore")
+				if boost_health_restore then
+					thp_num = boost_health_restore * 6 * boost_time
+				end
+			end
+
+			return hp_num + thp_num
+		elseif name == "hunger" then
+			local eat_sat = ini_sys:r_float_ex(sec, "eat_satiety")
+			if eat_sat then
+				local conditions = db.actor:cast_Actor():conditions()
+				local red_icon_satiety = conditions:SatietyCritical() * 0.5
+				local max_satiety = 1 - red_icon_satiety
+				local sat_num = eat_sat / max_satiety
+				return sat_num
+			end		
+		elseif name == "thirst" then
+			local eat_thirstiness = ini_sys:r_float_ex(sec, "eat_thirstiness")
+			local max_thirst = get_local_val([[gamedata\scripts\actor_status_thirst.script]], "actor_status_thirst", "local start_blur_4") or 5760
+			local thirst_mult = get_local_val([[gamedata\scripts\actor_status_thirst.script]], "actor_status_thirst", "local eat_thirstiness_mul") or 1000
+			if eat_thirstiness then
+				eat_thirstiness = eat_thirstiness * thirst_mult
+				local thirst_num = -(eat_thirstiness / max_thirst)
+				return thirst_num
+			end		
+		elseif name == "sleep" then
+			local eat_sleepiness = ini_sys:r_float_ex(sec, "eat_sleepiness")
+			local max_sleep = 9000
+			local sleep_mult = 2000
+			if eat_sleepiness then
+				eat_sleepiness = eat_sleepiness * sleep_mult
+				local sleep_num = -(eat_sleepiness / max_sleep)
+				return sleep_num
+			end		
+		end
+	else
+		if name == "health" then
+			return db.actor.health
+		elseif name == "hunger" then
+			return hts_inventory_bars.get_satiety_val()
+		elseif name == "thirst" then
+			return hts_inventory_bars.get_thirst_val()
+		elseif name == "sleep" then
+			return hts_inventory_bars.get_sleep_val()
+		end
+	end
+end
+
+function get_local_val(path, script_name, str_to_find)
+	if _G[script_name] then
+
+		if not file_exists(path) then
+			return
+		end
+
+		for line in io.lines(path) do
+			if string.find(line, str_to_find) then
+				_,_, loc_val = string.find(line, "start_blur_4%s*=%s*(%d+)")		-- RavenAscendant carried
+				if type(tonumber(loc_val)) == "number" then
+					return loc_val
+				end
+			end
+		end
+	end
+end
+
+function file_exists(name)
+	local f = io.open(name, "r")
+	if f ~= nil then
+		io.close(f)
+		return true
+	else
+		return false
+	end
+end
+
+function ui_inventory.UIInventory:UpdateBarsProgress()
+	for name, _ in pairs(protection_bars) do
+		local min = 0
+		local max = 1
+		local cap = get_cap(name)
+		local new = self.color_layer[name].value
+		local old = self.white_layer[name].value
+
+		if new < 0 then
+			self.stat[name].bar:SetProgressPos(-new)
+			self.stat[name].bar:SetColor(GetARGB(255, 100, 0, 0))
+		else
+			self.stat[name].bar:SetProgressPos(new)
+			self.stat[name].bar:SetColor(GetARGB(255, 144, 136, 88))
+		end
+
+		if new > old then
+			self.color_layer[name].bar:SetColor(GetARGB(255, 0, 255, 0))
+			self.color_layer[name].bar:SetProgressPos(clamp(new, min, cap))
+			self.white_layer[name].bar:SetProgressPos(clamp(old, min, cap))
+		elseif new < old then
+			self.color_layer[name].bar:SetColor(GetARGB(255, 255, 0, 0))
+			self.color_layer[name].bar:SetProgressPos(clamp(old, min, cap))
+			self.white_layer[name].bar:SetProgressPos(clamp(new, min, cap))
+		else
+			self.color_layer[name].bar:SetProgressPos(clamp(old, min, cap))
+			self.white_layer[name].bar:SetProgressPos(clamp(old, min, cap))
+		end
+	end
+
+	for name, _ in pairs(simple_bars) do
+		local min = 0
+		local max = 1
+		-- local cap = get_cap(name)
+		local new = self.color_layer[name].value
+		local old = self.white_layer[name].value
+
+		-- if new < 0 then
+		-- 	self.stat[name].bar:SetProgressPos(-new)
+		-- 	self.stat[name].bar:SetColor(GetARGB(255, 100, 0, 0))
+		-- else
+		-- 	self.stat[name].bar:SetProgressPos(new)
+		-- 	self.stat[name].bar:SetColor(GetARGB(255, 144, 136, 88))
+		-- end
+
+		if new > old then
+			self.color_layer[name].bar:SetColor(GetARGB(255, 0, 255, 0))
+			self.color_layer[name].bar:SetProgressPos(clamp(new, min, max))
+			self.white_layer[name].bar:SetProgressPos(clamp(old, min, max))
+		elseif new < old then
+			self.color_layer[name].bar:SetColor(GetARGB(255, 255, 0, 0))
+			self.color_layer[name].bar:SetProgressPos(clamp(old, min, max))
+			self.white_layer[name].bar:SetProgressPos(clamp(new, min, max))
+		else
+			self.color_layer[name].bar:SetProgressPos(clamp(new, min, max))
+			self.white_layer[name].bar:SetProgressPos(clamp(new, min, max))
+		end
+	end
+end
+
+-- in case something comes in the future that changes resistance caps
+function get_cap(name)
+	return caps[name] and caps[name]/ui_inventory.GUI.stat_list[name].max or 1
+end
+
+function on_game_start()
+	RegisterScriptCallback("ActorMenu_on_item_focus_receive", update_with_focus)
+	RegisterScriptCallback("ActorMenu_on_item_focus_lost", update_no_focus)
+	RegisterScriptCallback("actor_item_to_belt", update_no_focus)
+	RegisterScriptCallback("actor_item_to_slot", update_no_focus)
+	RegisterScriptCallback("actor_item_to_ruck", update_no_focus)
+	RegisterScriptCallback("actor_on_item_drop", update_no_focus)
+	RegisterScriptCallback("actor_on_item_use", update_no_focus)
+	RegisterScriptCallback("GUI_on_hide", update_no_focus)
+
+end

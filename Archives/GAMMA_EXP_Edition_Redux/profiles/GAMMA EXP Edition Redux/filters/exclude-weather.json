@@ -1,0 +1,16 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/dynamics"
+        },
+        {
+            "name": "gamedata/particles"
+        },
+        {
+            "name": "gamedata/configs/environment/weathers/w_storm1.ltx"
+        },
+        {
+            "name": "gamedata/configs/environment/weathers/w_storm2.ltx"
+        }
+    ]    
+}

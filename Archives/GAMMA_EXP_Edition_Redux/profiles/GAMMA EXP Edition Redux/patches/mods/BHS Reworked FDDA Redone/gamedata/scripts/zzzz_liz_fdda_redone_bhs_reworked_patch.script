@@ -1,0 +1,107 @@
+local mcm_enable_animations
+local strict_mode_enabled
+local opt_enable_animations
+local mcm_unequip_helmet
+local mcm_strict_sprinting
+
+function on_game_start()
+	RegisterScriptCallback("on_game_load", initialize)
+	RegisterScriptCallback("on_option_change", initialize)
+end
+
+function initialize()
+    mcm_enable_animations = liz_fdda_redone_mcm.get_config("consumables/enable")
+	strict_mode_enabled = liz_fdda_redone_mcm.get_config("headgear_anm/strict_helmets")
+	opt_enable_animations = ui_options.get("video/player/animations")
+	mcm_unequip_helmet = liz_fdda_redone_mcm.get_config("consumables/unequip_helmet")
+	mcm_strict_sprinting = liz_fdda_redone_mcm.get_config("consumables/strict_sprinting")
+end
+
+zzz_player_injuries.itms_manager.actor_on_item_before_use = function (obj, flags)
+    local sec = obj:section()
+
+    local ini_eff = ini_file("items\\items\\animations_settings.ltx")
+
+    -- headgear anims
+	if zz_liz_fdda_redone_headgear_animations_strict_helmets and strict_mode_enabled and not mcm_unequip_helmet then
+        if ini_eff:r_bool_ex(sec, "helm") == false then
+			if zz_liz_fdda_redone_headgear_animations_strict_helmets.is_have_helmet() then
+				hide_hud_inventory()
+				actor_menu.set_msg(1, game.translate_string("liz_ha_text_cant_consume_item"), 3)
+                flags.ret_value = false
+                return
+            end
+        end
+    end
+    ---------
+
+    if IsItem("tool", sec) then
+		flags.ret_value = true
+		return
+	end
+
+	local pass = true
+
+	local require_tool = ini_sys:r_string_ex(sec, "required_tool")
+	local obj_tool = require_tool and ini_sys:section_exist(require_tool) and db.actor:object(require_tool)
+	if require_tool and (not obj_tool) then
+		str = strformat(game.translate_string("st_itm_manager_missing_requirements"), ui_item.get_sec_name(require_tool))
+		pass = false
+	end
+
+	-- western goods lighter
+	if western_goods_core then
+		local fake_flags = { ret_value = pass }
+		SendScriptCallback("western_goods_on_item_before_use", obj, fake_flags)
+		pass = fake_flags.ret_value
+	end
+	----------
+
+	if pass then
+		flags.ret_value = true
+		if obj_tool then
+			utils_item.discharge(obj_tool)
+		end
+	else
+		flags.ret_value = false
+		utils_xml.hide_menu()
+		actor_menu.set_msg(1, str, 3)
+	end
+
+    -- fdda
+	if liz_fdda_redone_consumables then
+		-- can't use items while climbing
+		if IsMoveState("mcClimb") then
+			actor_menu.set_msg(1, game.translate_string("st_EA_ladder_item_not_allowed"), 3)
+			flags.ret_value = false
+			return
+		end
+		-- can't use items while running if fdda strict mode is enabled
+		if mcm_strict_sprinting then
+			if IsMoveState("mcSprint") then
+				flags.ret_value = false
+				return
+			end
+		end
+		-- delay item use to play fdda animation
+		if
+			mcm_enable_animations
+			and ini_eff:section_exist(obj:section())
+			and flags.ret_value
+		then
+			liz_fdda_redone_consumables.perform_item_use(obj)
+			flags.ret_value = false
+			return
+		end
+		-- delay item use to play vanilla animation
+		if
+			opt_enable_animations
+			and flags.ret_value
+		then
+			liz_fdda_redone_consumables.perform_vanilla_item_use(obj)
+			flags.ret_value = false
+			return
+		end
+	end
+	---------
+end

@@ -1,0 +1,10 @@
+function z_heatvision_mcm.on_mcm_load()
+    op = { id= "heatvision",sh=true ,gr={
+        {id = "title",type= "slide",link= "ui_options_slider_player",text="ui_mcm_heatvision_title",size= {512,50},spacing= 20 },	
+        {id = "nvg_tubes_mcm", type = "list", val = 2, content={ {1.0,"single_centered"} , {1.1,"single_left"}, {1.2,"single_right"}, {2.0,"dual_centered"}, {4.0,"quad_centered"}}, def=2.0},
+        {id = "nvg_body_cooldown_mcm", type = "check", val = 1, def=true},
+        {id = "nvg_body_cooldown_time_mcm", type = "track", val = 2, min=0,max=300,step=1, def = 20},
+  }
+}
+return op
+end

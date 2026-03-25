@@ -1,0 +1,145 @@
+{
+    "profileName": "GAMMA EXP Edition",
+    "kits": [            
+        {
+            "profileName": "GAMMA EXP Edition - HD Models",
+            "customLoadOrderRules":  [                   
+                {
+                    "modName":  "GAMMA EXP Edition - HD Models [ Toggle, enables HD models on actor 3rd person view ]",
+                    "action":  "add-disabled",
+                    "before":  "GAMMA EXP Edition - HDetoxyfier [ Replaces NPC HD models to Vanilla ]"
+                },                  
+                {
+                    "modName":  "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]",
+                    "action":  "add",
+                    "before":  "GAMMA EXP Edition - HD Models [ Toggle, enables HD models on actor 3rd person view ]"
+                },
+                {
+                    "modName": "GAMMA EXP Edition - SIMPLE FLASHLIGHT REPLACER",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"
+                },                
+                {
+                    "modName":  "GAMMA EXP Edition - HD Models [ EXP ]",
+                    "action":  "add",
+                    "before":  "23- THAP Rework - IENCE"
+                }
+            ]         
+        },
+        {
+            "profileName": "GAMMA EXP Edition - HD Models [ ATMOSPHERICS ]",
+            "customLoadOrderRules":  [
+                {
+                    "modName": "GAMMA EXP Edition - VFX [ EXP ]",
+                    "action": "remove"
+                },                
+                {
+                    "modName": "GAMMA EXP Edition - Shaders [ EXP ]",
+                    "action": "remove"
+                },                
+                {
+                    "modName": "GAMMA EXP Edition - Weather [ EXP ]",
+                    "action": "remove"
+                },                
+                {
+                    "modName":  "GAMMA EXP Edition - HD Models [ Toggle, enables HD models on actor 3rd person view ]",
+                    "action":  "add-disabled",
+                    "before":  "GAMMA EXP Edition - HDetoxyfier [ Replaces NPC HD models to Vanilla ]"
+                },                  
+                {
+                    "modName":  "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]",
+                    "action":  "add",
+                    "before":  "GAMMA EXP Edition - HD Models [ Toggle, enables HD models on actor 3rd person view ]"
+                },
+                {
+                    "modName":  "GAMMA EXP Edition - HD Models [ EXP ]",
+                    "action":  "add",
+                    "before":  "23- THAP Rework - IENCE"
+                },
+                {
+                    "modName":  "GAMMA EXP Edition - SIMPLE FLASHLIGHT REPLACER",
+                    "action":  "add",
+                    "before":  "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"
+                },  
+                {
+                    "modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED",
+                    "action": "add",
+                    "before": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"
+                },                
+                {
+                    "modName":  "GAMMA EXP Edition - AYDINS GRASS TWEAKS [ Summer ]",
+                    "action":  "add",
+                    "before":  "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"
+                },                                          
+                {
+                    "modName": "290- Atmospherics Shaders Weathers and Reshade Latest - Hippobot",
+                    "action": "enable"
+                },
+                {
+                    "modName": "190- Screen Space Shaders 23 - Ascii1457",
+                    "action": "enable"
+                },
+                {
+                    "modName": "188- Enhanced Shaders - KennShade",
+                    "action": "enable"
+                },
+                {
+                    "modName": "289- Grass Tweaks (reinstall for different options) - Aydin",
+                    "action": "enable"
+                },
+                {
+                    "modName": "G.A.M.M.A. Weathers",
+                    "action": "enable"
+                },
+                {
+                    "modName": "Roadside's Lens Flares",
+                    "action": "enable"
+                },
+                {
+                    "modName": "283- Autumn No Leaves LOD Fix - owencraig08",
+                    "action": "enable"
+                },
+                {
+                    "modName": "282- GAMMA Loading Screens - CS Eden",
+                    "action": "enable"
+                },
+                {
+                    "modName": "25- High Res Loading Screens - Bazingarrey",
+                    "action": "enable"
+                },
+                {
+                    "modName": "24- Skies Redux - d_nan",
+                    "action": "enable"
+                },
+                {
+                    "modName": "Particles Cinematic VFX 3.5 1.1.2 BOTZ YAWM",
+                    "action": "enable"
+                }
+            ],
+            "gamePatches": [
+                {
+                    "priority": "0",
+                    "patchType": "reshade",
+                    "addonName": "ATMOSPHERICS",
+                    "resourceWorkspace": "ATMOSPHERICS",
+                    "pathToPatch": "02 - [OPTIONAL] RESHADE - Phrozac Presets/bin",
+                    "patchTarget": "bin"
+                },        
+                {
+                    "priority": "1",
+                    "patchType": "reshade",
+                    "addonName": "ATMOSPHERICS",
+                    "resourceWorkspace": "ATMOSPHERICS",
+                    "pathToPatch": "01 - [REQUIRED] Atmospherics/appdata",
+                    "patchTarget": "appdata"
+                },                
+                {
+                    "priority": "2",
+                    "patchType": "profile",
+                    "pathToPatch": "Anomaly/ATMOS/appdata",
+                    "patchTarget": "appdata"
+                }           
+            ]                     
+        }        
+    ]
+}

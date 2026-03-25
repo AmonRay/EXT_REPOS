@@ -1,0 +1,28 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/dynamics"
+        },
+        {
+            "name": "gamedata/particles"
+        },
+        {
+            "name": "gamedata/meshes/monsters"
+        },
+        {
+            "name": "gamedata/textures/act/3vtiger"
+        },
+        {
+            "name": "gamedata/textures/act/greshnik13rs"
+        },
+        {
+            "name": "gamedata/meshes/actors/newclearsky.7z"
+        },
+        {
+            "name": "gamedata/meshes/actors/snork_animation.omf"
+        },
+        {
+            "name": "gamedata/textures/act/act_dog*"
+        }                                          
+    ]    
+}

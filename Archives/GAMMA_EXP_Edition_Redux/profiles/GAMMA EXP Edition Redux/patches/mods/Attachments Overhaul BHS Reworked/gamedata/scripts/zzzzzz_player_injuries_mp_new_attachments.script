@@ -1,0 +1,11 @@
+function on_game_start()
+    printf("[Attachment outfit overhaul] monkey patching ready")
+    RegisterScriptCallback("actor_on_first_update", addAutodocAttachmentAsMedkits)
+end
+
+
+function addAutodocAttachmentAsMedkits()
+    printf("[Attachment outfit overhaul] monkey patching zzz_player_injuries - adding autodoc as medkits")
+    zzz_player_injuries.medkits.autodoc_hp_1={head=2,torso=2,rightleg=3,leftleg=3,rightarm=2,leftarm=2}
+    zzz_player_injuries.medkits.autodoc_hp_2={head=4,torso=4,rightleg=5,leftleg=5,rightarm=3,leftarm=3}
+end

@@ -1,0 +1,10 @@
+{
+    "excludePaths": [
+        {
+            "name": "mp_check_callback.script"
+        },
+        {
+            "name": "enhanced_animations.script"
+        }        
+    ]    
+}

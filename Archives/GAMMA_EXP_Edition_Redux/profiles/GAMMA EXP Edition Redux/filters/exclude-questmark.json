@@ -1,0 +1,13 @@
+{
+    "excludePaths": [
+        {
+            "name": "modxml_AL_QuestArrow_219.script"
+        },
+        {
+            "name": "modxml_AL_QuestArrow_43.script"
+        },
+        {
+            "name": "modxml_AL_QuestArrow.script"
+        }
+    ]    
+}

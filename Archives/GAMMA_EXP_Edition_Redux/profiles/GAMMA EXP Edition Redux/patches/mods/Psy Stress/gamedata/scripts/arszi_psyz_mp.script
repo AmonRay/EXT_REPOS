@@ -1,0 +1,71 @@
+
+--[[
+Monkey patch to arszi_psy script
+disable the script startup
+20/11/2020
+Anomaly game scripts used as reference: ui_sidhud.script by RavenAscendant
+
+Author: strangerism
+--]]
+
+function monkey() end
+	if arszi_psy then
+		monkey = arszi_psy.manage_psy_health
+	end
+
+
+function monkey_manage_psy_health(time_delta)
+	if (time_delta == nil) then
+		local c_psy_health_regen_per_seconds = 0.0005
+		arszi_psy.change_psy_health(c_psy_health_regen_per_seconds)
+        return
+    end
+    monkey(time_delta)
+end
+if arszi_psy then
+	arszi_psy.manage_psy_health	= monkey_manage_psy_health
+end
+
+ASE_PSY = {
+	regen = 0,
+	campfire = 0,
+	booster = 0,
+	stress = 0,
+	wound = 0,
+	drain = 0
+}
+
+function arszi_psy.get_psy_health_regeneration()
+	
+	-- changes the function to remove the effect of telepatic protection artefacts from the psy health regeneration
+	local awake = not db.actor:has_info("actor_is_sleeping")
+	local bonus_psy_heal_booster = arszi_psy.get_telepatic_protection_booster() / arszi_psy.c_psy_health_regen_booster_divider
+	arszi_psyz_mp.ASE_PSY["booster"] = bonus_psy_heal_booster
+	local bonus_psy_heal_artefacts = 0 -- get_telepatic_protection_artefacts() / c_psy_health_regen_artefacts_divider
+	local bonus_psy_heal_campfire = arszi_psy.get_nearby_lit_campfire_bonus(arszi_psy.safe_distance_to_campfire)
+	arszi_psyz_mp.ASE_PSY["campfire"] = bonus_psy_heal_campfire
+	local stress_multiplier = awake and arszi_psy.get_stress_multiplier() or -1
+	
+	local regen_active = ((bonus_psy_heal_booster ~= 0) or (stress_multiplier <= 0)) and 1 or 0
+	local psy_regen = arszi_psy.c_psy_health_regen_per_second * regen_active
+	arszi_psyz_mp.ASE_PSY["regen"] = psy_regen
+
+	local psy_stress = arszi_psy.c_psy_stress_drain_per_second * stress_multiplier
+	arszi_psyz_mp.ASE_PSY["stress"] = psy_stress
+	local psy_wound_stress = awake and arszi_psy.get_psy_wound_stress() or 0
+	arszi_psyz_mp.ASE_PSY["wound"] = psy_wound_stress
+
+	local change_calc = psy_regen + bonus_psy_heal_booster + bonus_psy_heal_artefacts + bonus_psy_heal_campfire -
+	  psy_stress - psy_wound_stress
+	arszi_psyz_mp.ASE_PSY["drain"] = change_calc
+		
+      arszi_psy.printdbg_psy(false, "awake %s boost %f arts boost %f cfire %f regen %f stress %f wound %f total %f",
+	  tostring(awake), bonus_psy_heal_booster, bonus_psy_heal_artefacts, bonus_psy_heal_campfire, psy_regen, psy_stress, psy_wound_stress, change_calc)
+	
+	return change_calc
+end
+
+
+function on_game_start()
+    printf("[z_arszi_psy] I am monkey patching arszi_psy.script")
+end

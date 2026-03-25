@@ -1,0 +1,13 @@
+function on_game_start()
+	-- printf("-- Inventory MP on_game_start")
+    RegisterScriptCallback("GUI_on_show", inv_picker_change)
+end
+
+
+function inv_picker_change(name, path)
+	-- printf("-- inv_picker_change %s", name)
+    --return quickly if not the GUI we want
+    if not (name == "UIInventory")  then return end
+	-- printf("-- inv_picker_change")
+    ui_inventory.GUI.CC["picker"].scroll:SetWndPos(vector2():set( 0 , 0 ))
+end

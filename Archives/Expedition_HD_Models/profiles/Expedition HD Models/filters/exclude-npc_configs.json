@@ -1,0 +1,37 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/dynamics"
+        },
+        {
+            "name": "gamedata/particles"
+        },
+        {
+            "name": "gamedata/configs/gameplay/supplies"
+        },
+        {
+            "name": "gamedata/configs/gameplay/profiles"
+        },
+        {
+            "name": "gamedata/configs/items/settings/death_outfits.ltx"
+        },
+        {
+            "name": "gamedata/configs/misc/squad_descr/squad_descr_default_mutants.ltx"
+        },
+        {
+            "name": "gamedata/configs/misc/squad_descr/squad_descr_default_stalkers.ltx"
+        },
+        {
+            "name": "gamedata/configs/misc/squad_descr/squad_descr_escape.ltx"
+        },
+        {
+            "name": "gamedata/configs/misc/offline_combat_simulator.ltx"
+        },        
+        {
+            "name": "gamedata/configs/plugins/actor_effects.ltx"
+        },        
+        {
+            "name": "gamedata/configs/items/outfits/upgrades"
+        }                               
+    ]    
+}

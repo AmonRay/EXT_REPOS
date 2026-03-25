@@ -1,0 +1,7 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/configs/ui/ui_custom_msgs.xml"
+        }              
+    ]    
+}

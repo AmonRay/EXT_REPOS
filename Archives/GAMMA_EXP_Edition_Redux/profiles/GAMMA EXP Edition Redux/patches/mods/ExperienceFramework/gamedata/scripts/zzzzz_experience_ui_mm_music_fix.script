@@ -1,0 +1,27 @@
+og_Close = experience_ui.UIExperienceMenu.Close
+function experience_ui.UIExperienceMenu:Close()
+    experience_sounds.StopAll()
+    og_Close(self)
+end
+
+og_start_ui = experience_ui.start_ui
+function experience_ui.start_ui()
+    og_start_ui()
+    if zzzzzz_mm_music or return_menu_music then
+        experience_sounds.StopAll()
+    end
+end
+
+if zzzzzz_mm_music then
+    base_egui_music = a_experience_ui_mm_music_fix.base_egui_music
+    function zzzzzz_mm_music.main_menu_on_init()
+        base_egui_music()
+    end
+end
+
+if return_menu_music then
+    base_menu_music = a_experience_ui_mm_music_fix.base_return_menu_music
+    function return_menu_music.main_menu_on_init()
+        base_menu_music()
+    end
+end

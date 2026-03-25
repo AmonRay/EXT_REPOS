@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<!--
+	Devices
+-->
+
+<string_table>
+
+<!--#########################################################################-->
+<!--#########################################################################-->
+<!--#########################################################################-->
+
+	<string id="st_name_detector_simple_up">
+		<text>Echo detector (Upgraded)</text>
+	</string>
+
+<!--=========================================================================-->
+
+	<string id="st_desc_detector_simple_up">
+		<text>An upgraded variant of the "Echo Detector" that expands its detection and artefact visability radius, though its still held back by the Echo detectors limited ability to detect artifacts.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		     %c[d_red] • %c[d_red] detection radius: %c[ui_gray_2] 40m\n
+			 %c[d_red] • %c[d_red] discovery radius: %c[ui_gray_2] 4m\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] moderate electric power consumption\n
+		</text>
+	</string>
+
+			<string id="st_name_detector_advanced_up">
+				<text>Bear detector (Upgraded)</text>
+			</string>
+
+		<!--=========================================================================-->
+
+			<string id="st_desc_detector_advanced_up">
+				<text>An upgraded variant of the "Bear Detector" that expands its detection and artefact visability radius, while better than the regular and upgraded Echo Dectors, the upgraded Bear Detector is limited by the stock detectors ability to uncover artefacts.\n \n
+				%c[ui_gray_3]PROPERTIES:\n
+					 %c[d_red] • %c[d_red] detection radius: %c[ui_gray_2] 50m\n
+					 %c[d_red] • %c[d_red] discovery radius: %c[ui_gray_2] 5m\n
+				%c[d_blue] • %c[ui_gray_2] technological item\n
+				%c[d_blue] • %c[ui_gray_2] moderate electric power consumption\n
+				</text>
+			</string>
+
+<!--#########################################################################-->
+<!--#########################################################################-->
+<!--#########################################################################-->
+
+
+	<string id="st_name_detector_elite_up">
+		<text>Bear detector (Upgraded)</text>
+	</string>
+
+<!--=========================================================================-->
+
+	<string id="st_desc_detector_elite_up">
+		<text>While still only able to detect the same artefacts that the stock Veles detector can detect, this upgraded version has a much larger range for both detection and discovery.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+			 %c[d_red] • %c[d_red] detection radius: %c[ui_gray_2] 60m\n
+			 %c[d_red] • %c[d_red] discovery radius: %c[ui_gray_2] 6m\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] high electric power consumption\n
+		</text>
+	</string>
+
+
+	<string id="st_name_detector_grizzly_up">
+		<text>Grizzly detector (Upgraded)
+				%c[ui_gray_3]PROPERTIES:\n
+					 %c[d_red] • %c[d_red] detection radius: %c[ui_gray_2] 50m\n
+					 %c[d_red] • %c[d_red] discovery radius: %c[ui_gray_2] 5m\n
+				%c[d_blue] • %c[ui_gray_2] technological item\n
+				%c[d_blue] • %c[ui_gray_2] moderate electric power consumption\n
+				</text>
+	</string>
+<!--#########################################################################-->
+<!--#########################################################################-->
+<!--#########################################################################-->
+
+			<string id="st_name_detector_scientific_up">
+				<text>Svarog detector (Upgraded)</text>
+			</string>
+
+		<!--=========================================================================-->
+
+			<string id="st_desc_detector_scientific_up">
+				<text>Like the Svarog, this upgraded detector is able to not only detect all known artefacts, but its display is able to show anomalies and artefacts up to a whopping 80 meters away and uncover hidden artefacts up to 10 meters away!!\n \n
+				%c[ui_gray_3]PROPERTIES:\n
+					 %c[d_red] • %c[d_red] detection radius: %c[ui_gray_2] 80m\n
+					 %c[d_red] • %c[d_red] discovery radius: %c[ui_gray_2] 10m\n
+				%c[d_blue] • %c[ui_gray_2] technological item\n
+				%c[d_blue] • %c[ui_gray_2] high electric power consumption\n
+				</text>
+			</string>
+
+<!--#########################################################################-->
+<!--#########################################################################-->
+<!--#########################################################################-->
+</string_table>

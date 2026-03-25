@@ -1,0 +1,13 @@
+{
+    "excludePaths": [
+        {
+            "name": "01 - [REQUIRED] Atmospherics/gamedata/configs"
+        },
+        {
+            "name": "01 - [REQUIRED] Atmospherics/gamedata/textures/anamflares"
+        },
+        {
+            "name": "01 - [REQUIRED] Atmospherics/gamedata/textures/fx"
+        }
+    ]    
+}

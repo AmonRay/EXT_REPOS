@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+    <string id="slot_duplicate_item_1">
+        <text>Вы уже носите одну баллистическую плиту.</text>
+    </string>
+    <string id="slot_duplicate_item_2">
+        <text>Вы уже носите «Верблюжий горб».</text>
+    </string>
+    <string id="slot_duplicate_item_4">
+        <text>Вы уже носите одну раму.</text>
+    </string>
+    <string id="slot_duplicate_item_8">
+        <text>Вы уже носите один блок поддержки.</text>
+    </string>
+    <string id="slot_duplicate_item_exo">
+        <text>Вы носите экзоскелет, на который не подключить раму.</text>
+    </string>
+    <string id="st_camelbak_drink">
+        <text>Вы сделали глоток из «Верблюжьего горба».</text>
+    </string>
+    <string id="st_camelbak_fill">
+        <text>Запас воды наполнен.</text>
+    </string>
+    <string id="st_camelbak_full">
+        <text>Ёмкость уже заполнена.</text>
+    </string>
+    
+    <string id="st_camelbak_capacity">
+        <text>Ёмкость</text>
+    </string>
+    
+    <string id="st_camelbak_trydrink">
+        <text>Выпить</text>
+    </string>
+
+    <string id="st_surge_compat">
+        <text>совместимые компоненты:</text>
+    </string>
+    
+    <string id="st_autodoc_compat">
+        <text>совместимые медикаменты:</text>
+    </string>
+
+    <string id="st_autodoc_capacity_hp">
+        <text>Стабилизатор здоровья:</text>
+    </string>
+    <string id="st_autodoc_capacity_rads">
+        <text>Антирадиационное средство:</text>
+    </string>
+    <string id="st_autodoc_capacity_dmgres">
+        <text>Резервуар с морфием:</text>
+    </string>
+    <string id="st_autodoc_full">
+        <text>Резервуар полон.</text>
+    </string>
+    
+    <string id="st_autodoc_enable">
+		<text>enable </text>
+	</string>
+	<string id="st_autodoc_disable">
+		<text>disable </text>
+	</string>
+    <string id="st_autodoc_hp">
+        <text>автоматическое лечение</text>
+    </string>
+    <string id="st_autodoc_rads">
+        <text>автоматический антирад</text>
+    </string>
+    <string id="st_autodoc_dmgres">
+        <text>автоматический морфин</text>
+    </string>
+
+    <string id="st_armor_penetrated">
+        <text>Пуля пробила бронеплиту!</text>
+    </string>
+    <string id="st_armor_broken">
+        <text>Снаряженная бронеплита полностью сломалась.</text>
+    </string>
+    <string id="st_armor_absorbed">
+        <text>Бронеплита поглотила удар.</text>
+    </string>
+
+    <string id="st_no_frame_equipped">
+        <text>Не установлена рама рюкзака.</text>
+    </string>
+    <string id="st_equipped_frame">
+        <text>Установленная рама рюкзака:</text>
+    </string>
+    <string id="st_remove_frame">
+        <text>удалить установленную раму</text>
+    </string>
+    <string id="st_install_frame">
+        <text>установить раму</text>
+    </string>
+
+    
+    <string id="ui_mcm_slotControl_title">
+        <text>Капитальный ремонт навесного оборудования</text>
+    </string>
+    <string id="ui_mcm_menu_slotControl">
+        <text>Outfit Attachments</text>
+    </string>
+    <string id="ui_mcm_slotControl_ballisticMessage">
+        <text>Уведомлять игрока о состоянии баллистической вставки.</text>
+    </string>
+    <string id="ui_mcm_slotControl_ballisticRepair">
+        <text>Разрешить ремонт баллистической вставки у техников.</text>
+    </string>
+    <string id="ui_mcm_slotControl_debug">
+        <text>Отладочные журналы</text>
+    </string>
+    <string id="ui_mcm_slotControl_plate_chance">
+        <text>Шанс на добычу броневых пластин</text>
+    </string>
+    <string id="ui_mcm_slotControl_plate_up_chance">
+        <text>Шанс на добычу улучшенных броневых пластин (мультипликативно)</text>
+    </string>
+    <string id="ui_mcm_slotControl_hp">
+        <text>Порог низкого здоровья для автодока</text>
+    </string>
+    <string id="ui_mcm_slotControl_hp_crit">
+        <text>Критический порог здоровья для автодока</text>
+    </string>
+    <string id="ui_mcm_slotControl_rads">
+        <text>Порог радиации для автодока</text>
+    </string>
+    
+    <string id="st_stim_none">
+        <text>Не стимулятор</text>
+    </string>
+  
+    
+    <string id="st_dot">
+        <text>•</text>
+    </string>
+</string_table>

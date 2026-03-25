@@ -1,0 +1,56 @@
+
+<specific_character id="sim_default_unisg_zombified_4_default_0" team_default = "1">
+#include "gameplay\profiles\character_desc_zombied_1.xml"
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Zombied_1</icon>
+    <snd_config>characters_voice\human\zombied_4\</snd_config>
+    <visual>actors\newzombied\stalker_ecolog_guard</visual>
+</specific_character>
+    
+<specific_character id="sim_default_unisg_zombified_4_default_1" team_default = "1">
+#include "gameplay\profiles\character_desc_zombied_1.xml"
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Zombied_1</icon>
+    <snd_config>characters_voice\human\zombied_4\</snd_config>
+    <visual>actors\newzombied\stalker_ecolog_guard</visual>
+</specific_character>>
+    
+<specific_character id="sim_default_unisg_zombified_4_default_2" team_default = "1">
+#include "gameplay\profiles\character_desc_zombied_1.xml"
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Zombied_1</icon>
+    <snd_config>characters_voice\human\zombied_4\</snd_config>
+    <visual>actors\newzombied\stalker_ecolog_guard</visual>
+</specific_character>
+    
+<specific_character id="sim_default_unisg_zombified_4_default_3" team_default = "1">
+#include "gameplay\profiles\character_desc_zombied_1.xml"
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Zombied_1</icon>
+    <snd_config>characters_voice\human\zombied_4\</snd_config>
+    <visual>actors\newzombied\stalker_ecolog_guard</visual>
+</specific_character>
+    
+<specific_character id="sim_default_unisg_zombified_4_default_4" team_default = "1">
+#include "gameplay\profiles\character_desc_zombied_1.xml"
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Zombied_1</icon>
+    <snd_config>characters_voice\human\zombied_4\</snd_config>
+    <visual>actors\newzombied\stalker_ecolog_guard</visual>
+</specific_character>
+    
+<specific_character id="sim_default_unisg_zombified_4_default_5" team_default = "1">
+#include "gameplay\profiles\character_desc_zombied_1.xml"
+    <name>GENERATE_NAME_stalker</name>
+    <icon>ui_inGame2_Zombied_1</icon>
+    <snd_config>characters_voice\human\zombied_4\</snd_config>
+    <visual>actors\newzombied\stalker_ecolog_guard</visual>
+</specific_character>
+
+
+<specific_character id="sim_default_goldfish_specops_4_default_0" team_default = "1">
+#include "gameplay\profiles\character_desc_army_4.xml"
+    <icon>ui_npc_u_stalker_militari_2</icon>
+    <snd_config>characters_voice\human\military_3\</snd_config>
+    <visual>actors\newmilitary\stalker_soldier_4_0</visual>
+</specific_character>

@@ -1,0 +1,7 @@
+{
+    "excludePaths": [
+        {
+            "name": "mod_system_realisticblood.ltx"
+        }
+    ]    
+}

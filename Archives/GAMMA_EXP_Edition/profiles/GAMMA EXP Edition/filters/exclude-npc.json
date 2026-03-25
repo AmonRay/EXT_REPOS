@@ -1,0 +1,40 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/dynamics"
+        },
+        {
+            "name": "gamedata/particles"
+        },
+        {
+            "name": "gamedata/meshes/monsters"
+        },
+        {
+            "name": "gamedata/textures/act/3vtiger"
+        },
+        {
+            "name": "gamedata/textures/act/greshnik13rs"
+        },
+        {
+            "name": "gamedata/textures/act/pla_"
+        },
+        {
+            "name": "gamedata/textures/act/act_dogs"
+        },        
+        {
+            "name": "gamedata/textures/act/tigg"
+        },
+        {
+            "name": "gamedata/textures/act/homefront"
+        },                                      
+        {
+            "name": "gamedata/meshes/actors/newclearsky.7z"
+        },
+        {
+            "name": "gamedata/meshes/actors/snork_animation.omf"
+        },      
+        {
+            "name": "gamedata/meshes/anomaly_weapons"
+        }                                          
+    ]    
+}

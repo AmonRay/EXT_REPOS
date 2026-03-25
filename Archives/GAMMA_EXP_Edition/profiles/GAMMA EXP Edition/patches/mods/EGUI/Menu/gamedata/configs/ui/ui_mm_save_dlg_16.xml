@@ -1,0 +1,78 @@
+
+<!-- ENHANCED GUI © 2007 INCBOX INC TEAM -->
+
+<w>
+  	<background x="0" y="0" width="1024" height="768">
+		<auto_static x="0" y="0" width="1024" height="768" stretch="1">
+			<texture x="0" y="0" width="1280" height="720">ui\enhancedGUI_17</texture>
+		</auto_static>
+		<auto_static x="0" y="0" width="1024" height="768" stretch="1">
+			<texture>ui\enhancedGUI\gui_overlay</texture>
+		</auto_static>
+		<auto_static x="323" y="55" width="682" height="2" stretch="1"> 
+			<texture>ui\enhancedGUI\ui_inc_line</texture>
+		</auto_static>
+		<auto_static x="323" y="105" width="682" height="2" stretch="1"> 
+			<texture>ui\enhancedGUI\ui_inc_line</texture>
+		</auto_static>
+		<auto_static x="4" y="713" width="116" height="53" stretch="1">
+			<texture>logoSTALKER</texture>
+		</auto_static>				
+		<auto_static x="978" y="732" width="35" height="28" stretch="1">
+			<texture>logoINC</texture>
+		</auto_static>
+    </background>
+	
+	<file_item>
+	    <main width="700" height="24"/>
+	    <fn width="586" height="24"/>
+	    <fd width="288" height="24"/>
+	</file_item>
+    <form x="0" y="0" width="1024" height="768" stretch="1">
+
+	    <caption x="320" y="68" width="86" height="24" stretch="1">
+		    <text r="177" g="145" b="83" font="graffiti32" align="l" vert_align="l">ui_mm_save_game</text>
+	    </caption>
+	    <edit x="440" y="68" width="569" height="34" file_name_mode="1">
+		    <texture>ui_inGame2_edit_box_1</texture>
+		    <text x="8" font="graffiti22" vert_align="c"/>
+	    </edit>
+	    <list_frame x="320" y="105" width="685" height="1">
+		    <texture>ui_inGame2_servers_list_frame</texture>
+	    </list_frame>
+	    <list x="320" y="117" width="707" height="603" item_height="24" can_select="1">
+		    <font font="letterica18"/>
+	    </list>
+
+	    <btn_save x="767" y="10" width="80" height="30" stretch="1">
+	        <texture>ui_button_ordinary</texture>
+	        <text font="letterica18">ui_mm_save</text>
+			<text_color>
+				<e r="200" g="200" b="200"/>
+				<t color ="ui_white"/>
+				<d color ="ui_black"/>
+				<h r="255" g="255" b="255"/>
+			</text_color>
+	    </btn_save>
+	    <btn_delete x="847" y="10" width="80" height="30" stretch="1">
+	        <texture>ui_button_ordinary</texture>
+	        <text font="letterica18">ui_mm_delete</text>
+			<text_color>
+				<e r="200" g="200" b="200"/>
+				<t color ="ui_white"/>
+				<d color ="ui_black"/>
+				<h r="255" g="255" b="255"/>
+			</text_color>
+	    </btn_delete>
+	    <btn_cancel x="927" y="10" width="80" height="30" stretch="1">
+	        <texture>ui_button_ordinary</texture>
+	        <text font="letterica18">ui_mm_cancel</text>
+			<text_color>
+				<e r="200" g="200" b="200"/>
+				<t color ="ui_white"/>
+				<d color ="ui_black"/>
+				<h r="255" g="255" b="255"/>
+			</text_color>
+	    </btn_cancel>
+	</form>
+</w>

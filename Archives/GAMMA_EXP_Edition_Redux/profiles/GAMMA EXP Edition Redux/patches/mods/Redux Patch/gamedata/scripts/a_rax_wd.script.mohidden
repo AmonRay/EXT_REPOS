@@ -1,0 +1,219 @@
+--[[
+Watch Dog script or Busy Hands Detection and Blame
+25FEB2024
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
+Author: RavenAscendant
+
+Watch Dog timers to detect hangs in the the actor update callback and timed event queue the 2 major causes of the "Busy Hands" bug in anomaly.
+--]]
+
+
+
+
+
+
+
+local crash_on_error = true -- setting to false will not crash the game on first error. allowing you to keep playing, not a good idea.
+local hang_time = 0.5 --time in seconds callback/event system is allowed to hang
+local watch_list = {--actor and global callbacks only, will not work for NPC and mutant callbacks or any callback that can be sent from multiple sources. don't use for dxml callbacks either
+	actor_on_update = {},
+	
+}
+
+base_calback_set = axr_main.callback_set
+function axr_main.callback_set(name,func_or_userdata)
+	if not (watch_list[name]) then
+		base_calback_set(name,func_or_userdata)
+	else --only register it here if it is one of ours
+		if (func_or_userdata == nil) then 
+			printf("![axr_main callback_set] trying to set callback %s to nil function!",name)
+			callstack()
+			return
+		end
+
+		watch_list[name][func_or_userdata] = true
+	end
+end
+base_callback_unset = axr_main.callback_unset
+function axr_main.callback_unset(name,func_or_userdata)
+	if (watch_list[name]) then
+		watch_list[name][func_or_userdata] = nil
+	end
+	base_callback_unset(name,func_or_userdata) --unregister in both just in case someting snuck thru
+end
+
+base_make_callback = axr_main.make_callback
+function axr_main.make_callback(name,...)
+	if (watch_list[name]) then
+		make_callback_watcher(name,...)
+	end
+	base_make_callback(name,...)--send in both just in case someting snuck thru
+	
+end
+
+
+
+function make_callback_watcher(name,...)
+	if (watch_list[name]) then
+		local wd_name = "watch_dog_"..name
+		for func_or_userdata,v in pairs(watch_list[name]) do 
+			if (type(func_or_userdata) == "function" ) then 
+				CreateTimeEvent(wd_name, func_or_userdata,hang_time, watcher, name, func_or_userdata)
+				func_or_userdata(...)
+				RemoveTimeEvent(wd_name, func_or_userdata)
+			elseif (func_or_userdata[name] ) then
+				CreateTimeEvent(wd_name, func_or_userdata[name],hang_time, watcher, name, func_or_userdata[name])
+				func_or_userdata[name](func_or_userdata,...)
+				RemoveTimeEvent(wd_name, func_or_userdata[name])
+			end
+		end
+	else
+		printf("! [RAX WD] can't make callback to non existing intercept %s! how did we get here?!?!?",name)
+		callstack()
+	end
+end
+
+local save_detected = false
+
+local saved = false
+function watcher(name, func)
+	if save_detected then return false end
+	printf("! [RAX WD] Callback %s hung for > %s seconds!", name , hang_time  )
+	local info = func and debug.getinfo(func,"S")
+	printf("! [RAX WD] Offending callback at line: %s of script:%s",info and info.linedefined, info and info.short_src)
+	if crash_on_error and not saved then
+		printf("! [RAX WD] Saving game.")
+		exec_console_cmd("save busy hands crash save" )
+		saved = true
+		return false
+	end
+	assert(not crash_on_error, 'The Actor Update system has crashed. Known as "Busy Hands" type 1, caused by script: '.. (info and info.short_src or "") .. ' | line: '.. (info and info.linedefined or "" ))
+	return true
+end
+
+--these lines can be entered one at a time in the debug lua console to validate this script for type 1 busyhands (note this cannot detect type 1 busyhands when type 2 is occuring)
+
+--RegisterScriptCallback("actor_on_update", function() printf("cat") end ) --makes the timed event system spam the log with 'cat' so you can see when it stops working
+
+--RegisterScriptCallback("actor_on_update", function() db.actor:give_game_news("cat") end ) --causes a busy hands type 1 hang
+
+
+--these lines can be entered one at a time in the debug lua console to validate this script for type 2 busyhands
+
+
+--CreateTimeEvent("foo", "foo1",0, function() printf("dog") end) --makes the timed event system spam the log with 'dog' so you can see when it stops working
+
+--CreateTimeEvent("foo", "foo2",0, function() db.actor:give_game_news("dog") end) --causes a busy hands type 2 hang
+
+
+
+
+local ev_queue = {}
+function _G.CreateTimeEvent(ev_id,act_id,timer,f,...)
+	if not (ev_queue[ev_id]) then
+		ev_queue[ev_id] = {}
+		ev_queue[ev_id].__size = 0
+	end
+
+	if not (ev_queue[ev_id][act_id]) then
+		ev_queue[ev_id][act_id] = {}
+		ev_queue[ev_id][act_id].timer = time_global() + timer*1000
+		ev_queue[ev_id][act_id].f = f
+		ev_queue[ev_id][act_id].p = {...}
+		ev_queue[ev_id].__size = ev_queue[ev_id].__size + 1
+	end
+end
+function _G.RemoveTimeEvent(ev_id,act_id)
+	if (ev_queue[ev_id] and ev_queue[ev_id][act_id]) then
+		ev_queue[ev_id][act_id] = nil
+		ev_queue[ev_id].__size = ev_queue[ev_id].__size - 1
+	end
+end
+function _G.ResetTimeEvent(ev_id,act_id,timer)
+	if (ev_queue[ev_id] and ev_queue[ev_id][act_id]) then
+		ev_queue[ev_id][act_id].timer = time_global() + timer*1000
+	end
+end
+function _G.ProcessEventQueue(force)
+	if has_alife_info("sleep_active") then
+		return false
+	end
+	
+	for event_id,actions in pairs(ev_queue) do
+		for action_id,act in pairs(actions) do
+			if (action_id ~= "__size") then
+				if (force) or (time_global() >= act.timer) then
+					-- utils_data.debug_write(strformat("event_queue: event_id=%s action_id=%s",event_id,action_id))
+					local temp = track_event(event_id, action_id, act.f)
+					AddUniqueCall(temp)
+					if (act.f(unpack(act.p)) == true) then
+						ev_queue[event_id][action_id] = nil
+						ev_queue[event_id].__size = ev_queue[event_id].__size - 1
+					end
+					RemoveUniqueCall(temp)
+				end
+			end
+		end
+
+		if (ev_queue[event_id].__size == 0) then
+			ev_queue[event_id] = nil
+		end
+	end
+	
+	return false
+end
+function _G.ProcessEventQueueState(m_data,save)
+	if (save) then
+		m_data.event_queue = ev_queue
+	else
+		ev_queue = m_data.event_queue or ev_queue
+	end
+end
+
+
+
+function track_event(event_id, action_id, func)
+	local tmr = time_global() + hang_time * 1000
+	return function() 
+		if save_detected then return false end
+		if tmr > time_global() then return false end
+	
+		printf("! [RAX WD] Event %s, %s hung for > %s seconds!", event_id,action_id, hang_time)
+		local info = func and debug.getinfo(func,"S")
+		printf("! [RAX WD] Offending event at line: %s of script:%s",info and info.linedefined, info and info.short_src)
+		if crash_on_error and not saved then
+			printf("! [RAX WD] Saving game.")
+			exec_console_cmd("save busy hands crash save" )
+			saved = true
+			return false
+		end
+		
+		 assert(not crash_on_error,'The Timed Event system has crashed. Known as "Busy Hands" type 2, caused by script: '.. (info and info.short_src or "") .. ' | line: '.. (info and info.linedefined or "" ))
+		
+		return true
+	end
+end
+
+
+function on_game_start()
+	RegisterScriptCallback("save_state", save_state)
+	RegisterScriptCallback("ActorMenu_on_mode_changed", ActorMenu_on_mode_changed)
+end
+
+function ActorMenu_on_mode_changed(mode)
+	if mode ~= 0 then save_state() end --block WD when opening inventory.
+end
+
+function save_state()-- when saving set a flag for 5 seconds that prevents the WD functions from going off.
+	save_detected = true
+	--printf("save detected")
+	local tmr = time_global() + 5000
+	AddUniqueCall(
+		function()
+			if tmr > time_global() then return false end
+			save_detected = false
+			--printf("save detected removed")
+			return true
+		end
+	)
+end

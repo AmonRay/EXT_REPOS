@@ -1,0 +1,7 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/textures/detail"
+        }
+    ]    
+}

@@ -1,0 +1,16 @@
+-- add recipes for Craftable Upgradable Detectors
+function add_recipes()
+
+	-- ================================================================================================================================================================
+    workshop_autoinject.add_new_recipe(1, "detector_simple_up",     "1,	recipe_basic_0,    detector_simple,     1, walkie, 1, prt_i_transistors,  3, prt_i_capacitors,   3") -- echo
+	workshop_autoinject.add_new_recipe(1, "detector_advanced_up",   "1,	recipe_advanced_0, detector_advanced,   1, walkie, 1, prt_i_transistors,  4, prt_i_capacitors,   4") -- bear
+	workshop_autoinject.add_new_recipe(1, "detector_grizzly_up",      "1,	recipe_expert_0,   detector_grizzly,      1, walkie, 1, prt_i_transistors, 5, prt_i_capacitors,  5") -- grizzly
+	workshop_autoinject.add_new_recipe(1, "detector_elite_up",      "1,	recipe_expert_0,   detector_elite,      1, walkie, 1, prt_i_transistors, 6, prt_i_capacitors,  6") -- veles
+	workshop_autoinject.add_new_recipe(1, "detector_scientific_up", "1,	recipe_expert_0,   detector_scientific, 1, walkie, 1, prt_i_transistors, 15, prt_i_capacitors,  15") -- svarog
+	-- ================================================================================================================================================================
+
+end
+
+function on_game_start()
+    add_recipes()
+end

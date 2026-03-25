@@ -1,0 +1,81 @@
+<string_table>
+
+<string id="st_wpn_akm_isg">
+  <text>Rifle Dynamics RD-47 ISG Tactical</text>
+  </string>
+  <string id="st_wpn_akm_isg_descr">
+  <text> A special model developed on the basis of AKM by the American company Rifle Dynamics. This is one of the highest quality and modern types of weapons in the Zone. Several batches of AK Rifle Dynamics modifications were sent to Ukraine for testing weapons with the aim of arming them with the Ukrainian special forces. Rifle Dynamics sought to sell production licenses to Eastern European powers. However, the trials were .\n \n
+  %c[ui_gray_2] UPDATED EQUIPMENT: \n
+  %c[d_purple] • %c[ui_gray_2] Device: ATPIAL (Advanced laser sight with illuminated target pointer) AN/PEQ-15 manufactured by L3 Insight Technologies. A tactical device that combines laser targets both in the visible and in the infrared range with an infrared projector. \n
+  %c[d_purple] • %c[ui_gray_2] Optical sights: All optical sights for picatinny.\n
+  %c[d_purple] • %c[ui_gray_2] Глушители: Rifle Dynamics ISG Sound Suppressor\n </text>
+  </string>
+
+
+<string id="st_wpn_ak74_isg">
+  <text>Rifle Dynamics RD-74N ISG Tactical</text>
+  </string>
+  <string id="st_wpn_ak74_isg_descr">
+  <text> A special model developed on the basis of the AK-74М by the American company Rifle Dynamics. This is one of the highest quality and modern types of weapons in the Zone. Several batches of AK Rifle Dynamics modifications were sent to Ukraine for testing weapons with the aim of arming them with the Ukrainian special forces. Rifle Dynamics sought to sell production licenses to Eastern European powers. However, the tests were canceled, and the AK12 2016 was adopted together with the AEK for special forces. Some of these rifles for demonstrating the dynamics of the rifle and conducting tests over many years have gradually entered the zone and are used exclusively by special units of the ISG.\n \n
+  %c[ui_gray_2] UPDATED EQUIPMENT: \n
+  %c[d_purple] • %c[ui_gray_2] Device: ATPIAL (Advanced laser sight with illuminated target pointer) AN/PEQ-15 manufactured by L3 Insight Technologies. A tactical device that combines laser targets both in the visible and in the infrared range with an infrared projector. \n
+  %c[d_purple] • %c[ui_gray_2] Optical sights: All optical sights for picatinny.\n
+  %c[d_purple] • %c[ui_gray_2] Глушители: Rifle Dynamics ISG Sound Suppressor\n </text>
+  </string>
+
+  <string id="st_wpn_ak74u_isg">
+  <text>Rifle Dynamics RD-74U ISG</text>
+  </string>
+  <string id="st_wpn_ak74u_isg_descr">
+  <text> A special model developed on the basis of the AK-74U by the American company Rifle Dynamics. This is one of the highest quality and modern types of weapons in the Zone. Several batches of AK Rifle Dynamics modifications were sent to Ukraine for testing weapons with the aim of arming them with the Ukrainian special forces. Rifle Dynamics sought to sell production licenses to Eastern European powers. However, the tests were canceled, and the AK12 2016 was adopted together with the AEK for special forces. Some of these rifles for demonstrating the dynamics of the rifle and conducting tests over many years have gradually entered the zone and are used exclusively by special units of the ISG.\n \n
+  %c[ui_gray_2] UPDATED EQUIPMENT: \n
+  %c[d_purple] • %c[ui_gray_2] Optical sights: All optical sights for picatinny.\n
+  %c[d_purple] • %c[ui_gray_2] Глушители: Rifle Dynamics ISG Sound Suppressor\n </text>
+  </string>
+
+  <string id="st_wpn_ak74u_m1_isg">
+  <text>Rifle Dynamics RD-74U ISG Tactical</text>
+  </string>
+  <string id="st_wpn_ak74u_m1_isg_descr">
+  <text> A special model developed on the basis of the AK-74U by the American company Rifle Dynamics. This is one of the highest quality and modern types of weapons in the Zone. Several batches of AK Rifle Dynamics modifications were sent to Ukraine for testing weapons with the aim of arming them with the Ukrainian special forces. Rifle Dynamics sought to sell production licenses to Eastern European powers. However, the tests were canceled, and the AK12 2016 was adopted together with the AEK for special forces. Some of these rifles for demonstrating the dynamics of the rifle and conducting tests over many years have gradually entered the zone and are used exclusively by special units of the ISG.\n \n
+  %c[ui_gray_2] UPDATED EQUIPMENT: \n
+  %c[d_purple] • %c[ui_gray_2] Device: ATPIAL (Advanced laser sight with illuminated target pointer) AN/PEQ-15 manufactured by L3 Insight Technologies. A tactical device that combines laser targets both in the visible and in the infrared range with an infrared projector. \n
+  %c[d_purple] • %c[ui_gray_2] Optical sights: All optical sights for picatinny.\n
+  %c[d_purple] • %c[ui_gray_2] Глушители: Rifle Dynamics ISG Sound Suppressor\n </text>
+  </string>
+
+  <string id="st_wpn_m4_tac">
+  <text>M4 Tactical</text>
+  </string>
+  <string id="st_wpn_m4_tac_descr">
+  <text>Colt M4A1 - assault rifle (carbine), developed in the USA on the basis of the AR-15 platform under the NATO 5.56x45 cartridge. It was developed primarily for use by transport operators and fire commandos who required a more compact and lightweight weapon than a standard full-size rifle, but using the same ammunition. However, SOCOM USA (Commandovanie spécialis opérations United States of America) soon had to adopt the M4A1 for the armament of all subordinate units, followed by the general implementation of the M4A1 for the armament of the US Army and the Marine Corps.\n \n
+  %c[ui_gray_2] UPDATED EQUIPMENT: \n
+  %c[d_purple] • %c[ui_gray_2] Device: ATPIAL (Advanced laser sight with illuminated target pointer) AN/PEQ-15 manufactured by L3 Insight Technologies. A tactical device that combines laser targets both in the visible and in the IR range with an IR projector.\n
+  %c[d_purple] • %c[ui_gray_2] Optical sights: All for picatinny/weaver (except Red Dot sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter sight, 1P76 Ракурс (low производитель).\n
+  %c[d_purple] • %c[ui_gray_2] Listeners: 5.56/7.62 Nato Daniel Defense DDWave \n </text>
+  </string>
+
+  <string id="st_wpn_howa_type_20">
+  <text>Howa Type 20 Carbine</text>
+  </string>
+  <string id="st_wpn_howa_type_20_descr">
+  <text>The assault rifle was officially presented to the general public in May 2020. This weapon is intended to replace the Type 89 assault rifle, which has been in service for about 30 years. The new rifle of the Japanese self-defense forces, like the previous one, was developed by the company Howa Machinery Co. and uses cartridges of 5.56 mm caliber. The development of a new rifle to replace the Type 89 began on the order of the Japanese Armed Forces in 2014. Externally and constructively, the new type 20 rifle is the arithmetic mean of many modern rifles, such as the HK433 or CZ BREN II, and apparently does not have any original features. However, there is nothing wrong with this, since army weapons require not originality of design, but reliability, low price and compliance with the customer's requirements. It remains a mystery how and in what quantity this rifle got to the participants of the scientific expedition to the Zone.\n
+  %c[ui_gray_2] UPDATED EQUIPMENT: \n
+  %c[d_purple] • %c[ui_gray_2] Device: ATPIAL (Advanced laser sight with illuminated target pointer) AN/PEQ-15 manufactured by L3 Insight Technologies. A tactical device that combines laser targets both in the visible and in the IR range with an IR projector.\n
+  %c[d_purple] • %c[ui_gray_2] Optical sights: All for picatinny (except Red Dot sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter scope and 1P76 Rakurs (picatinny)\ no
+  %c[d_purple] • %c[ui_gray_2] Listeners: Knights Armament Corporation's QDSS NT-4 5.56С…45\n </text>
+  </string>
+
+  <string id="st_wpn_sr25camo">
+  <text>SR-25 Match Rifle</text>
+  </string>
+  <string id="st_wpn_sr25camo_descr">
+  <text>The SR-25 Precision Carbine rifle demonstrates exceptional effectiveness when hitting targets at distances of over 800 meters, providing high speed and close-range shooting accuracy. The rifle is equipped with a light carbon-plastic handle of the MLOK type, distinguished by optimal strength and protection at minimal weight, as well as an AN/PEQ-15 laser pointer to improve aiming, a vertical handle to increase stability and control in confined spaces. In the ranks of the "Freedom" faction there are rumors that there are around thirty SR-25 rifles in circulation. Two batches, consisting of rifles and spare parts, were secretly delivered to the Zone by an unknown person. The origin of these parties still remains a mystery. \n
+  %c[ui_gray_2] UPDATED EQUIPMENT: \n
+  %c[d_purple] • %c[ui_gray_2] Device: ATPIAL (Advanced laser sight with illuminated target pointer) AN/PEQ-15 manufactured by L3 Insight Technologies. A tactical device that combines laser targets both in the visible and in the IR range with an IR projector.\n
+  %c[d_purple] • %c[ui_gray_2] Optical sights: All for picatinny/weaver (except Red Dot sights with low mount: Trijicon RMR, Leupold DeltaPoint PRO, Aimpoint T1 (low mount), Docter sight, 1P76 Ракурс (low производитель).\n
+  %c[d_purple] • %c[ui_gray_2] Listeners: 5.56/7.62 Nato Daniel Defense DDWave \n </text>
+  </string>
+
+
+  </string_table>

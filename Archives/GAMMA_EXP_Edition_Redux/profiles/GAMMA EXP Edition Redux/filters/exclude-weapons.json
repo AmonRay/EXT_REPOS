@@ -1,0 +1,34 @@
+{
+    "excludePaths": [
+        {
+            "name": "gamedata/dynamics"
+        },
+        {
+            "name": "gamedata/particles"
+        },
+        {
+            "name": "gamedata/configs/items/weapons/w_abakan.ltx"
+        },
+        {
+            "name": "gamedata/configs/items/weapons/w_abakan_n.ltx"
+        },
+        {
+            "name": "gamedata/dynamics/weapons/wpn_abakan_n"
+        },                  
+        {
+            "name": "gamedata/configs/items/weapons/w_aek.ltx"
+        },      
+        {
+            "name": "gamedata/configs/items/weapons/w_ak.ltx"
+        },
+        {
+            "name": "gamedata/configs/items/weapons/w_abakan.ltx"
+        },
+        {
+            "name": "gamedata/configs/items/weapons/w_abakan.ltx"
+        },
+        {
+            "name": "gamedata/configs/items/weapons/w_abakan.ltx"
+        }
+    ]    
+}

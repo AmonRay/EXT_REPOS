@@ -1,0 +1,3065 @@
+
+{
+    "profileName": "GAMMA EXP Edition Redux",
+    "changeLog": [
+        {
+            "version": 143,
+            "download":[
+
+            ],
+            "delete":[
+            ],
+            "update":[
+
+            ]
+        },
+        {
+            "version": 142,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "ARC-3DSS"},
+                {"addonName": "Weather Expansion for Atmospherics"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - Atmos Weather Expansion"},
+                { "modName": "GAMMA EXP Edition Redux - ARC-3DSS"}
+            ]
+        },          
+        {
+            "version": 141,
+            "download":[    
+            ],
+            "delete":[
+            ],
+            "update":[
+            ]
+        },           
+        {
+            "version": 140,
+            "download":[    
+                    {"addonName": "Dynahud Hud Manager"},
+                    {"addonName": "C Consciousness Grass Overhaul"},
+                    {"addonName": "3DSS-for-SIG-SPEAR"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SIG MCX SPEAR"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Core ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Autumn ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Summer ]"}
+            ]
+        },         
+        {
+            "version": 139,
+            "download":[    
+                    {"addonName": "ARC-3DSS"},
+                    {"addonName": "3DSS-for-SIG-MCX"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-for-SIG-MCX"},
+                { "modName": "GAMMA EXP Edition Redux - ARC-3DSS"}
+            ]
+        },         
+        {
+            "version": 138,
+            "download":[    
+                    {"addonName": "GAMMA RPG System"},
+                    {"addonName": "3DSS-FAMAS-Replacer"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS EFP Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS FAMAS Replacer"}
+            ]
+        },        
+        {
+            "version": 137,
+            "download":[    
+                    {"addonName": "MartinLore's Stalker 2 Icons"},
+                    {"addonName": "HD Inventory Icons Framework"},
+                    {"addonName": "3DSS-PSG1A1"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - MartinLore's Stalker 2 Icons"},
+                { "modName": "GAMMA EXP Edition Redux - HD Inventory Icons Framework"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"}
+            ]
+        },         
+        {
+            "version": 136,
+            "download":[    
+                    {"addonName": "Dynahud Hud Manager"},
+                    {"addonName": "GAMMA RPG System"},
+                    {"addonName": "3DSS-M24-Reanimation"},
+                    {"addonName": "3DSS-Gunslinger-Gauss"},
+                    {"addonName": "3DSS-SR25-PMC"},
+                    {"addonName": "3DSS-SVU-PMC"},
+                    {"addonName": "3DSS-AK101-SP"},
+                    {"addonName": "3DSS-RPD-Custom"},
+                    {"addonName": "AmmoCheck Github version"},
+                    {"addonName": "ARC-3DSS"},
+                    {"addonName": "SEALs"},
+                    {"addonName": "SEALs Config - EXP Redux"},
+                    {"addonName": "MartinLore's Stalker 2 Icons"},
+                    {"addonName": "Strogglet Cache - MK14 Overhaul"},
+                    {"addonName": "Strogglet Cache - The AEK Kit"},
+                    {"addonName": "Strogglet Cache - God Save The EM-2"},
+                    {"addonName": "Strogglet Cache - The Auto Mag"},
+                    {"addonName": "Strogglet Cache - AShey n' ShAKy"},
+                    {"addonName": "Strogglet Cache - The Dragunov Family"},
+                    {"addonName": "Strogglet Cache - MAT-49"},
+                    {"addonName": "Strogglet Cache - K-50M"},
+                    {"addonName": "The AEK Kit Reanimation Pack"},
+                    {"addonName": "3DSS-BaS22-Hero-s-Choice"},
+                    {"addonName": "3DSS-A-545"},
+                    {"addonName": "3DSS-Meowie-s-Scout-Rework"},
+                    {"addonName": "3DSS-RFB"},
+                    {"addonName": "3DSS-Gungnir"},
+                    {"addonName": "3DSS-Vintorez-ISG-reanimation-and-Remodel"},
+                    {"addonName": "AUG-A3-Custom-Replacer-for-3DSS"},
+                    {"addonName": "3DSS-Scar12"},
+                    {"addonName": "3DSS-for-SIG-MCX"},
+                    {"addonName": "3DSS-WA2000-Reanimation"},
+                    {"addonName": "3DSS-KAC-Freak-PDW"},
+                    {"addonName": "MK-18 Mjolnir Marksman Rifle"},
+                    {"addonName": "Useful Wheel"},
+                    {"addonName": "Project I.N.V.E.R.N.O"},
+                    {"addonName": "Project I.N.V.E.R.N.O - C Con Frozen grass"},
+                    {"addonName": "BaS22 Tac Kit Models"},
+                    {"addonName": "3DSS-Mateba-Unica"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - F.D.D.A Backpacks Reborn"},
+                { "modName": "GAMMA EXP Edition Redux - MK-18 Mjolnir Marksman Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - MK18 Gungnir Heavy Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - Shine+Awrys mags fixes for Gamma Mag Redux"},
+                { "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O - PDA Maps"}                
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Zone Recycle Bin"},
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}, 
+                { "modName": "GAMMA EXP Edition Redux - BaS22 Updated"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M24-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SR 25 EFT"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Gunslinger-Gauss"},
+                { "modName": "GAMMA EXP Edition Redux - Mags Redux Github version"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - ARC-3DSS"},
+                { "modName": "GAMMA EXP Edition Redux - SEALs"},
+                { "modName": "GAMMA EXP Edition Redux - SEALs Config"},
+                { "modName": "GAMMA EXP Edition Redux - Animated Save Icon"},
+                { "modName": "GAMMA EXP Edition Redux - MartinLore's Stalker 2 Icons"},
+                { "modName": "GAMMA EXP Edition Redux - Strogglet's Secret Cache"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-A-545"},
+                { "modName": "GAMMA EXP Edition Redux - The AEK Kit Reanimation Pack (3DSS)"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Meowie-s-Scout-Rework"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Retro RFB"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS MK18 Gungnir Heavy Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - MK-18 Mjolnir Marksman Rifle (3DSS)"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Vintorez-ISG-reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-BaS22-Hero-s-Choice"},
+                { "modName": "GAMMA EXP Edition Redux - AUG-A3-Custom-Replacer-for-3DSS"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Scar12"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-for-SIG-MCX"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-WA2000-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - Useful Wheel"},
+                { "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O - C Con Frozen grass"},
+                { "modName": "GAMMA EXP Edition Redux - Atmos Weather Expansion"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },
+        {
+            "version": 135,
+            "download":[    
+                    {"addonName": "3DSS-M4-Tactical-Reanimation-and-Remodel"},
+                    {"addonName": "3DSS-AK103-Bullpup"},
+                    {"addonName": "3DSS-M4-Skyraga-Reanimation"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS M4 Tac Reanimation - Side Angled Foregrip"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-AK103-Bullpup"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4-Skyraga-Reanimation"}
+            ]
+        },         
+        {
+            "version": 134,
+            "download":[    
+                    {"addonName": "GAMMA RPG System"},
+                    {"addonName": "3DSS-Groza-Custom"},
+                    {"addonName": "3DSS-VEPR762x544"},
+                    {"addonName": "3DSS-Saiga23"},
+                    {"addonName": "3DSS-M4-Tactical-Reanimation-and-Remodel"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}, 
+                { "modName": "GAMMA EXP Edition Redux - Body Health System Realistic Overhaul (BHSRO)"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS M4 Tac Reanimation - Side Angled Foregrip"}
+            ]
+        },        
+        {
+            "version": 133,
+            "download":[    
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "3DSS-TX15-Reanimation"},
+                {"addonName": "3DSS-M4-Tactical-Reanimation-and-Remodel"},
+                {"addonName": "3DSS-M4-Skyraga-Reanimation"},
+                {"addonName": "Project I.N.V.E.R.N.O"},
+                {"addonName": "Project I.N.V.E.R.N.O - PDA Maps"},
+                {"addonName": "F.D.D.A Backpacks Reborn"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - QUICK ACTION WHEEL"},
+                { "modName": "GAMMA EXP Edition Redux - Personal Adjustable Waypoint"},
+                { "modName": "GAMMA EXP Edition Redux - CR3PIS ICONS"},
+                { "modName": "GAMMA EXP Edition Redux - FDDA Redone [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - FDDA Redone - Run scripts inside to enable or disable"},
+                { "modName": "GAMMA EXP Edition Redux - Interaction Dot Marks"},
+                { "modName": "GAMMA EXP Edition Redux - Heatvision"},
+                { "modName": "GAMMA EXP Edition Redux - BEEF'S NVG, HVG - IMPROVED"}       
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Heatvision"},
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"},
+                { "modName": "GAMMA EXP Edition Redux - BHS Reworked"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}, 
+                { "modName": "GAMMA EXP Edition Redux - F.D.D.A Backpacks Reborn"},
+                { "modName": "GAMMA EXP Edition Redux - BaS22 Updated"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-BaS22-Hero-s-Choice"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-TX15-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS M4 Tac Reanimation - Side Angled Foregrip"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4-Skyraga-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O - PDA Maps"}
+            ]
+        },         
+        {
+            "version": 132,
+            "download":[    
+                    {"addonName": "Interaction Dot Marks"},
+                    {"addonName": "3D Shader Scopes for GAMMA"},
+                    {"addonName": "3DSS-BaS22-Hero-s-Choice"},
+                    {"addonName": "BaS22 Sounds"},
+                    {"addonName": "BaS22 Textures"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Interaction Dot Marks"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-BaS22-Hero-s-Choice"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"}
+            ]
+        },             
+        {
+            "version": 131,
+            "download":[    
+                    {"addonName": "3D Shader Scopes for GAMMA"},
+                    {"addonName": "Interaction Dot Marks"},
+                    {"addonName": "F.D.D.A Backpacks Reborn"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Interaction Dot Marks"},
+                { "modName": "GAMMA EXP Edition Redux - FDDA Redone - Run scripts inside to enable or disable"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"}
+            ]
+        },          
+        {
+            "version": 130,
+            "download":[    
+                    {"addonName": "Screenspace Shaders"},
+                    {"addonName": "Dynahud Hud Manager"},
+                    {"addonName": "Interaction Dot Marks"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Interaction Dot Marks"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},                 
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models on actor 3rd person view ]"}                       
+            ]
+        },         
+        {
+            "version": 129,
+            "download":[    
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Accurate Stats Extended"},
+                {"addonName": "Spotter"}     
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}, 
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - PSY STRESS"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition Redux - Spotter"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom Shaders"},
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"}                      
+            ]
+        },         
+        {
+            "version": 128,
+            "download":[    
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "Interaction Dot Marks"},                
+                {"addonName": "Ye Old Horror"},
+                {"addonName": "Spotter"}                               
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Interaction Dot Marks"},                
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - Ye Old Horror"},
+                { "modName": "GAMMA EXP Edition Redux - Spotter"},
+                { "modName": "GAMMA EXP Edition Redux - FDDA Redone - Run scripts inside to enable or disable"}                
+            ]
+        },          
+        {
+            "version": 127,
+            "download":[        
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "Animated Save Icon and Sound for Anomaly"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "Project I.N.V.E.R.N.O"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "C Consciousness Autumn Trees Overhaul"},
+                {"addonName": "C Consciousness Summer Trees Overhaul"},
+                {"addonName": "Anomaly Custom Shaders SSS23"},
+                {"addonName": "LootBoxes for GAMMA"},
+                {"addonName": "Interaction Dot Marks"},
+                {"addonName": "ATHI MagsRedux Mods Madness"},
+                {"addonName": "3DSS RWAP Patch"},
+                {"addonName": "Leekos' HD Faction Patches"},
+                {"addonName": "HD Inventory Icons Framework"},
+                {"addonName": "RWAP HD icons"},
+                {"addonName": "FDDA Redone"},
+                {"addonName": "FDDA Redone Scripts Disabler"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "FDDA - Backpacks"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Parallax Reflex Sights For GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - Leekos RWAP edits"},
+                { "modName": "GAMMA EXP Edition Redux - The Honey Badger"},
+                { "modName": "GAMMA EXP Edition Redux- BEEF'S NVG, HVG - IMPROVED"}                        
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-for-LR300-Reanimated"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Heatvision"},
+                { "modName": "GAMMA EXP Edition Redux - Atmos Weather Expansion"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Trees Overhaul [ Autumn ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Trees Overhaul [ Summer ]"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom Shaders"},
+                { "modName": "GAMMA EXP Edition Redux - LootBoxes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - Interaction Dot Marks"},
+                { "modName": "GAMMA EXP Edition Redux - Animated Save Icon"},
+                { "modName": "GAMMA EXP Edition Redux - ATHI MagsRedux Mods Madness"},
+                { "modName": "GAMMA EXP Edition Redux - Retrogue Additional Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Retrogue Additional Weapons"},
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"},
+                { "modName": "GAMMA EXP Edition Redux - SIG MCX"},
+                { "modName": "GAMMA EXP Edition Redux - RADON'S REANIMATED LR300"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS EFP Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-EFT-Weapons-pack"},
+                { "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O [ Reinstall to configure ]"},
+                { "modName": "EXP Redux - 3DSS_separator"},
+                { "modName": "GAMMA EXP Edition Redux - Leekos' HD Faction Patches"},
+                { "modName": "GAMMA EXP Edition Redux - HD Inventory Icons Framework"},
+                { "modName": "GAMMA EXP Edition Redux - RWAP HD icons"},
+
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Vintorez-ISG-reanimation"},
+
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"},
+                { "modName": "GAMMA EXP Edition Redux - FDDA Redone - Run scripts inside to enable or disable"},
+                { "modName": "GAMMA EXP Edition Redux - FDDA Redone [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Bizon-Reanimated"}
+            ]
+        },          
+        {
+            "version": 126,
+            "download":[    
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},                
+                {"addonName": "C Consciousness Grass Overhaul"},
+                {"addonName": "C Consciousness Summer Trees Overhaul"},
+                {"addonName": "C Consciousness Autumn Trees Overhaul"},
+                {"addonName": "C Consciousness Autumn Trees Hotfix"},
+                {"addonName": "PAINTER OF THE ZONE"}                                                  
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},                
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Core ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Autumn ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Summer ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Trees Overhaul [ Autumn ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Trees Overhaul [ Summer ]"},
+                { "modName": "GAMMA EXP Edition Redux - PAINTER OF THE ZONE"}                 
+            ]
+        },          
+        {
+            "version": 125,
+            "download":[           
+            ],
+            "delete":[
+            ],
+            "update":[
+            ]
+        },         
+        {
+            "version": 124,
+            "download":[           
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+            ]
+        },            
+        {
+            "version": 123,
+            "download":[           
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "ATHI MagsRedux Mods Madness"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - ATHI MagsRedux Mods Madness"}
+            ]
+        },         
+        {
+            "version": 122,
+            "download":[           
+                {"addonName": "C Consciousness Grass Overhaul"},
+                {"addonName": "Personal Adjustable Waypoint"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Personal Adjustable Waypoint"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Core ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Autumn ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Summer ]"}
+            ]
+        },            
+        {
+            "version": 121,
+            "download":[           
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Project I.N.V.E.R.N.O"},
+                {"addonName": "WEAPON INERTIA REDUX"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - WEAPON INERTIA REDUX"},
+                { "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O [ Reinstall to configure ]"}
+            ]
+        },            
+        {
+            "version": 120,
+            "download":[           
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "PRS"},
+                {"addonName": "CR3PIS ICONS"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Parallax Reflex Sights For GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - CR3PIS ICONS"}
+            ]
+        },        
+        {
+            "version": 119,
+            "download":[           
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "SIG MCX"},
+                {"addonName": "3DSS-for-SIG-MCX"},
+                {"addonName": "PRS"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - SIG MCX"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-for-SIG-MCX"},
+                { "modName": "GAMMA EXP Edition Redux - Parallax Reflex Sights For GAMMA"}
+            ]
+        },          
+        {
+            "version": 118,
+            "download":[          
+                {"addonName": "WEAPON INERTIA REDUX"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "3DSS-EFPWP---ATHI-Edit"},
+                {"addonName": "3DSS-Scar12"},
+                {"addonName": "3DSS-HOWA20-Makeover"},
+                {"addonName": "3DSS-M4-Tactical-Reanimation-and-Remodel"},
+                {"addonName": "3DSS-Meowie-s-Scout-Rework"},
+                {"addonName": "3DSS-TCO-AK-Pack"},
+                {"addonName": "3DSS-Vintorez-ISG-reanimation-and-Remodel"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - WEAPON INERTIA REDUX"},
+                { "modName": "GAMMA EXP Edition Redux - BaS22 Weapon pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS EFP Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-HOWA20-Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS M4 Tac Reanimation - Side Angled Foregrip"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Meowie-s-Scout-Rework"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Scar12"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-TCO-AK-Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Vintorez-ISG-reanimation"}
+            ]
+        },         
+        {
+            "version": 117,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Accurate Stats Extended"},
+                {"addonName": "Kmack Weapon Repositions"},
+                {"addonName": "Project I.N.V.E.R.N.O"},                
+                {"addonName": "GAMMA RPG System"}                                
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"},
+                { "modName": "GAMMA EXP Edition Redux - Kmack Weapon Repositions"},    
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},                            
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},   
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},                
+                { "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O [ Reinstall to configure ]"},                
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"}          
+            ]
+        },           
+        {
+            "version": 116,
+            "download":[          
+                {"addonName": "Accurate Stats Extended"},
+                {"addonName": "Kmack Weapon Repositions"},
+                {"addonName": "Red Moon"}        
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Body Health System Realistic Overhaul (BHSRO)"},
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"},
+                { "modName": "GAMMA EXP Edition Redux - Kmack Weapon Repositions"},
+                { "modName": "GAMMA EXP Edition Redux - Red Moon"}
+            ]
+        },          
+        {
+            "version": 115,
+            "download":[
+                {"addonName": "GAMMA RPG System"},                
+                {"addonName": "Accurate Stats Extended"}              
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"}
+            ]
+        },         
+        {
+            "version": 114,
+            "download":[    
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Red Moon"},
+                {"addonName": "Dynamic viewmodel"},
+                {"addonName": "Project I.N.V.E.R.N.O"},
+                {"addonName": "Cold System"}                
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Red Moon"},
+                { "modName": "GAMMA EXP Edition Redux - Project I.N.V.E.R.N.O [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Cold System"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"}                
+            ]
+        },        
+        {
+            "version": 113,
+            "download":[    
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Accurate Stats Extended"},
+                {"addonName": "Extra Achievements"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"},
+                { "modName": "GAMMA EXP Edition Redux - Body Health System Realistic Overhaul (BHSRO)"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Extra Achievements"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },
+        {
+            "version": 112,
+            "download":[    
+                {"addonName": "Shine+Awrys mags fixes for Gamma Mag Redux"},
+                {"addonName": "EXPERIENCE FRAMEWORK"},
+                {"addonName": "Dynamic viewmodel"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Dynamic Zoom Click Sound"},
+                {"addonName": "Kmack Weapon Repositions"},
+                {"addonName": "Darkspace vehicle fix"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Weather Expansion for Atmospherics"},
+                { "modName": "GAMMA EXP Edition Redux - Weather Expansion for Custom"},
+                { "modName": "GAMMA EXP Edition Redux - DISMEMBERMENT"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Dynamic Zoom Click Sound"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Core ]"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - REALISTIC BLOOD HQ REDONE"},
+                { "modName": "GAMMA EXP Edition Redux - Atmos Weather Expansion"},
+                {"modName": "GAMMA EXP Edition Redux - Anomaly Custom Weather"},
+                {"modName": "GAMMA EXP Edition Redux - Body Health System Realistic Overhaul (BHSRO)"},
+                {"modName": "GAMMA EXP Edition Redux - Compatibility Patch"},
+                {"modName": "GAMMA EXP Edition Redux - Kmack Weapon Repositions"},
+                {"modName": "GAMMA EXP Edition Redux - Shine+Awrys mags fixes for Gamma Mag Redux"},
+                {"modName": "GAMMA EXP Edition Redux - DEVICE SELECTOR KEY"},
+                {"modName": "GAMMA EXP Edition Redux - Darkspace vehicle fix"},
+                {"modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"}
+            ]
+        },         
+        {
+            "version": 111,
+            "download":[    
+                {"addonName": "Red Moon"},
+                {"addonName": "Day Stalkers"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "EXPERIENCE FRAMEWORK"},
+                {"addonName": "Dynamic Zoom Click Sound"},
+                {"addonName": "Zone Recycle Bin"},
+                {"addonName": "Mags Pouches belt addons"},
+                {"addonName": "PAINTER OF THE ZONE"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Red Moon"},
+                { "modName": "GAMMA EXP Edition Redux - Day Stalkers"},
+                { "modName": "GAMMA EXP Edition Redux - Dynamic Zoom Click Sound"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Mags Pouches belt addons"},
+                { "modName": "GAMMA EXP Edition Redux - Zone Recycle Bin"},
+                { "modName": "GAMMA EXP Edition Redux - PAINTER OF THE ZONE"}
+            ]
+        },          
+        {
+            "version": 110,
+            "download":[    
+                {"addonName": "Dynamic viewmodel"},
+                {"addonName": "Weather Expansion for Atmospherics"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Weather Expansion for Atmospherics"},
+                { "modName": "GAMMA EXP Edition Redux - Weather Expansion for Custom"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"}
+            ]
+        },          
+        {
+            "version": 109,
+            "download":[    
+                {"addonName": "Dynamic viewmodel"}
+            ],
+            "delete":[
+            ],
+            "update":[
+            ]
+        },         
+        {
+            "version": 108,
+            "download":[    
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "ATMOSPHERICS"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom Shaders"}
+            ]
+        },              
+        {
+            "version": 107,
+            "download":[
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Camo Netting Shadow Fix"}
+            ],
+            "update":[
+            ]
+        },          
+        {
+            "version": 106,
+            "download":[
+                {"addonName": "Dynamic viewmodel"},
+                {"addonName": "Dynamic Hud"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - DESERT EAGLE RE-ANIMATED"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M98B-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-ISG-AK-Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-The-Covenant-Weapon-Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4A1-Siber-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-IWP-SV98-Port"},
+                { "modName": "GAMMA EXP Edition Redux - DesertTech MDR - bert & ATHI"},
+                { "modName": "GAMMA EXP Edition Redux - AK_Reanimation_Moddb_Release"},
+                { "modName": "GAMMA EXP Edition Redux - BRN-180 Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - T.H.A.P. RE-REWORK"},
+                { "modName": "GAMMA EXP Edition Redux - GUITAR POSITION FIX"},
+                { "modName": "GAMMA EXP Edition Redux - GUNSLINGER BINOCULARS"},
+                { "modName": "GAMMA EXP Edition Redux - STEALTH KILL DETECTION FIX"},
+                { "modName": "GAMMA EXP Edition Redux - FDDA ENHANCED ANIMATIONS ENHANCED"},
+                { "modName": "GAMMA EXP Edition Redux - OUTFIT ANIMATIONS"},
+                { "modName": "GAMMA EXP Edition Redux - HEADGEAR ANIMATIONS"},
+                { "modName": "GAMMA EXP Edition Redux - MARK SWITCH"},
+                { "modName": "GAMMA EXP Edition Redux - Meowie's scope textures"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - WORKSHOP'S PARTS INVENTORY"},
+                { "modName": "GAMMA EXP Edition Redux - DEVICES OF ANOMALY REDONE"},
+                { "modName": "GAMMA EXP Edition Redux - NEW EXTENSIBLE RF SOURCES"},
+                { "modName": "GAMMA EXP Edition Redux - WEAPON INERTIA EXPANDED"},
+                { "modName": "GAMMA EXP Edition Redux - DISASSEMBLY ITEM TWEAKS"}
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA EXP Edition Redux - Body Health System Realistic Overhaul (BHSRO)"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Retrogue Additional Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - RADON'S REANIMATED LR300"},
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons"},
+                { "modName": "GAMMA EXP Edition Redux - CR3PIS ICONS"},
+                { "modName": "GAMMA EXP Edition Redux - PSY STRESS"}
+            ]
+        },
+        {
+            "version": 105,
+            "download":[
+                {"addonName": "3DSS-IWP-SV98-Port"},
+                {"addonName": "3DSS-VEPR762x544"},
+                {"addonName": "BRN-180 Assault Rifle"},
+                {"addonName": "Dynamic Zoom Click Sound"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Fixed Artefact Collision and Visuals"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-IWP-SV98-Port"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - BRN-180 Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - Dynamic Zoom Click Sound"}
+            ]
+        },          
+        {
+            "version": 104,
+            "download":[
+                {"addonName": "FIXED ARTEFACT COLLISION AND VISUALS"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "C Consciousness Grass Overhaul"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "MARK SWITCH GAMMA"},
+                {"addonName": "Meowie's scope textures"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "3DSS-M98B-Reanimation"},
+                {"addonName": "3DSS-M82-Reanimation"},
+                {"addonName": "3DSS-M24-Reanimation"},
+                {"addonName": "3DSS-WA2000-Reanimation"},
+                {"addonName": "3DSS-M4-Skyraga-Reanimation"},
+                {"addonName": "3DSS-IWP-SV98-Port"},
+                {"addonName": "3DSS-for-SIG-SPEAR"},
+                {"addonName": "3DSS-RPD-Custom"},
+                {"addonName": "3DSS-Mateba-Unica"},
+                {"addonName": "3DSS-Groza-Custom"},
+                {"addonName": "3DSS-SR25-PMC"},
+                {"addonName": "3DSS-The-Covenant-Weapon-Pack---ATHI-Edit"},
+                {"addonName": "3DSS-EFT-Weapons-pack"},
+                {"addonName": "3DSS-Gungnir"},
+                {"addonName": "3DSS-RFB"},
+                {"addonName": "3DSS-FAMAS-Replacer"},
+                {"addonName": "3DSS-ISG-AK-Makeover"},
+                {"addonName": "3DSS-Meowie-s-Scout-Rework"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Fixed Artefact Collision and Visuals"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Core ]"},                
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Autumn ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Summer ]"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - MARK SWITCH"},
+                { "modName": "GAMMA EXP Edition Redux - Meowie's scope textures"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-No-BAS-folding-stock-AKs"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M98B-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M82-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M24-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-WA2000-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4-Skyraga-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-IWP-SV98-Port"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SIG MCX SPEAR"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SR 25 EFT"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-The-Covenant-Weapon-Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-EFT-Weapons-pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS MK18 Gungnir Heavy Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Retro RFB"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS FAMAS Replacer"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-ISG-AK-Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Meowie-s-Scout-Rework"}
+            ]
+        },          
+        {
+            "version": 103,
+            "download":[
+                {"addonName": "WEAPON INERTIA EXPANDED"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "3DSS-for-LR300-Reanimated"},
+                {"addonName": "3DSS-Bizon-Reanimated"},
+                {"addonName": "3DSS-EFPWP---ATHI-Edit"},
+                {"addonName": "3DSS-Re-Enabled-Guns"},
+                {"addonName": "3DSS-TX15-Reanimation"},
+                {"addonName": "3DSS-M4-Skyraga-Reanimation"},
+                {"addonName": "3DSS-M4A1-Siber-Reanimation"},
+                {"addonName": "3DSS-for-SIG-SPEAR"},
+                {"addonName": "3DSS-Saiga23"},
+                {"addonName": "3DSS-SVU-PMC"},
+                {"addonName": "3DSS-AK101-SP"},
+                {"addonName": "3DSS-RPD-Custom"},
+                {"addonName": "3DSS-VEPR762x544"},
+                {"addonName": "3DSS-KAC-Freak-PDW"},
+                {"addonName": "3DSS-Groza-Custom"},
+                {"addonName": "3DSS-PSG1A1"},
+                {"addonName": "3DSS-SR25-PMC"},
+                {"addonName": "3DSS-The-Covenant-Weapon-Pack---ATHI-Edit"},
+                {"addonName": "3DSS-EFT-Weapons-pack"},
+                {"addonName": "3DSS-AK103-Bullpup"},
+                {"addonName": "3DSS-Gungnir"},
+                {"addonName": "3DSS-RFB"},
+                {"addonName": "3DSS-FAMAS-Replacer"},
+                {"addonName": "3DSS-ISG-AK-Makeover"},
+                {"addonName": "3DSS-M4-Tactical-Reanimation-and-Remodel"},
+                {"addonName": "3DSS-Meowie-s-Scout-Rework"},
+                {"addonName": "AK_Reanimation_Moddb_Release"},
+                {"addonName": "Meowie's scope textures"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Gunslinger-Ak101"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - WEAPON INERTIA EXPANDED"},
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-No-BAS-folding-stock-AKs"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-for-LR300-Reanimated"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Bizon-Reanimated"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS EFP Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Re-Enabled-Guns"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-TX15-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4-Skyraga-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4A1-Siber-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SIG MCX SPEAR"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SR 25 EFT"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-The-Covenant-Weapon-Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-EFT-Weapons-pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-AK103-Bullpup"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS MK18 Gungnir Heavy Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Retro RFB"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS FAMAS Replacer"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-ISG-AK-Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS M4 Tac Reanimation - Side Angled Foregrip"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Meowie-s-Scout-Rework"},
+                { "modName": "GAMMA EXP Edition Redux - AK_Reanimation_Moddb_Release"},
+                { "modName": "GAMMA EXP Edition Redux - Meowie's scope textures"}
+            ]
+        },        
+        {
+            "version": 102,
+            "download":[
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}
+            ]
+        },          
+        {
+            "version": 101,
+            "download":[
+                {"addonName": "3DSS-Groza-Custom"},
+                {"addonName": "3DSS-EFT-Weapons-pack"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-EFT-Weapons-pack"}
+            ]
+        },            
+        {
+            "version": 100,
+            "download":[
+                {"addonName": "3DSS-The-Covenant-Weapon-Pack---ATHI-Edit"},
+                {"addonName": "3DSS-EFT-Weapons-pack"},                
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Extra Achievements"},
+                {"addonName": "C Consciousness Grass Overhaul"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-The-Covenant-Weapon-Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-EFT-Weapons-pack"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Extra Achievements"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Core ]"},                
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Autumn ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Summer ]"}   
+            ]
+        },        
+        {
+            "version": 99,
+            "download":[
+                {"addonName": "3DSS-EFPWP---ATHI-Edit"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Extra Achievements"},
+                {"addonName": "3DSS-Re-Enabled-Guns"},
+                {"addonName": "FireModeCheck"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS EFP Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Re-Enabled-Guns"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Mod Requirements ]"}          
+            ]
+        },         
+        {
+            "version": 98,
+            "download":[
+                {"addonName": "Extra Achievements"},
+                {"addonName": "NPC Models Replacer"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - NPC Models Replacer"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - HDetoxyfier [ Replaces NPC HD models to Vanilla ]"},
+                { "modName": "GAMMA EXP Edition Redux - Extra Achievements"}  
+            ]
+        },         
+        {
+            "version": 97,
+            "download":[
+                {"addonName": "3DSS-Mateba-Unica"},
+                {"addonName": "Extra Achievements"},
+                {"addonName": "3DSS-EFPWP---ATHI-Edit"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - EFP Weapons"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS EFP Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - Extra Achievements"}  
+            ]
+        },           
+        {
+            "version": 96,
+            "download":[
+                {"addonName": "Accurate Stats Extended"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Extra Achievements"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Extra Achievements"}          
+            ]
+        },          
+        {
+            "version": 95,
+            "download":[
+                {"addonName": "Extra Achievements"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "3DSS-M98B-Reanimation"},
+                {"addonName": "C Consciousness Grass Overhaul"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Extra Achievements"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"},
+                { "modName": "GAMMA EXP Edition Redux - BaS22 Weapon pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-No-BAS-folding-stock-AKs"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Core ]"},                
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Autumn ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Summer ]"}
+            ]
+        },           
+        {
+            "version": 93,
+            "download":[
+                {"addonName": "MARK SWITCH GAMMA"},
+                {"addonName": "3DSS-WA2000-Reanimation"},
+                {"addonName": "3DSS-for-FG42"},
+                {"addonName": "3DSS-for-Milkor-GL"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - MARK SWITCH"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-WA2000-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS FG42 V2"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS MILKOR MGL"},
+                { "modName": "GAMMA EXP Edition Redux - DESERT EAGLE RE-ANIMATED"}
+            ]
+        },           
+        {
+            "version": 92,
+            "download":[
+                {"addonName": "Dynamic Zoom Click Sound"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3DSS-for-LR300-Reanimated"},
+                {"addonName": "3DSS-for-RPG7-reanimation"},
+                {"addonName": "3DSS-M98B-Reanimation"},
+                {"addonName": "3DSS-M82-Reanimation"},
+                {"addonName": "3DSS-M24-Reanimation"},
+                {"addonName": "3DSS-Bizon-Reanimated"},
+                {"addonName": "3DSS-WA2000-Reanimation"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Vanilla Weapons Reanimated"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Vanilla Weapons Reanimated"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Dynamic Zoom Click Sound"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - DESERT EAGLE RE-ANIMATED"},
+                { "modName": "GAMMA EXP Edition Redux - RADON'S REANIMATED LR300"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-for-LR300-Reanimated"},
+                { "modName": "GAMMA EXP Edition Redux - RPG-7 REANIMATED"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-for-RPG7-reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M98B-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M82-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Bizon-Reanimated"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-WA2000-Reanimation"}
+            ]
+        },        
+        {
+            "version": 91,
+            "download":[
+                {"addonName": "Accurate Stats Extended"},
+                {"addonName": "3D Shader Scopes for GAMMA"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"},
+                { "modName": "GAMMA EXP Edition Redux - Items detailed descriptions"},
+                { "modName": "GAMMA EXP Edition Redux - Body Health System Realistic Overhaul (BHSRO)"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"}
+            ]
+        },         
+        {
+            "version": 90,
+            "download":[
+                {"addonName": "C Consciousness Grass Overhaul"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "3DSS-AK103-Bullpup"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-AK103-Bullpup"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Core ]"},                
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Autumn ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Summer ]"},
+                { "modName": "GAMMA EXP Edition - Heatvision"}               
+            ]
+        },          
+        {
+            "version": 89,
+            "download":[
+                {"addonName": "GAMMA RPG System"}           
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}
+            ]
+        },          
+        {
+            "version": 88,
+            "download":[
+                {"addonName": "3DSS-EFPWP---ATHI-Edit"}           
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - EFP Weapons"}
+            ]
+        },         
+        {
+            "version": 87,
+            "download":[
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}                
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"}
+            ]
+        },        
+        {
+            "version": 86,
+            "download":[
+                {"addonName": "3DSS-FAMAS-Replacer"},
+                {"addonName": "3DSS-Meowie-s-Scout-Rework"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "Meowie's scope textures"},
+                {"addonName": "3D Shader Scopes for GAMMA"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS FAMAS Replacer"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Meowie-s-Scout-Rework"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - Meowie's scope textures"}
+            ]
+        },        
+        {
+            "version": 85,
+            "download":[
+                {"addonName": "ENHANCED GUI INC"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3DSS-M98B-Reanimation"},
+                {"addonName": "3DSS-HOWA20-Makeover"},
+                {"addonName": "3DSS-ISG-AK-Makeover"},
+                {"addonName": "3DSS-M4-Tactical-Reanimation-and-Remodel"},
+                {"addonName": "3DSS-AK101-SP"},
+                {"addonName": "3DSS-Saiga23"},
+                {"addonName": "3DSS-Mateba-Unica"},
+                {"addonName": "3DSS-PSG1A1"},
+                {"addonName": "3DSS-RPD-Custom"},
+                {"addonName": "3DSS-SVU-PMC"},
+                {"addonName": "3DSS-VEPR762x544"},
+                {"addonName": "3DSS-for-SIG-SPEAR"},
+                {"addonName": "3DSS-AK103-Bullpup"},
+                {"addonName": "3DSS-SR25-PMC"},
+                {"addonName": "3DSS-TX15-Reanimation"},
+                {"addonName": "3DSS-M4-Skyraga-Reanimation"},
+                {"addonName": "3DSS-IWP-SV98-Port"},
+                {"addonName": "3DSS-Gunslinger-Gauss"},
+                {"addonName": "3DSS-RFB"},
+                {"addonName": "3DSS-SR25-PMC"},
+                {"addonName": "3DSS-Gungnir"},
+                {"addonName": "3DSS-for-SIG-SPEAR"},
+                {"addonName": "T.H.A.P. RE-REWORK"},
+                {"addonName": "Personal Adjustable Waypoint"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M98B-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-HOWA20-Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-ISG-AK-Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS M4 Tac Reanimation - Side Angled Foregrip"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SIG MCX SPEAR"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-AK103-Bullpup"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SR 25 EFT"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-TX15-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4-Skyraga-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-IWP-SV98-Port"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Gunslinger-Gauss"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SIG MCX SPEAR"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-RFB"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SR 25 EFT"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS MK18 Gungnir Heavy Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - T.H.A.P. RE-REWORK"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"},
+                { "modName": "GAMMA EXP Edition Redux - Personal Adjustable Waypoint"}
+            ]
+        },        
+        {
+            "version": 84,
+            "download":[
+                {"addonName": "NEW EXTENSIBLE RF SOURCES"},
+                {"addonName": "Camo Netting Shadow Fix"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}                
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - NEW EXTENSIBLE RF SOURCES"},
+                { "modName": "GAMMA EXP Edition Redux - Camo Netting Shadow Fix"}
+            ]
+        },
+        {
+            "version": 83,
+            "download":[
+                {"addonName": "3DSS-Groza-Custom"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}                
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"}
+            ]
+        },          
+        {
+            "version": 82,
+            "download":[
+                {"addonName": "3DSS-KAC-Freak-PDW"},
+                {"addonName": "WEAPON INERTIA REDUX"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "Personal Adjustable Waypoint"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - WEAPON INERTIA REDUX"},
+                { "modName": "GAMMA EXP Edition Redux - Personal Adjustable Waypoint"}
+            ]
+        },         
+        {
+            "version": 81,
+            "download":[
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3DSS-M4-Tactical-Reanimation-and-Remodel"},
+                {"addonName": "3DSS-M4A1-Siber-Reanimation"},
+                {"addonName": "3DSS-M4-Skyraga-Reanimation"},
+                {"addonName": "3DSS-M98B-Reanimation"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - M4 Tac Reanimation - Side Angled Foregrip"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS M4 Tac Reanimation - Side Angled Foregrip"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4A1-Siber-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4-Skyraga-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M98B-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },            
+        {
+            "version": 80,
+            "download":[
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "AUG-A3-Custom-Replacer-for-3DSS"},
+                {"addonName": "3DSS-IWP-SV98-Port"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - AUG-A3-Custom-Replacer-for-3DSS"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-IWP-SV98-Port"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },          
+        {
+            "version": 79,
+            "download":[
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3DSS-HOWA20-Makeover"},
+                {"addonName": "3DSS-ISG-AK-Makeover"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Phant0m's HOWA20 Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Phant0m's HOWA20 Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - Phant0m's Endgame BaS AKs"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Phant0m's Endgame BaS AKs"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-HOWA20-Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-ISG-AK-Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-IWP-SV98-Port"}
+            ]
+        },          
+        {
+            "version": 78,
+            "download":[
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "GAMMA RPG System"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux- BEEF'S NVG, HGV - IMPROVED"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"}
+            ]
+        },         
+        {
+            "version": 77,
+            "download":[
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "Accurate Stats"},
+                {"addonName": "Accurate Stats Extended"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Heatvision"},
+                {"addonName": "MARK SWITCH GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "WEAPON INERTIA REDUX"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, IMPROVED"},
+                { "modName": "GAMMA EXP Edition Redux - T-7 Thermal Goggles"},
+                { "modName": "GAMMA EXP Edition Redux - EXP Shaders Patch"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats"},
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition - Heatvision"},
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"},
+                { "modName": "GAMMA EXP Edition Redux - MARK SWITCH"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"},
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition Redux - WEAPON INERTIA REDUX"}
+            ]
+        },       
+        {
+            "version": 76,
+            "download":[
+                {"addonName": "Gewehr 43 Reanimation"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "T-7 Thermal Goggles"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Body Health System Realistic Overhaul (BHSRO)"},
+                { "modName": "GAMMA EXP Edition - BHS Reworked"},
+                { "modName": "GAMMA EXP Edition Redux - Outfit Attachments Overhaul for GAMMA (BHS Reworked Patch)"},
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons (BHSRO Patch)"},
+                { "modName": "GAMMA EXP Edition Redux - Outfit Attachments Overhaul for GAMMA (BHSRO Patch)"}                 
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Body Health System Realistic Overhaul (BHSRO)"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - BHS Reworked"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Gewehr 43 Reanimation"},
+                { "modName": "GAMMA EXP Edition - Heatvision"}
+            ]
+        },         
+        {
+            "version": 75,
+            "download":[
+                {"addonName": "3DSS-EFT-Weapons-pack"},
+                {"addonName": "3DSS-FAMAS-Replacer"},
+                {"addonName": "3DSS-for-FG42"},
+                {"addonName": "MK18 Gungnir Heavy Assault Rifle"},
+                {"addonName": "3DSS-for-Milkor-GL"},
+                {"addonName": "DesertTech MDR - bert & ATHI"},
+                {"addonName": "T.H.A.P. RE-REWORK"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - FAMAS Replacer"}
+
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-EFT-Weapons-pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS FAMAS Replacer"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS FG42 V2"},
+                { "modName": "GAMMA EXP Edition Redux - MK18 Gungnir Heavy Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS MILKOR MGL"},
+                { "modName": "GAMMA EXP Edition Redux - DesertTech MDR - bert & ATHI"},
+                { "modName": "GAMMA EXP Edition Redux - T.H.A.P. RE-REWORK"}
+            ]
+        },         
+        {
+            "version": 74,
+            "download":[
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "Catlord Sig Spear ReSound"},
+                {"addonName": "Catlord SR-2M ReSound"},
+                {"addonName": "C Consciousness Grass Overhaul"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Outfit Attachments Overhaul for GAMMA (BHS Reworked Patch)"},
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons (BHSRO Patch)"},
+                { "modName": "GAMMA EXP Edition Redux - Outfit Attachments Overhaul for GAMMA (BHSRO Patch)"} 
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"},
+                { "modName": "GAMMA EXP Edition Redux - Catlord's Weapon ReSounds"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Autumn ]"},
+                { "modName": "GAMMA EXP Edition Redux - C Consciousness Grass Overhaul [ Summer ]"}
+            ]
+        },         
+        {
+            "version": 73,
+            "download":[
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "Catlord Sig Spear ReSound"},
+                {"addonName": "Catlord SR-2M ReSound"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - QuestMark"},
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"},
+                { "modName": "GAMMA EXP Edition Redux - Catlord's Weapon ReSounds"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-IWP-SV98-Port"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },         
+        {
+            "version": 72,
+            "download":[
+                {"addonName": "Gunslinger Calico, AA12 - ATHI Edit"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "3DSS-Gunslinger-Ak101"},
+                {"addonName": "3DSS-Gunslinger-Gauss"},
+                {"addonName": "3DSS-AK103-Bullpup"},
+                {"addonName": "3DSS-Gungnir"},
+                {"addonName": "3DSS-RFB"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Gunslinger Calico, AA12"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Gunslinger-Ak101"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Gunslinger-Gauss"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-AK103-Bullpup"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS MK18 Gungnir Heavy Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-RFB"}
+            ]
+        },           
+        {
+            "version": 71,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Arrival"},
+                {"addonName": "RADON'S REANIMATED LR300"},   
+                {"addonName": "3DSS-EFT-Weapons-pack"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - EFP M14 SASS, MK47, MP155"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS EFP M14 SASS, MK47, MP155"}                  
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Arrival [ read mod instructions on moddbpage before enabling ]"},
+                { "modName": "GAMMA EXP Edition Redux - Vanilla Weapons Reanimated"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-EFT-Weapons-pack"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },         
+        {
+            "version": 70,
+            "download":[
+                {"addonName": "WEAPON INERTIA REDUX"}                               
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - WEAPON INERTIA REDUX"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"}             
+            ]
+        },        
+        {
+            "version": 69,
+            "download":[
+                {"addonName": "3DSS-SR25-PMC"}                               
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - SR 25 EFT"}            
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SR 25 EFT"}             
+            ]
+        },         
+        {
+            "version": 68,
+            "download":[
+                {"addonName": "3DSS-for-SIG-SPEAR"},
+                {"addonName": "3DSS-for-EFPWP---ATHI-Edit"},
+                {"addonName": "Arrival"},
+                {"addonName": "Items detailed description"},
+                {"addonName": "Accurate Stats"},
+                {"addonName": "Yet Another knife animation"},
+                {"addonName": "3DSS-The-Covenant-Weapon-Pack---ATHI-Edit"},
+                {"addonName": "Retrogue Additional Weapons"},
+                {"addonName": "RWAP Patch 1"},
+                {"addonName": "3DSS RWAP"},
+                {"addonName": "ATMOSPHERICS"}                                    
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Shine+Awry's mags fixes"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom VFX"},
+                { "modName": "GAMMA EXP Edition Redux - TCWP Custom Mk47, MP155, RPK16"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS TCWP Custom Mk47, MP155, RPK16"}               
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Accurate Stats Extended [ EGUI ]"},
+                { "modName": "GAMMA EXP Edition Redux - Arrival [ read mod instructions on moddbpage before enabling ]"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS EFP Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SIG MCX SPEAR"},
+                { "modName": "GAMMA EXP Edition Redux - Items detailed descriptions"},
+                { "modName": "GAMMA EXP Edition Redux - Yet Another knife animation"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom VFX [ requires Arrival ]"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-The-Covenant-Weapon-Pack"},
+                { "modName": "GAMMA EXP Edition Redux - Retrogue Additional Weapons"}                    
+            ]
+        },         
+        {
+            "version": 67,
+            "download":[
+                {"addonName": "3DSS-for-SIG-SPEAR"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "3DSS-Saiga23"},
+                {"addonName": "MARK SWITCH GAMMA"},
+                {"addonName": "T.H.A.P. RE-REWORK"},
+                {"addonName": "3DSS-Re-Enabled-Guns"},
+                {"addonName": "WEAPON INERTIA REDUX"},
+                {"addonName": "Dynahud Hud Manager"}
+                
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Outfit Attachments Overhaul for GAMMA (BHSRO Patch)"},
+                { "modName": "GAMMA EXP Edition Redux - Outfit Attachments Overhaul for GAMMA (BHS Reworked Patch)"},
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons (BHSRO Patch)"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Popup Messages [ Kill Feeds ]"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Popup Messages [ Skill XP ]"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Popup Messages [ Reputation ]"},
+                { "modName": "GAMMA EXP Edition Redux - ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - SIG MCX SPEAR"},
+                { "modName": "GAMMA EXP Edition Redux - Smaller Inventory Icons"},
+                { "modName": "GAMMA EXP Edition Redux - New BaS GAMMA Patch"},
+                { "modName": "GAMMA EXP Edition Redux - New BaS"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "EXP Redux - HUD_separator"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - T.H.A.P. RE-REWORK"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Re-Enabled-Guns"},
+                { "modName": "GAMMA EXP Edition Redux - WEAPON INERTIA REDUX"}    
+            ]
+        },           
+        {
+            "version": 66,
+            "download":[
+                {"addonName": "3DSS-AK101-SP"},
+                {"addonName": "3DSS-Saiga23"},
+                {"addonName": "3DSS-Groza-Custom"},
+                {"addonName": "3DSS-KAC-Freak-PDW"},
+                {"addonName": "3DSS-Mateba-Unica"},
+                {"addonName": "3DSS-PSG1A1"},
+                {"addonName": "3DSS-RPD-Custom"},
+                {"addonName": "3DSS-SVU-PMC"},
+                {"addonName": "3DSS-VEPR762x544"},
+                {"addonName": "Black Market Perks Extension"}                
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Beef's NVG Patch [ requires main mod enabled ]"},
+                { "modName": "GAMMA EXP Edition - Adds GAMMA\u0027s music pack as well"},
+                { "modName": "GAMMA EXP Edition - VFX"},
+                { "modName": "GAMMA EXP Edition - Environment"},
+                { "modName": "GAMMA EXP Edition - Weather"},                
+                { "modName": "GAMMA EXP Edition - NPC"},
+                { "modName": "GAMMA EXP Edition - NPC Config"},
+                { "modName": "GAMMA EXP Edition Redux - ATHI Weapon Pack"}         
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - BEEF'S NVG, HVG - IMPROVED"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Music"},
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Textures [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"},                
+                { "modName": "GAMMA EXP Edition - HD Models [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition Redux - Black Market Perks Extension"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"}                  
+            ]
+        },          
+        {
+            "version": 65,
+            "download":[
+                {"addonName": "Anomaly Custom Reshade"},
+                {"addonName": "Anomaly Custom Hud"},
+                {"addonName": "Anomaly Custom VFX"},
+                {"addonName": "Anomaly Custom Vegetation"},
+                {"addonName": "Anomaly Custom Shaders SSS21"},
+                {"addonName": "Anomaly Custom Weather"},
+                {"addonName": "Anomaly Custom Ambience"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "T.H.A.P. RE-REWORK"},
+                {"addonName": "3DSS-for-Reanimated-Vanilla-Replacements"},
+                {"addonName": "3DSS-for-HOWA20-Makeover"},
+                {"addonName": "3DSS-for-Phant0m-s-Endgame-AKs"},
+                {"addonName": "3DSS-M4-Tactical-Reanimation-and-Remodel"},
+                {"addonName": "3DSS-Re-Enabled-Guns"},
+                {"addonName": "AUG-A3-Custom-Replacer-for-3DSS"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Arrival Patches"}                
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R. - Patch [ requires main mod enabled ]"},
+                { "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom Hud"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom VFX [ requires Arrival ]"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom Vegetation"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom Shaders"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom Weather"},
+                { "modName": "GAMMA EXP Edition Redux - Anomaly Custom Ambience"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                { "modName": "GAMMA EXP Edition Redux - T.H.A.P. RE-REWORK"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Vanilla Weapons Reanimated"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Phant0m's HOWA20 Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Phant0m's Endgame BaS AKs"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS M4 Tac Reanimation - Side Angled Foregrip"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Re-Enabled-Guns"},
+                { "modName": "GAMMA EXP Edition Redux - AUG-A3-Custom-Replacer-for-3DSS"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Arrival [ read mod instructions on moddbpage before enabling ]"},
+                { "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R [ Toggle, adds extra weathers ]"}
+            ]
+        },          
+        {
+            "version": 64,
+            "download":[
+                {"addonName": "3DSS-Anomaly-modded-exes"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Arrival [ read mod instructions on moddbpage before enabling ]"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"}
+            ]
+        },           
+        {
+            "version": 63,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "Dynavision"},
+                {"addonName": "Black Market Perks Extension"},
+                {"addonName": "Personal Adjustable Waypoint"},
+                {"addonName": "Arrival Patches"},
+                {"addonName": "WEAPON INERTIA REDUX"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "3DSS-Anomaly-modded-exes"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA EXP Edition Redux - Arrival Acidic Idle"},
+                { "modName": "GAMMA EXP Edition Redux - Arrival Radiations"}                
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - HD Models [ Toggle, enables HD models in the game ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - Black Market Perks Extension"},
+                { "modName": "GAMMA EXP Edition Redux - Personal Adjustable Waypoint"},
+                { "modName": "GAMMA EXP Edition Redux - EFP Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - Arrival [ read mod instructions on moddbpage before enabling ]"},
+                { "modName": "GAMMA EXP Edition Redux - WEAPON INERTIA REDUX"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Puddles and wet ground everywhere [ Toggle, delete shader_cache ]"}
+            ]
+        },
+        {
+            "version": 62,
+            "download":[
+                {"addonName": "Black Market Perks Extension"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Black Market Perks Extension"},
+                { "modName": "GAMMA EXP Edition Redux - EFP Weapons"}
+            ]
+        },                   
+        {
+            "version": 61,
+            "download":[
+                {"addonName": "Universal_Animations"},
+                {"addonName": "Black Market Perks Extension"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - DARK SIGNAL UI SOUNDS"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Black Market Perks Extension"},
+                { "modName": "GAMMA EXP Edition Redux - Universal_Animations"}
+            ]
+        },         
+        {
+            "version": 60,
+            "download":[
+                {"addonName": "Black Market Perks Extension"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Black Market Perks Extension"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"},
+                { "modName": "GAMMA EXP Edition Redux - Phant0m's Endgame BaS AKs"}
+            ]
+        },         
+        {
+            "version": 59,
+            "download":[
+                {"addonName": "MK-18 Mjolnir Marksman Rifle"},
+                {"addonName": "MK-18 Mjolnir Reanimation"},               
+                {"addonName": "Inventory Icons Resizer"},
+                {"addonName": "UTJAN QOL BUNDLE"},
+                {"addonName": "Blackgrowl HD Faction Patches"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Gunslinger Calico, AA12, AK101, AK103 BP, Gauss"},
+                { "modName": "GAMMA EXP Edition Redux - MK-18 Mjolnir Marksman Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - Inventory Icons Resizer"},
+                { "modName": "GAMMA EXP Edition Redux - UTJAN QOL BUNDLE"},
+                { "modName": "GAMMA EXP Edition Redux - Blackgrowl HD Faction Patches"}
+            ]
+        },         
+        {
+            "version": 58,
+            "download":[
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Shine+Awrys mags fixes for latest Mag Redux"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Shine+Awrys mags fixes for latest Mag Redux"}
+            ]
+        },         
+        {
+            "version": 57,
+            "download":[
+                {"addonName": "3DSS-for-Reanimated-Vanilla-Replacements"},
+                {"addonName": "No folding stocks for BaS AKs"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "AUG-A3-Custom-Replacer-for-3DSS"}                
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Pisces Smokes and Alcohol Psy Rework"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - PSY STRESS"},
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons (BHSRO Patch)"},
+                { "modName": "GAMMA EXP Edition Redux - AUG-A3-Custom-Replacer-for-3DSS"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                { "modName": "GAMMA EXP Edition Redux - BaS22 Weapon pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Vanilla Weapons Reanimated"},
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"}                
+            ]
+        },          
+        {
+            "version": 56,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "BHS Reworked"},
+                {"addonName": "T.H.A.P. REWORK 2.1"},
+                {"addonName": "DesertTech MDR - bert & ATHI"},
+                {"addonName": "[Reposition + Scopes] Desert Tech MDR Pack"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "MARK SWITCH Meowie"},
+                {"addonName": "GAMMA RPG System"}
+            ],
+            "delete":[
+            ],
+            "update":[     
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHS Reworked patch - must enable BHS Reworked mod as well ]"},     
+                { "modName": "GAMMA EXP Edition Redux - Outfit Attachments Overhaul for GAMMA (BHS Reworked Patch)"},
+                { "modName": "GAMMA EXP Edition - BHS Reworked"},
+                { "modName": "GAMMA EXP Edition Redux - T.H.A.P. RE-REWORK"},
+                { "modName": "GAMMA EXP Edition Redux - PSY STRESS"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"},
+                { "modName": "GAMMA EXP Edition Redux - DesertTech MDR - bert & ATHI"},
+                { "modName": "GAMMA EXP Edition Redux - MARK SWITCH"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},     
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition - Body Health System Realistic Overhaul (BHSRO)"}
+            ]
+        },      
+        {
+            "version": 55,
+            "download":[
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Corpse Fauna"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K DEFINITIVE MASKS"}
+            ]
+        },        
+        {
+            "version": 54,
+            "download":[
+                {"addonName": "Inventory Icons Resizer"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA EXP Edition Redux - Inventory Icons Resizer"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },          
+        {
+            "version": 53,
+            "download":[
+                {"addonName": "Camo Netting Shadow Fix"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - BARBWIRE OVERHAUL"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Camo Netting Shadow Fix"}
+            ]
+        },         
+        {
+            "version": 52,
+            "download":[
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },         
+        {
+            "version": 51,
+            "download":[
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - UI"},
+                { "modName": "GAMMA EXP Edition - HUD"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - EXP Shaders Patch"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },         
+        {
+            "version": 50,
+            "download":[   
+                {"addonName": "Camo Netting Shadow Fix"}
+            ],
+            "delete":[
+            ],
+            "update":[              
+                { "modName": "GAMMA EXP Edition Redux - Camo Netting Shadow Fix"}
+            ]
+        },        
+        {
+            "version": 49,
+            "download":[   
+                {"addonName": "DESERT EAGLE RE-ANIMATED"},
+                {"addonName": "RADON'S REANIMATED LR300"},
+                {"addonName": "RPG-7 REANIMATED"},
+                {"addonName": "M24_M98B_Reanimation"},
+                {"addonName": "M82_Reanimation_v3"},
+                {"addonName": "PP-19 Bizon Reanimation"},
+                {"addonName": "WA2000 Reanimation"},
+                {"addonName": "3DSS-for-Reanimated-Vanilla-Replacements"},
+                {"addonName": "Phant0m's HOWA20 Makeover - ATHI Edit"},
+                {"addonName": "3DSS-for-HOWA20-Makeover"},
+                {"addonName": "Phant0m's Endgame BaS AKs - ATHI Edit"},
+                {"addonName": "3DSS-for-Phant0m-s-Endgame-AKs"},
+                {"addonName": "M4 Tac Reanimation - Side Angled Foregrip"},
+                {"addonName": "3DSS-M4-Tactical-Reanimation-and-Remodel"},
+                {"addonName": "3DSS-AK101-SP"},
+                {"addonName": "3DSS-Saiga23"},
+                {"addonName": "3DSS-Groza-Custom"},
+                {"addonName": "3DSS-KAC-Freak-PDW"},
+                {"addonName": "3DSS-Mateba-Unica"},
+                {"addonName": "3DSS-PSG1A1"},
+                {"addonName": "3DSS-RPD-Custom"},
+                {"addonName": "3DSS-SVU-PMC"},
+                {"addonName": "3DSS-VEPR762x544"},
+                {"addonName": "3DSS-for-ATHI-Weapon-Pack"},
+                {"addonName": "SIG MCX SPEAR"},
+                {"addonName": "3DSS-for-SIG-SPEAR"},
+                {"addonName": "3DSS-EFPWP---ATHI-Edit"},
+                {"addonName": "3DSS-for-EFPWP---ATHI-Edit"},
+                {"addonName": "3DSS-The-Covenant-Weapon-Pack---ATHI-Edit"},
+                {"addonName": "Gunslinger Calico, AA12, AK101, AK103 BP, Gauss - ATHI Edit"},
+                {"addonName": "3DSS-for-Gunslinger-AA12-AK101-AK103-BP-Gauss-Rifle"},
+                {"addonName": "FAMAS Replacer - ATHI Edit"},
+                {"addonName": "3DSS-for-LEWD-FAMAS"},
+                {"addonName": "Retro N4, Gen12, CR7"},
+                {"addonName": "Retro RFB"},
+                {"addonName": "3DSS-for-Retro-s-CR7-N4-and-RFB"},
+                {"addonName": "SR 25 EFT"},
+                {"addonName": "3DSS-for-SR25-EFT"},
+                {"addonName": "SR 25 EFT"},
+                {"addonName": "FG42 V2"},
+                {"addonName": "3DSS-for-FG42"},
+                {"addonName": "MK18 Gungnir Heavy Assault Rifle"},
+                {"addonName": "3DSS-fom-Gungnir"},
+                {"addonName": "MILKOR MGL"},
+                {"addonName": "3DSS-for-Milkor-GL"},
+                {"addonName": "3DSS-Re-Enabled-Guns"},
+                {"addonName": "AUG-A3-Custom-Replacer-for-3DSS"},
+                {"addonName": "3DSS-TX15-Reanimation"},
+                {"addonName": "3DSS-M4-Skyraga-Reanimation"},
+                {"addonName": "3DSS-M4A1-Siber-Reanimation"},
+                {"addonName": "3DSS-IWP-SV98-Port"},
+                {"addonName": "Universal_Animations"},
+                {"addonName": "BaS22 Tac Kit Models"}
+            ],
+            "delete":[
+            ],
+            "update":[              
+                { "modName": "GAMMA EXP Edition Redux - Vanilla Weapons Reanimated"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Vanilla Weapons Reanimated"},
+                { "modName": "GAMMA EXP Edition Redux - Phant0m's HOWA20 Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Phant0m's HOWA20 Makeover"},
+                { "modName": "GAMMA EXP Edition Redux - Phant0m's Endgame BaS AKs"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Phant0m's Endgame BaS AKs"},                
+                { "modName": "GAMMA EXP Edition Redux - M4 Tac Reanimation - Side Angled Foregrip"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS M4 Tac Reanimation - Side Angled Foregrip"},
+                { "modName": "GAMMA EXP Edition Redux - ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS ATHI Weapon Pack"},
+                { "modName": "GAMMA EXP Edition Redux - SIG MCX SPEAR"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SIG MCX SPEAR"},
+                { "modName": "GAMMA EXP Edition Redux - EFP Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS EFP Weapons"},
+                { "modName": "GAMMA EXP Edition Redux - EFP M14 SASS, MK47, MP155"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS EFP M14 SASS, MK47, MP155"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-The-Covenant-Weapon-Pack"},
+                { "modName": "GAMMA EXP Edition Redux - Gunslinger Calico, AA12, AK101, AK103 BP, Gauss"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Gunslinger Calico, AA12, AK101, AK103 BP, Gauss"},
+                { "modName": "GAMMA EXP Edition Redux - FAMAS Replacer"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS FAMAS Replacer"},
+                { "modName": "GAMMA EXP Edition Redux - Retro N4, Gen12, CR7, RFB"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS Retro N4, Gen12, CR7, RFB"},
+                { "modName": "GAMMA EXP Edition Redux - SR 25 EFT"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS SR 25 EFT"},
+                { "modName": "GAMMA EXP Edition Redux - FG42 V2"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS FG42 V2"},
+                { "modName": "GAMMA EXP Edition Redux - MK18 Gungnir Heavy Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS MK18 Gungnir Heavy Assault Rifle"},
+                { "modName": "GAMMA EXP Edition Redux - MILKOR MGL"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS MILKOR MGL"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-Re-Enabled-Guns"},
+                { "modName": "GAMMA EXP Edition Redux - AUG-A3-Custom-Replacer-for-3DSS"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-TX15-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4-Skyraga-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-M4A1-Siber-Reanimation"},
+                { "modName": "GAMMA EXP Edition Redux - 3DSS-IWP-SV98-Port"},
+                { "modName": "EXP Redux - Weapons_separator"},
+                { "modName": "GAMMA EXP Edition Redux - Universal_Animations"},
+                { "modName": "GAMMA EXP Edition Redux - BaS22 Weapon pack"}
+            ]
+        },         
+        {
+            "version": 48,
+            "download":[   
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName":"MARK SWITCH Meowie"}
+            ],
+            "delete":[
+            ],
+            "update":[              
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - HEADGEAR ANIMATIONS"},
+                { "modName": "GAMMA EXP Edition Redux - MARK SWITCH"}
+            ]
+        },         
+        {
+            "version": 47,
+            "download":[          
+            ],
+            "delete":[
+            ],
+            "update":[              
+                { "modName": "GAMMA EXP Edition Redux - CR3PIS ICONS"},
+                { "modName": "GAMMA EXP Edition Redux - Craftable Range Upgrades for Detectors"}
+            ]
+        },           
+        {
+            "version": 46,
+            "download":[    
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Arrival"},
+                {"addonName": "FDDA ENHANCED ANIMATIONS ENHANCED"},
+                {"addonName": "OUTFIT ANIMATIONS"},
+                {"addonName": "HEADGEAR ANIMATIONS"},
+                {"addonName": "DAR DOSIMETER ENHANCED"},
+                {"addonName": "REPACK SIGNS"},
+                {"addonName": "Camo Netting Shadow Fix"},
+                {"addonName": "STEALTH KILL DETECTION FIX"},
+                {"addonName": "GUNSLINGER BINOCULARS"},
+                {"addonName": "DRUNK'S PORTRAIT PACK"},
+                {"addonName": "GUITAR POSITION FIX"},
+                {"addonName": "CAMPFIRE Proximity Status Icons"},
+                {"addonName": "T.H.A.P. RE-REWORK"},
+                {"addonName": "Mechanics do Upgrades Again"},
+                {"addonName": "DEVICES OF ANOMALY REDONE GAMMA PATCH"},
+                {"addonName": "Walking and Sprinting Reanimation"},
+                {"addonName": "CR3PIS ICONS"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well]"},
+                { "modName": "GAMMA EXP Edition Redux - Toggle Helmet Hotkey"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Arrival [ read mod instructions on moddbpage before enabling ]"},
+                { "modName": "GAMMA EXP Edition Redux - Arrival Acidic Idle"},
+                { "modName": "GAMMA EXP Edition Redux - Arrival Radiations"},
+                { "modName": "GAMMA EXP Edition Redux - T.H.A.P. RE-REWORK"},
+                { "modName": "GAMMA EXP Edition Redux - CAMPFIRE Proximity Status Icons"},
+                { "modName": "GAMMA EXP Edition Redux - GUITAR POSITION FIX"},
+                { "modName": "GAMMA EXP Edition Redux - Drunk's Portrait Pack"},
+                { "modName": "GAMMA EXP Edition Redux - GUNSLINGER BINOCULARS"},
+                { "modName": "GAMMA EXP Edition Redux - STEALTH KILL DETECTION FIX"},
+                { "modName": "GAMMA EXP Edition Redux - Camo Netting Shadow Fix"},
+                { "modName": "GAMMA EXP Edition Redux - REPACK SIGNS"},
+                { "modName": "GAMMA EXP Edition Redux - FDDA ENHANCED ANIMATIONS ENHANCED"},
+                { "modName": "GAMMA EXP Edition Redux - OUTFIT ANIMATIONS"},
+                { "modName": "GAMMA EXP Edition Redux - HEADGEAR ANIMATIONS"},
+                { "modName": "GAMMA EXP Edition Redux - DAR DOSIMETER ENHANCED"},
+                { "modName": "EXP Redux - Animations_separator"},
+                { "modName": "GAMMA EXP Edition Redux - Mechanics do Upgrades Again"},
+                { "modName": "GAMMA EXP Edition Redux - DEVICES OF ANOMALY REDONE"},
+                { "modName": "GAMMA EXP Edition Redux - Walking and Sprinting Reanimation"},
+                { "modName": "GAMMA EXP Edition - UI Loading screens"},
+                { "modName": "GAMMA EXP Edition Redux - CR3PIS ICONS"}                        
+            ]
+        },           
+        {
+            "version": 45,
+            "download":[    
+                {"addonName": "3D Shader Scopes for GAMMA"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"}                     
+            ]
+        },           
+        {
+            "version": 44,
+            "download":[    
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "3DSS-Anomaly-modded-exes"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Improved equipment icons"}     
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons"},
+                { "modName": "GAMMA EXP Edition Redux - Reworked status icons"}                              
+            ]
+        },             
+        {
+            "version": 43,
+            "download":[          
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "GAMMA RPG System"}
+            ],
+            "delete":[
+            ],
+            "update":[              
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}                  
+            ]
+        },         
+        {
+            "version": 42,
+            "download":[          
+                {"addonName": "3D Shader Scopes for GAMMA"}
+            ],
+            "delete":[
+            ],
+            "update":[              
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"}         
+            ]
+        },         
+        {
+            "version": 41,
+            "download":[          
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"}
+            ],
+            "delete":[
+            ],
+            "update":[              
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"}                  
+            ]
+        },        
+        {
+            "version": 40,
+            "download":[
+                {"addonName": "MARK SWITCH"},
+                {"addonName": "MARK SWITCH Meowie"},                
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - MARK SWITCH"},                 
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"}                  
+            ]
+        },         
+        {
+            "version": 39,
+            "download":[
+                {"addonName": "ENHANCED GUI INC"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"}                  
+            ]
+        },          
+        {
+            "version": 38,
+            "download":[      
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "STALKER-Anomaly-modded-exes"}                              
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"}                
+            ]
+        },         
+        {
+            "version": 37,
+            "download":[      
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "Dynahud Hud Manager"},  
+                {"addonName": "NEW EXTENSIBLE RF SOURCES"},
+                {"addonName": "QUICK ACTION WHEEL"},
+                {"addonName": "GAMMA RPG System"}                                      
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - CR3PIS ICONS"},
+                { "modName": "GAMMA EXP Edition Redux - QUICK ACTION WHEEL"},
+                { "modName": "GAMMA EXP Edition Redux - NEW EXTENSIBLE RF SOURCES"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}                    
+            ]
+        },          
+        {
+            "version": 36,
+            "download":[        
+                {"addonName": "BaS22 SMGs"},
+                {"addonName": "BaS22 Snipers"},
+                {"addonName": "BaS22 LMGs"},
+                {"addonName": "BaS22 Rifles"},
+                {"addonName": "BaS22 Shotguns"},
+                {"addonName": "GAMMA RPG System"}                                      
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - BaS22 Weapon pack"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}                   
+            ]
+        },         
+        {
+            "version": 35,
+            "download":[        
+                {"addonName": "Improved equipment icons"},
+                {"addonName": "CR3PIS ICONS"},
+                {"addonName": "GAMMA RPG System"}                                      
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons"},
+                { "modName": "GAMMA EXP Edition Redux - CR3PIS ICONS"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}                   
+            ]
+        },            
+        {
+            "version": 34,
+            "download":[        
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "BaS22 Missing Sounds"},
+                {"addonName": "Toggle Helmet Hotkey"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Mags Redux Github version"}                                      
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Toggle Helmet Hotkey"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                { "modName": "GAMMA EXP Edition Redux - BaS22 Weapon pack"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - DEVICES OF ANOMALY REDONE"},                
+                { "modName": "GAMMA EXP Edition Redux - Mags Redux Github version"}                   
+            ]
+        },          
+        {
+            "version": 33,
+            "download":[        
+                {"addonName": "DRUNK'S EXTREME INSTRUMENT GALORE"},
+                {"addonName": "REDONE Collection"},
+                {"addonName": "Dynavision"},
+                {"addonName": "EXPERIENCE FRAMEWORK"},
+                {"addonName": "GAMMA RPG System"}                                      
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - DRUNK'S EXTREME INSTRUMENT GALORE"},
+                { "modName": "GAMMA EXP Edition Redux - REDONE Collection"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}                   
+            ]
+        },        
+        {
+            "version": 32,
+            "download":[        
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "BaS22 SMGs"},
+                {"addonName": "BaS22 Snipers"},
+                {"addonName": "BaS22 LMGs"},
+                {"addonName": "BaS22 Rifles"},
+                {"addonName": "BaS22 Shotguns"},
+                {"addonName": "BaS NVG MCM keybind"},
+                {"addonName": "AK5C upgrade kit fix"},
+                {"addonName": "No folding stocks for BaS AKs"},
+                {"addonName": "EOTS Detector Fix"},
+                {"addonName": "Old gun removal"},
+                {"addonName": "Dynavision"},
+                {"addonName": "Corpse Fauna"},
+                {"addonName": "GAMMA RPG System"}                                      
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                { "modName": "GAMMA EXP Edition Redux - BaS22 Weapon pack"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Corpse Fauna"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}                   
+            ]
+        },         
+        {
+            "version": 31,
+            "download":[        
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "Dynavision"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Mags Redux Github version"},
+                {"addonName": "GAMMA BAS patch Save Saver"},
+                {"addonName": "Reworked stash, quest & map markers"},
+                {"addonName": "BHSRO"},
+                {"addonName": "Stalker Tracking System"},
+                {"addonName": "Personal Adjustable Waypoint"},
+                {"addonName": "GAMMA RPG System"}
+            ],
+            "delete":[   
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - Mags Redux Github version"},
+                { "modName": "GAMMA EXP Edition Redux - Stalker Tracking System"},
+                { "modName": "GAMMA EXP Edition Redux - Personal Adjustable Waypoint"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Reworked stash, quest & map markers"},
+                { "modName": "GAMMA EXP Edition - Body Health System Realistic Overhaul (BHSRO)"},
+                { "modName": "GAMMA EXP Edition Redux - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ BHSRO patch - must enable BHSRO mod as well ]"},
+                { "modName": "GAMMA EXP Edition Redux - Outfit Attachments Overhaul for GAMMA (BHSRO Patch)"}                       
+            ]
+        },               
+        {
+            "version": 30,
+            "download":[        
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "SHADER 3D SCOPES"},
+                {"addonName": "3D Shader Scopes for GAMMA"},
+                {"addonName": "3D Shader Scopes for GAMMA BaS 22"},
+                {"addonName": "MARK SWITCH"},
+                {"addonName": "Dynavision"},
+                {"addonName": "Mags Redux Github version"},
+                {"addonName": "3DSS-No-BAS-folding-stock-AKs"},
+                {"addonName": "BaS22 SMGs"},
+                {"addonName": "BaS22 Snipers"},
+                {"addonName": "BaS22 LMGs"},
+                {"addonName": "BaS22 Rifles"},
+                {"addonName": "BaS22 Shotguns"},
+                {"addonName": "BaS NVG MCM keybind"},
+                {"addonName": "AK5C upgrade kit fix"},
+                {"addonName": "No folding stocks for BaS AKs"},
+                {"addonName": "EOTS Detector Fix"},
+                {"addonName": "Old gun removal"}
+            ],
+            "delete":[   
+                { "modName": "GAMMA EXP Edition Redux - NEW POLTERGEIST"},
+                { "modName": "GAMMA EXP Edition Redux - Shine+Awry's mags fixes for Mags GitHub version"},
+                { "modName": "GAMMA EXP Edition Redux - Updated Svarog Detector"}  
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - MARK SWITCH"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA BaS 22"},
+                { "modName": "GAMMA EXP Edition Redux - 3D Shader Scopes for GAMMA"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},                   
+                { "modName": "GAMMA EXP Edition Redux - BaS22 Weapon pack"},
+                { "modName": "GAMMA EXP Edition Redux - Mags Redux Github version"},
+                { "modName": "GAMMA EXP Edition Redux - EXP Shaders Patch"}
+            ]
+        },        
+        {
+            "version": 29,
+            "download":[        
+                {"addonName": "STALKER-Anomaly-modded-exes"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Dynavision"},
+                {"addonName": "DRUNK'S EXTREME INSTRUMENT GALORE"},
+                {"addonName": "REDONE Collection"}                       
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - REDONE Collection"},
+                { "modName": "GAMMA EXP Edition Redux - DRUNK'S EXTREME INSTRUMENT GALORE"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"}                   
+            ]
+        },         
+        {
+            "version": 28,
+            "download":[        
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "Dynavision"},
+                {"addonName": "AYDINS GRASS TWEAKS"},
+                {"addonName": "AYDINS GRASS TWEAKS SSS TERRAIN LOD"}  
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA EXP Edition - AYDINS GRASS TWEAKS [ Summer ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"}                        
+            ]
+        },         
+        {
+            "version": 27,
+            "download":[ 
+                {"addonName": "Dynavision"},
+                {"addonName": "WORKSHOP'S PARTS INVENTORY"},    
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "SIMPLE FLASHLIGHT REPLACER"},
+                {"addonName": "DEVICES OF ANOMALY REDONE"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "DRUNK'S EXTREME INSTRUMENT GALORE"},
+                {"addonName": "BEEF'S NVG, IMPROVED"}
+            ],
+            "delete":[    
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - WORKSHOP'S PARTS INVENTORY"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - DEVICES OF ANOMALY REDONE"},
+                { "modName": "GAMMA EXP Edition Redux - DRUNK'S EXTREME INSTRUMENT GALORE"},
+                { "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R [ Toggle, adds extra weathers ]"},
+                { "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R [ Toggle, adds extra weathers ]. - Patch [ requires main mod enabled ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux- BEEF'S NVG, HVG - IMPROVED"},
+                { "modName": "GAMMA EXP Edition - SIMPLE FLASHLIGHT REPLACER"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2.3 ]"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"}             
+            ]
+        },        
+        {
+            "version": 26,
+            "download":[        
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "Dynavision"},
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "GAMMA RPG System"}               
+            ],
+            "delete":[    
+                { "modName": "GAMMA EXP Edition - Ground Textures"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"}                             
+            ]
+        },       
+        {
+            "version": 25,
+            "download":[             
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System 1.5"},
+                { "modName": "GAMMA EXP Edition Redux - Water less irradiated in the swamps"},
+                { "modName": "GAMMA EXP Edition - EXP Patch"}                
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Shine+Awry's mags fixes"}                
+            ]
+        },        
+        {
+            "version": 24,
+            "download":[
+                {"addonName": "ATMOSPHERICS"},
+                {"addonName": "WEAPON INERTIA REDUX"},
+                {"addonName": "PSY STRESS"},
+                {"addonName": "NAVS 4K DEFINITIVE MASKS"},
+                {"addonName": "Mags Redux Github version"}                
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - AIMING MOVEMENT REDUX"},
+                { "modName": "GAMMA EXP Edition - Shaders [ ATMOS ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ] [ ATMOS ]"}                
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - WEAPON INERTIA REDUX"},
+                { "modName": "GAMMA EXP Edition Redux - PSY STRESS"},
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K DEFINITIVE MASKS"},
+                { "modName": "GAMMA EXP Edition Redux - Mags Redux Github version"}
+            ]
+        },        
+        {
+            "version": 23,
+            "download":[            
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ ATMOS ]"}          
+            ]
+        },  
+        {
+            
+            "version": 22,
+            "download":[
+                {"addonName": "REDONE Collection"},
+                {"addonName": "QUICK ACTION WHEEL"},
+                {"addonName": "Screenspace Shaders Legacy"},
+                {"addonName": "ATMOSPHERICS"}                
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - REDONE Collection"},
+                { "modName": "GAMMA EXP Edition Redux - QUICK ACTION WHEEL"},
+                { "modName": "GAMMA EXP Edition - Shaders [ ATMOS ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ] [ ATMOS ]"}                
+            ]
+        },        
+        {
+            "version": 21,
+            "download":[
+                {"addonName": "Screenspace Shaders Legacy"},
+                {"addonName": "ATMOSPHERICS"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - Shaders"},
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders 1.10"},
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders EXP Patch"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX EXP Patch"},
+                { "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R [ Toggle, adds extra weathers ]. - EXP Patch"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP LEGACY ]"},
+                { "modName": "GAMMA EXP Edition - Shaders [ EXP 2024 ]"},
+                { "modName": "GAMMA EXP Edition - Shaders [ ATMOS ]"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ] [ ATMOS ]"},
+                { "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R [ Toggle, adds extra weathers ]. - Patch [ requires main mod enabled ]"}
+            ]
+        },        
+        {
+            "version": 20,
+            "download":[
+                {"addonName": "ENHANCED GUI INC"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "AIMING MOVEMENT REDUX"},
+                {"addonName": "EXPERIENCE FRAMEWORK"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "NEW EXTENSIBLE RF SOURCES"},
+                {"addonName": "Black Market Mags Redux"},
+                {"addonName": "LootBoxes for GAMMA"}
+                
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Black Market - Mags Buyable at Traders"},
+                { "modName": "GAMMA EXP Edition Redux - Mags Redux Moddb version"}
+            ],
+            "update":[
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA EXP Edition - SSFX EXP Patch"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},    
+                { "modName": "GAMMA EXP Edition Redux - AIMING MOVEMENT REDUX"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - NEW EXTENSIBLE RF SOURCES"},
+                { "modName": "GAMMA EXP Edition Redux - Black Market Mags Redux"},
+                { "modName": "GAMMA EXP Edition Redux - LootBoxes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },                
+        {
+            "version": 19,
+            "download":[
+                {"addonName": "Reworked status icons"},
+                {"addonName": "Improved equipment icons"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "AIMING MOVEMENT REDUX"},
+                {"addonName": "UTJAN QOL BUNDLE"},
+                {"addonName": "EXPERIENCE FRAMEWORK"},
+                {"addonName": "EXPERIENCE FRAMEWORK 1.5.2"},                
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "PSY STRESS"}, 
+                {"addonName": "Black Market Mags Redux"},
+                {"addonName": "Black Market - Mags Buyable at Traders"},
+                {"addonName": "Shine+Awry's mags fixes"},
+                {"addonName": "Shine+Awry's mags fixes mags github"},
+                {"addonName": "NEW EXTENSIBLE RF SOURCES"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System Update 091"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Reworked status icons"},
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons"},                
+                { "modName": "EXP Redux - Audio_separator"},
+                { "modName": "GAMMA EXP Edition Redux - AIMING MOVEMENT REDUX"},
+                { "modName": "GAMMA EXP Edition Redux - UTJAN QOL BUNDLE"},
+                { "modName": "GAMMA EXP Edition Redux - AIMING MOVEMENT REDUX"},
+                { "modName": "GAMMA EXP Edition Redux - UTJAN QOL BUNDLE"},
+                { "modName": "GAMMA EXP Edition Redux - Black Market Mags Redux"},
+                { "modName": "GAMMA EXP Edition Redux - Black Market - Mags Buyable at Traders"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Shine+Awry's mags fixes"},
+                { "modName": "GAMMA EXP Edition Redux - Shine+Awry's mags fixes for Mags GitHub version"},
+                { "modName": "GAMMA EXP Edition Redux - NEW EXTENSIBLE RF SOURCES"}
+                
+            ]
+        },         
+        {
+            "version": 18,
+            "download":[
+                {"addonName": "Improved equipment icons"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Black Market - Mags Buyable at Traders"},
+                {"addonName": "Mags Redux Github version"},
+                {"addonName": "IZLOM RETEXTURE"},
+                {"addonName": "EXPERIENCE FRAMEWORK"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "MrB's Extra Mags for MagsRedux"},
+                {"addonName": "THE UPDATED SVAROG DETECTOR"},
+                {"addonName": "NEW POLTERGEIST EFFECTS"},
+                {"addonName": "Shine+Awry's mags fixes"}    
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Maids Vanilla HD Icons + DII [ Optional ]"},
+                { "modName": "GAMMA EXP Edition - Beef's NVG [ OPTIONAL ]"},
+                { "modName": "GAMMA EXP Edition - LAM Patch"},
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K Dynahud Enhanched GUI Patch"},
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K DEFINITIVE MASKS [ CORE ]"},
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K DEFINITIVE MASKS [ Blurred ]"},
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K DEFINITIVE MASKS [ Blurred Dimmed ]"},
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K DEFINITIVE MASKS [ Normal ]"},
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K DEFINITIVE MASKS [ Normal Dimmed ]"},
+                { "modName": "GAMMA EXP Edition Redux - BAS patch New Game [ CHOOSE ONE ]"},
+                { "modName": "GAMMA EXP Edition Redux - BAS patch Save Saver [ CHOOSE ONE ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K DEFINITIVE MASKS"},
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA EXP Edition - Shaders"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"},
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - SSFX EXP Patch"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders EXP Patch"},
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders 1.10"},
+                { "modName": "GAMMA EXP Edition Redux - Mags Redux Moddb version"},
+                { "modName": "GAMMA EXP Edition Redux - Mags Redux Github version"},
+                { "modName": "GAMMA EXP Edition Redux - Black Market Mags Redux"},
+                { "modName": "GAMMA EXP Edition Redux - Fracture Retexture"},
+                { "modName": "GAMMA EXP Edition Redux - NEW POLTERGEIST"},
+                { "modName": "GAMMA EXP Edition Redux - Updated Svarog Detector"},
+                { "modName": "GAMMA EXP Edition Redux - MrB's Extra Mags for MagsRedux"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System Update 091"},
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons"},
+                { "modName": "GAMMA EXP Edition Redux - Shine+Awry's mags fixes"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },          
+        {
+            "version": 17,
+            "download":[
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "Enhanced Shaders"},
+                {"addonName": "Enhanced Shaders EXP Patch"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - SSFX Settings"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders 1.10"},
+                { "modName": "GAMMA EXP Edition - Enhanced Shaders EXP Patch"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX EXP Patch"},
+                { "modName": "GAMMA EXP Edition - Beef's NVG [ OPTIONAL ]"}
+            ]
+        },         
+        {
+            "version": 16,
+            "download":[
+                {"addonName": "Improved equipment icons"},
+                {"addonName": "GAMMA RPG System - GAMMA 0.9.1 PAW patch1"},
+                {"addonName": "GAMMA RPG System - GAMMA 0.9.1 PAW patch2"},
+                {"addonName": "ENHANCED GUI INC"},
+                {"addonName": "Dynavision"}
+
+            ],
+            "delete":[
+                {"addonName": "Death Animations"},
+                {"addonName": "GAMMA EXP Edition Redux - Too Bright Too Dark"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX Settings"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA Enhanced GUI Menu"},
+                { "modName": "GAMMA Enhanced GUI Inventory"},
+                { "modName": "GAMMA Enhanced GUI HUD"},
+                { "modName": "GAMMA EXP Edition - Dynavision [ reinstall to create user's presets mod ]"},
+                { "modName": "GAMMA EXP Edition Redux - Profile Dynavision Presets"},
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons"},
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K Dynahud Enhanched GUI Patch"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"}                      
+            ]
+        },        
+        {
+            "version": 15,
+            "download":[
+                {"addonName": "Death Animations"},
+                {"addonName": "Improved equipment icons"},
+                {"addonName": "Reworked status icons"},
+                {"addonName": "Dynahud Hud Manager"}                              
+            ],
+            "delete":[
+            ],
+            "update":[
+                {"modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                {"modName": "GAMMA EXP Edition Redux - Death Animations"},
+                {"modName": "GAMMA EXP Edition Redux - Improved equipment icons"},                
+                {"modName": "GAMMA EXP Edition Redux - Reworked status icons"}             
+            ]
+        },          
+        {
+            "version": 14,
+            "download":[
+                {"addonName": "LootBoxes for GAMMA"},
+                {"addonName": "UTJAN QOL BUNDLE"}            
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - LootBoxes for GAMMA [ Choose one ]"},                
+                { "modName": "GAMMA EXP Edition Redux - LootBoxes for GAMMA SKILLEXP [ Choose one ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - LootBoxes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - UTJAN QOL BUNDLE"}
+            ]
+        },         
+        {
+            "version": 13,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "SKILLS EXP"},
+                {"addonName": "LootBoxes for GAMMA"},
+                {"addonName": "LootBoxes for GAMMA SKILLEXP"},
+                {"addonName": "Improved equipment icons"},
+                {"addonName": "Anomaly Acoustics: Gas Mask Symphonies"},
+                {"addonName": "EXPERIENCE FRAMEWORK"},                
+                {"addonName": "GAMMA RPG System"},                
+                {"addonName": "Black Market Mags Redux"}                
+            ],
+            "delete":[
+                {"modName": "GAMMA EXP Edition Redux - UTJAN QOL BUNDLE"},
+                {"modName": "GAMMA EXP Edition Redux - Black Market"},
+                {"modName": "GAMMA EXP Edition Redux - Fleshes Retexture 2K"},
+                {"modName": "GAMMA EXP Edition Redux - P.A.W"},
+                {"modName": "GAMMA EXP Edition Redux - Alternative Cats 2K"},
+                {"modName": "GAMMA EXP Edition Redux - LootBoxes for GAMMA"},
+                {"modName": "GAMMA EXP Edition Redux - GAMMA RPG System [ Optional ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},                
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX Settings"},
+                { "modName": "GAMMA EXP Edition - SSFX Fog [ Replaces EXP FOG ]"},
+                { "modName": "GAMMA EXP Edition Redux - Gas Mask Symphonies"},
+                { "modName": "GAMMA EXP Edition Redux - Improved equipment icons"},
+                { "modName": "GAMMA EXP Edition Redux - LootBoxes for GAMMA [ Choose one ]"},
+                { "modName": "GAMMA EXP Edition Redux - LootBoxes for GAMMA SKILLEXP [ Choose one ]"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System"},
+                { "modName": "GAMMA EXP Edition Redux - Black Market Mags Redux"}
+            ]
+        },        
+        {
+            "version": 12,
+            "download":[
+                {"addonName": "Screenspace Shaders"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition - SSFX Settings"},
+                { "modName": "GAMMA EXP Edition - SSFX Fog [ Replaces EXP FOG ]"}
+            ]
+        },          
+        {
+            "version": 11,
+            "download":[
+                {"addonName": "Black Market"},
+                {"addonName": "Black Market Mags Redux"},                
+                {"addonName": "EXPERIENCE FRAMEWORK"},                
+                {"addonName": "GAMMA RPG System"}
+            ],
+            "delete":[
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Black Market"},
+                { "modName": "GAMMA EXP Edition Redux - Black Market Mags Redux"},                
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System [ Optional ]"}
+            ]
+        },          
+        {
+            "version": 10,
+            "download":[
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Black Market"},
+                {"addonName": "Black Market Mags Redux"},
+                {"addonName": "Alternative Cats"},
+                {"addonName": "Screenspace Shaders"},
+                {"addonName": "PSY STRESS"},
+                {"addonName": "EXPERIENCE FRAMEWORK"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "GREEN VEGETATION HD"},
+                {"addonName": "PERSONAL ADJUSTABLE WAYPOINT"}
+
+            ],
+            "delete":[      
+                { "modName": "GAMMA EXP Edition Redux - 2D Scope Overhaul"}  
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - Alternative Cats 2K"},
+                { "modName": "GAMMA EXP Edition Redux - Black Market"},
+                { "modName": "GAMMA EXP Edition Redux - Black Market Mags Redux"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - SSFX"},
+                { "modName": "GAMMA EXP Edition Redux - PSY STRESS"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System [ Optional ]"},
+                { "modName": "GAMMA EXP Edition Redux - Green Vegetation HD"},
+                { "modName": "GAMMA EXP Edition Redux - P.A.W"}
+            ]
+        },          
+        {
+            "version": 9,
+            "download":[
+                {"addonName": "PERSONAL ADJUSTABLE WAYPOINT"},
+                {"addonName": "Dynahud Hud Manager"},
+                {"addonName": "Save Profiles"},
+                {"addonName": "TOO BRIGHT TOO DARK"},
+                {"addonName": "GREEN VEGETATION HD"},
+                {"addonName": "HD ZOMBIES"},
+                {"addonName": "HD ZOMBIES RETEXTURE"},
+                {"addonName": "EXOSKELETONS HD REMASTERED"},
+                {"addonName": "2D SCOPE OVERHAUL"},
+                {"addonName": "IZLOM RETEXTURE"},
+                {"addonName": "FIXED ARTEFACT COLLISION AND VISUALS"},
+                {"addonName": "ALTERNATIVE FLESHES"},
+                {"addonName": "S.T.A.L.K.E.R. 2 BUILD EXO PACK HD"},
+                {"addonName": "GAMMA RPG System"}
+            ],
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - S.T.A.L.K.E.R. 2 BUILD EXO PACK HD"},
+                { "modName": "GAMMA EXP Edition - Dynamic HUD [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Dynamic HUD [ Core ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Mod Requirements ]"},
+                { "modName": "GAMMA EXP Edition - Dynahud Hud Manager [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition Redux - Fleshes Retexture 2K"},
+                { "modName": "GAMMA EXP Edition Redux - Fixed Artefact Collision and Visuals"},
+                { "modName": "GAMMA EXP Edition Redux - Fracture Retexture"},
+                { "modName": "GAMMA EXP Edition Redux - 2D Scope Overhaul"},
+                { "modName": "GAMMA EXP Edition Redux - EXOSKELETONS HD Remastered [ choose one ]"},
+                { "modName": "GAMMA EXP Edition Redux - HD Zombies Retexture"},
+                { "modName": "GAMMA EXP Edition Redux - HD Zombies"},
+                { "modName": "GAMMA EXP Edition Redux - Green Vegetation HD"},
+                { "modName": "GAMMA EXP Edition Redux - Too Bright Too Dark"},
+                { "modName": "GAMMA EXP Edition Redux - S.T.A.L.K.E.R. 2 BUILD EXO PACK HD [ choose one ]"},
+                { "modName": "GAMMA EXP Edition Redux - Save Profiles"},
+                { "modName": "GAMMA EXP Edition Redux - P.A.W"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System [ Optional ]"}                 
+            ]
+        },        
+        {
+            "version": 8,
+            "download":[
+                {"addonName": "LootBoxes for GAMMA"},
+                {"addonName": "A.b.n.o.r.m.a.L._W.e.a.T.h.e.R"},
+                {"addonName": "PSY STRESS"},
+                {"addonName": "GAMMA RPG System"},
+                {"addonName": "Mags Redux Moddb version"}
+            ],
+            "delete":[        
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition Redux - LootBoxes for GAMMA"},
+                { "modName": "GAMMA EXP Edition Redux - A.b.n.o.r.m.a.L._W.e.a.T.h.e.R [ Toggle, adds extra weathers ]"},
+                { "modName": "GAMMA EXP Edition Redux - PSY STRESS"},
+                { "modName": "GAMMA EXP Edition Redux - GAMMA RPG System [ Optional ]"},
+                { "modName": "GAMMA EXP Edition Redux - Mags Redux Moddb version"}
+            ]
+        },        
+        {
+            "version": 7,
+            "download":[
+                {"addonName": "Dynamic Hud"}
+            ],
+            "delete":[        
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Dynamic HUD [ Reinstall to configure ]"},
+                { "modName": "GAMMA EXP Edition - Shaders"},
+                { "modName": "GAMMA EXP Edition - HUD"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"},
+                { "modName": "GAMMA EXP Edition Redux - NAVS 4K DEFINITIVE MASKS [ CORE ]"},
+                { "modName": "GAMMA EXP Edition Redux - Compatibility Patch"}
+            ]
+        },        
+        {
+            "version": 5,
+            "download":[],
+            "delete":[
+                { "modName": "GAMMA EXP Edition - GAMMA LAM Patch [ Optional ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - Weather [ EXP ]"},
+                { "modName": "GAMMA EXP Edition - GAMMA Patch"},
+                { "modName": "GAMMA EXP Edition - Beef's NVG"}
+            ]
+        },        
+        {
+            "version": 4,
+            "delete":[
+                { "modName": "GAMMA EXP Edition Redux - Aydin's HUD & UI - Opaque [ OPTIONAL CHOOSE ONE ]"}
+            ],
+            "update":[
+                { "modName": "GAMMA EXP Edition - VFX [ EXP ]"},
+                { "modName": "GAMMA EXP Edition Redux - Aydin's HUD & UI - Transparent [ OPTIONAL CHOOSE ONE ]"},
+                { "modName": "GAMMA EXP Edition Redux - Aydin's HUD & UI - Full Frame Transparent [ OPTIONAL CHOOSE ONE ]"},
+                { "modName": "GAMMA EXP Edition Redux - Aydin's HUD & UI - Textured [ OPTIONAL CHOOSE ONE ]"}
+            ]
+        }
+    ]     
+}

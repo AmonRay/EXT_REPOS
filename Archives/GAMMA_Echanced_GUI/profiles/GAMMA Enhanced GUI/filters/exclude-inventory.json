@@ -1,0 +1,10 @@
+{
+    "excludePaths": [
+        {
+            "name": "ui_st_inventory.xml"
+        },
+        {
+            "name": "ui_mcm_better_stats_bars.xml"
+        }                    
+    ]    
+}

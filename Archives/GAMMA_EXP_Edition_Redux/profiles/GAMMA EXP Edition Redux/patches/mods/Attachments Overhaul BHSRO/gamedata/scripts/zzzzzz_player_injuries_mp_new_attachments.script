@@ -1,0 +1,13 @@
+function on_game_start()
+    printf("[Attachment outfit overhaul] monkey patching ready")
+    RegisterScriptCallback("actor_on_first_update", addAutodocAttachmentAsMedkits)
+end
+
+
+function addAutodocAttachmentAsMedkits()
+    printf("[Attachment outfit overhaul] monkey patching zzz_player_injuries - adding autodoc as medkits")
+    zzz_player_injuries.healonelist.autodoc_hp_1={healamount=21,healtimer=3180,healpower=1}
+    zzz_player_injuries.healonelist.autodoc_hp_2={healamount=21,healtimer=3180,healpower=1}
+    zzz_player_injuries.painkillerlist.autodoc_hp_1={painkillerpower=3,painkillerduration=128000,countdown_increments=25}
+    zzz_player_injuries.painkillerlist.autodoc_hp_2={painkillerpower=4,painkillerduration=250000,countdown_increments=25}
+end

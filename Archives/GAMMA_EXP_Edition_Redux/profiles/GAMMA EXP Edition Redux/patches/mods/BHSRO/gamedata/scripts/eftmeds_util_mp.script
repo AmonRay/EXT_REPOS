@@ -1,0 +1,9 @@
+eftmeds_util.itemlist.salicidic_acid={
+    novice=0,
+    trainee=0,
+    experienced=0,
+    professional=0,
+    veteran=0,
+    expert=0,
+    master=0,
+    legend=0}

@@ -1,0 +1,224 @@
+notification = true
+
+local print_tip = function(text,delay, ...)
+
+    if not notification then
+        return
+    end
+
+    local text = tostring(text)
+
+    if not db.actor then
+        return
+    end
+    
+    local ico = "ui_inGame2_Dengi_otdani"
+    local text_color = utils_xml.get_color("pda_white")
+    local arg_color = utils_xml.get_color("d_green")
+    local function colorize(s)
+        return arg_color .. s .. text_color
+    end
+    local i = 0
+    local t = {...}
+    if #t > 0 then
+        local function sr(a)
+            i = i + 1
+            if (type(t[i]) == 'userdata') then
+                if (t[i].x and t[i].y) then
+                    return colorize(vec_to_str(t[i]))
+                end
+                return colorize('userdata')
+            end
+            return colorize(tostring(t[i]))
+        end
+        text = string.gsub(game.translate_string(text), "%%s", sr)
+    else
+        text = game.translate_string(text)
+    end
+    text = text_color .. text
+    if delay == nil then
+        delay = 6000
+    end
+    news_manager.send_tip(db.actor, text, nil, ico, delay)
+end
+
+pos_x = nil
+pos_y = nil
+o_w = nil
+o_y = nil
+enabled = true
+
+init_controls = ui_inventory.UIInventory.InitControls
+function ui_inventory.UIInventory:InitControls()
+    printf("-- Flicker UIInventory:InitControls")
+    init_controls(self)
+    if not flicker.original_pos then
+        local cc = self.CC["picker"]
+        local original_pos = cc.prof:GetWndPos()
+        pos_x = original_pos.x
+        pos_y = original_pos.y
+        o_w = cc.prof:GetWidth()
+        o_h = cc.prof:GetHeight()
+        printf("--INIT original_pos.x = %s, original_pos.y = %s, o_w = %s, o_y = %s", flicker.pos_x, flicker.pos_y, flicker.o_w, flicker.o_h)
+    end
+end
+
+picker_update = ui_inventory.UIInventory.Picker_Update
+function ui_inventory.UIInventory:Picker_Update(force_hide)
+
+
+    local cc = self.CC["picker"]
+    local w = flicker.o_w
+    local h = flicker.o_h
+
+    if picker_update(self, force_hide) then
+
+        if not flicker.enabled then
+            -- printf("! RETURNING TO original_pos.x = %s, original_pos.y = %s, o_w = %s, o_y = %s", flicker.pos_x, flicker.pos_y, flicker.o_w, flicker.o_h)
+            cc:AdjustWnd(flicker.pos_x, flicker.pos_y, flicker.o_w, flicker.o_h)
+            -- cc:AdjustWnd(404, 4, w, h)
+            return
+        end
+
+        if not pos then
+            pos = GetCursorPosition()
+            -- printf("!!GetCursorPosition pos.x = %s, pos.y = %s", pos.x, pos.y)
+        end
+
+        y = pos.y - h - 20
+        x = pos.x - 360
+        if x + w > 600 then
+            x = x - w 
+            -- printf("--Override x = %s", x)
+        end
+        if y < 20 then
+            y = y + 30
+            -- printf("--Override y = %s", y)
+        end
+        -- printf("!!pos.x = %s, pos.y = %s", x, y)
+        cc:AdjustWnd(x, y, w, h)	
+        self.CC["npc_bag"].scroll:Enable(false)
+        self.CC["npc_trade"].scroll:Enable(false)
+        self.CC["npc_trade_bag"].scroll:Enable(false)
+    else
+        -- printf("-- Flicker Closed")
+        if not flicker.enabled then
+            -- printf("!! RESET original_pos.x = %s, original_pos.y = %s, o_w = %s, o_y = %s", original_pos.x, original_pos.y, o_w, o_y)
+            cc:AdjustWnd(flicker.pos_x, flicker.pos_y, flicker.o_w, flicker.o_h)
+            -- cc:AdjustWnd(404, 4, w, h)
+        end
+
+        pos = nil
+        self.CC["npc_bag"].scroll:Enable(true)
+        self.CC["npc_trade"].scroll:Enable(true)
+        self.CC["npc_trade_bag"].scroll:Enable(true)
+    end
+
+end
+
+-- Hint box side toggle
+
+local use_alt = false
+local alt_offset = 0
+function utils_xml.sync_cursor(base, element, offset_x, offset_y)
+	-- printf("- Flicker sync_cursor")
+	local cpos = GetCursorPosition()
+	local w = element and element:GetWidth() or base:GetWidth()
+	local h = element and element:GetHeight() or base:GetHeight()
+	-- printf("cpos.x=%s",cpos.x)
+	-- printf("offset_x=%s",offset_x)
+	-- printf("cpos.y=%s",cpos.y)
+	-- printf("offset_y=%s",offset_y)
+	-- printf("alt_offset=%s",alt_offset)
+	-- Default pos at cursor is top/left corner
+	
+	-- case: element pos to right is smaller than its width
+	if (1024 - cpos.x - alt_offset < w) then
+		cpos.x = cpos.x - w
+	end
+	
+	-- case: element pos to bottom is smaller than its height
+	if (768 - cpos.y < h) then
+		-- after switch: make sure element doesn't go above the view
+		local y = cpos.y - h
+		cpos.y = y < 0 and 0 or y
+	end
+	local o_y = (offset_y or 0)
+	local o_x =  (offset_x or 0)
+	-- printf("----")
+	-- printf("-cpos.x=%s",cpos.x)
+	-- printf("-cpos.y=%s",cpos.y)
+	-- printf("-o_x=%s",o_x)
+	-- printf("-o_y=%s",o_y)
+	base:SetWndPos(vector2():set( cpos.x + o_x , cpos.y + o_y ))
+end
+
+og_info_item_update = utils_ui.UIInfoItem.Update
+utils_ui.UIInfoItem.Update = function(self, obj, sec, flags)
+	og_info_item_update(self, obj, sec, flags)
+	-- item info box is shown at cursor
+    -- printf("~ASE UIInfoItem.Update")
+	utils_xml.sync_cursor(self.dialog, self.frame, 0, 0)
+end
+
+local toggled_flicker = false
+function toggle_flicker()
+	CreateTimeEvent("toggle_flicker", "toggle_flicker",1, function()
+        enabled = not enabled
+        if enabled then
+            MSG = FLICKER_ENABLED
+        else
+            MSG = FLICKER_DISABLED
+        end
+        print_tip(MSG, 1000)
+        toggled_flicker = true
+		return true
+	end)    
+end
+-- Event Input handling
+
+FLICKER_DISABLED = "Flicker disabled"
+FLICKER_ENABLED = "Flicker enabled"
+MSG = FLICKER_DISABLED
+local function on_key_release(dik)
+    -- printf("on_key_release(dik) %s", dik_to_bind(dik))
+    if not actor_menu.inventory_opened() then
+        return
+    end
+    -- printf("on_key_release dik = %s expecting %s", dik_to_bind(dik),dik_to_bind( DIK_keys.DIK_LMENU))
+    if dik == DIK_keys.DIK_LMENU then
+        if toggled_flicker then
+            toggled_flicker = not toggled_flicker
+        else
+            RemoveTimeEvent("toggle_flicker", "toggle_flicker")
+            -- printf("-- update_hintbox_side on_game_start")
+            use_alt = not use_alt
+            if use_alt then
+                alt_offset = 400
+            else
+                alt_offset = 0
+            end
+            toggled_hint = true
+            -- printf("alt_offset=%s",alt_offset)            
+        end
+    end
+end
+
+local function on_key_press(dik)
+	-- printf("on_key_press(dik) %s", dik_to_bind(dik))
+    if not actor_menu.inventory_opened() then
+        return
+    end
+    -- printf("Hint Move on_key_press dik = %s expecting %s", dik_to_bind(dik),dik_to_bind( DIK_keys.DIK_LMENU))
+    if dik == DIK_keys.DIK_LMENU then
+		toggle_flicker()
+    end
+	-- printf("Hint Move alt_offset = %s", alt_offset)
+end
+
+
+function on_game_start()
+    printf("-- Flicker on_game_start")
+	RegisterScriptCallback("on_key_release",on_key_release)	
+    RegisterScriptCallback("on_key_press",on_key_press)	
+end
